@@ -11,30 +11,53 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* International Ph.D in Computer Science, University of the Basque Country and Clemson University, 2012
+* Advance Graduate Research in Engineering, University of Burgos, 2011
+* B.S. in Communication Sciences, University of Burgos, 2006
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 09/2014 - Present: Sr. Research Scientist
+  * Intel Corporation, Intel Labs, Autonomous Driving Research
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 11/2013 - 09/2014 : Sr. Manager, IT Projects 
+  * BMW China
+
+* 12/2012 - 11/2013 : Manager, Connected Drive Asia Pacific 
+  * BMW China
+
+* 02/2012 - 12/2012 : IT Architect 
+  * BMW AG
+
+* 09/2009 - 02/2012 : Research Associate 
+  * BMW USA, Greenville, SC
+
+* 09/2009 - 02/2012 : Graudate Research Assistant 
+  * Clemson University, School of Computing
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Research
+  * Automotive
+  * Automated Driving
+  * Advance Driving Assistance Systems
+  * Safety
+  * Perception
+  * Planning
+  * Connected Vehicles - V2X
+  * Human Factors
+  * Human-Machine Interactions
+  * Driving Monitoring Systems
+* Technical
+  * Programming 
+  * Data Analytics
+  * Product Development
+  * Prototyping
+  * Problem Solving
+* Languages
+  * Spanish - Native
+  * English / German - Fluent
+  * Chinese - Basic
 
 Publications
 ======
@@ -48,12 +71,15 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* IEEE Sr. Member
+* ACM Member
+* IJHCI - Board Member
+* AutoUI - PC 
