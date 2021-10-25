@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Ignacio Alvarez"
-  avatar           : "images/profile.png"
-  bio              : "Dr. Ignacio Alvarez is a Sr. Research Scientist at Intel Labs focused on the development of intelligent, connected, automated vehicles that augment human mobility with safer and more enjoyable experiences"
+  avatar           : "profile.png"
+  bio              : "Sr. Research Scientist at Intel Labs"
   location         : "Portland, Oregon, USA"
   employer         : "Intel Labs"
   pubmed           : 
