@@ -11,15 +11,19 @@ redirect_from:
 
 Education
 ======
-* International Ph.D in Computer Science, University of the Basque Country and Clemson University, 2012
-* Advance Graduate Research in Engineering, University of Burgos, 2011
-* B.S. in Communication Sciences, University of Burgos, 2006
+*  2012 International Ph.D in Computer Science, University of the Basque Country and Clemson University
+  * Supervisors: Karmele Lopez Ipina & Juan E. Gilbert
+  * Graduated Summa Cum Laude
+* 2011 Advance Graduate Research in Engineering, University of Burgos
+  * Graduated Summa Cum Laude
+* 2006 B.S. in Communication Sciences, University of Burgos
+  * Graduated Summa Cum Laude
 
 Work experience
 ======
 * 09/2014 - Present: Sr. Research Scientist
   * Intel Corporation, Intel Labs, Autonomous Driving Research
-
+  
 * 11/2013 - 09/2014 : Sr. Manager, IT Projects 
   * BMW China
 
