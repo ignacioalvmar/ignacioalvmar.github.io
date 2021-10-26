@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-*  2012 International Ph.D in Computer Science, University of the Basque Country and Clemson University
-  * Supervisors: Karmele Lopez Ipina & Juan E. Gilbert
-  * Graduated Summa Cum Laude
+*  2012 International Ph.D in Computer Science, University of the Basque Country & Clemson University
+    * Supervisors: Karmele Lopez Ipina & Juan E. Gilbert
+    * Graduated Summa Cum Laude
 * 2011 Advance Graduate Research in Engineering, University of Burgos
   * Graduated Summa Cum Laude
 * 2006 B.S. in Communication Sciences, University of Burgos
