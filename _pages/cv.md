@@ -21,7 +21,14 @@ Education
 
 Work experience
 ======
-* 09/2014 - Present: Sr. Research Scientist
+
+* 01/2025 - Present: Profesor of Human-centered Intelligent Systems
+  * THI, Computer Science Faculty, AI Motion Institute 
+
+* 12/2021 - Present: Principal Engineer, Technical Assistant to Intel Labs Director
+  * Intel Corporation, Intel Labs, Autonomous Driving Research
+
+* 09/2014 - 12/2021: Sr. Research Scientist
   * Intel Corporation, Intel Labs, Autonomous Driving Research
   
 * 11/2013 - 09/2014 : Sr. Manager, IT Projects 
@@ -75,15 +82,16 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-<!-- Teaching
+Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
 Service and leadership
 ======
 * IEEE Sr. Member
 * ACM Member
 * IJHCI - Board Member
-* AutoUI - PC 
+* AutoUI - SC Member
+* IEEE ITSS - Member 
