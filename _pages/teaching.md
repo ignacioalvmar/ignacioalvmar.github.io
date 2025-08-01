@@ -61,42 +61,4 @@ author_profile: true
   </details>
 {% endfor %}
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('teachingSearchInput');
-  const items = document.querySelectorAll('.list-item'); 
-  const yearDetails = document.querySelectorAll('.year-details');
-
-  searchInput.addEventListener('keyup', function(event) {
-    const query = event.target.value.toLowerCase();
-
-    items.forEach(function(item) {
-      const textContent = item.textContent || item.innerText;
-      const matches = textContent.toLowerCase().includes(query);
-      const parentDetails = item.closest('.year-details');
-
-      if (matches) {
-        item.classList.remove('hidden-by-search');
-        if (parentDetails) {
-          parentDetails.open = true;
-        }
-      } else {
-        item.classList.add('hidden-by-search');
-      }
-    });
-
-    if (query === '') {
-      items.forEach(function(item) {
-        item.classList.remove('hidden-by-search');
-      });
-      yearDetails.forEach(function(detail, index) {
-        if (index !== 0) {
-          // detail.open = false; 
-        } else {
-            detail.open = true; 
-        }
-      });
-    }
-  });
-});
-</script> 
+ 

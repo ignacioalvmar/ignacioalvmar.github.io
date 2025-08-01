@@ -60,42 +60,4 @@ author_profile: true
   </details>
 {% endfor %}
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('patentSearchInput'); // Changed ID for clarity if ever on same page, though not current case
-  const items = document.querySelectorAll('.publication-item'); // Querying for items to search
-  const yearDetails = document.querySelectorAll('.year-details');
-
-  searchInput.addEventListener('keyup', function(event) {
-    const query = event.target.value.toLowerCase();
-
-    items.forEach(function(item) {
-      const textContent = item.textContent || item.innerText;
-      const matches = textContent.toLowerCase().includes(query);
-      const parentDetails = item.closest('.year-details');
-
-      if (matches) {
-        item.classList.remove('hidden-by-search');
-        if (parentDetails) {
-          parentDetails.open = true;
-        }
-      } else {
-        item.classList.add('hidden-by-search');
-      }
-    });
-
-    if (query === '') {
-      items.forEach(function(item) {
-        item.classList.remove('hidden-by-search');
-      });
-      yearDetails.forEach(function(detail, index) {
-        if (index !== 0) {
-          // detail.open = false; // Optionally close others not matching default
-        } else {
-            detail.open = true; // Ensure first is open by default when query is empty
-        }
-      });
-    }
-  });
-});
-</script> 
+ 

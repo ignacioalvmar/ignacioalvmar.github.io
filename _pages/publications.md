@@ -65,4 +65,3 @@ author_profile: true
   </details>
 {% endfor %}
 
-<script src="{{ base_path }}/assets/js/publication-search.js"></script>
