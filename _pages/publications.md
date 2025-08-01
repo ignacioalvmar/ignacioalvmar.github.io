@@ -38,6 +38,16 @@ author_profile: true
   .hidden-by-search {
     display: none !important;
   }
+  
+  /* Debug styles - remove after fixing */
+  .publication-item {
+    /* Ensure publications are visible by default */
+    display: block;
+  }
+  
+  .publication-item.hidden-by-search {
+    display: none !important;
+  }
 </style>
 
 {% if author.googlescholar %}
@@ -66,45 +76,68 @@ author_profile: true
 {% endfor %}
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('publicationSearchInput');
-  const publications = document.querySelectorAll('.publication-item'); // Target the new wrapper div
-  const yearDetails = document.querySelectorAll('.year-details');
+// Publication search functionality
+(function() {
+  function initPublicationSearch() {
+    console.log('Initializing publication search...');
+    const searchInput = document.getElementById('publicationSearchInput');
+    if (!searchInput) {
+      console.log('Search input not found');
+      return;
+    }
+    
+    const publications = document.querySelectorAll('.publication-item');
+    const yearDetails = document.querySelectorAll('.year-details');
+    
+    console.log('Found', publications.length, 'publications and', yearDetails.length, 'year details');
 
-  searchInput.addEventListener('keyup', function(event) {
-    const query = event.target.value.toLowerCase();
+    function performSearch(query) {
+      console.log('Performing search for:', query);
+      query = query.toLowerCase();
+      
+      publications.forEach(function(pub) {
+        const textContent = pub.textContent || pub.innerText;
+        const matches = textContent.toLowerCase().includes(query);
+        const parentDetails = pub.closest('.year-details');
 
-    publications.forEach(function(pub) {
-      const textContent = pub.textContent || pub.innerText;
-      const matches = textContent.toLowerCase().includes(query);
-      const parentDetails = pub.closest('.year-details');
-
-      if (matches) {
-        pub.classList.remove('hidden-by-search');
-        if (parentDetails) {
-          parentDetails.open = true;
+        if (matches) {
+          pub.classList.remove('hidden-by-search');
+          if (parentDetails) {
+            parentDetails.open = true;
+          }
+        } else {
+          pub.classList.add('hidden-by-search');
         }
-      } else {
-        pub.classList.add('hidden-by-search');
+      });
+
+      if (query === '') {
+        publications.forEach(function(pub) {
+          pub.classList.remove('hidden-by-search');
+        });
+        yearDetails.forEach(function(detail, index) {
+          if (index === 0) {
+            detail.open = true;
+          }
+        });
       }
+    }
+
+    searchInput.addEventListener('keyup', function(event) {
+      performSearch(event.target.value);
     });
 
-    // If search query is empty, show all and close all non-default-open details
-    if (query === '') {
-      publications.forEach(function(pub) {
-        pub.classList.remove('hidden-by-search');
-      });
-      yearDetails.forEach(function(detail, index) {
-        if (index !== 0) { // Keep the first one open if it was by default
-          // detail.open = false; // Optionally close all others
-        } else {
-            detail.open = true; // Ensure first is open if query is empty
-        }
-      });
-    } else {
-        // Check if any item within a year group is visible, if not, the year group itself could be marked or styled
-        // For now, just opening if there's a match is handled above.
-    }
-  });
-});
+    searchInput.addEventListener('input', function(event) {
+      performSearch(event.target.value);
+    });
+
+    performSearch('');
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPublicationSearch);
+  } else {
+    initPublicationSearch();
+  }
+})();
 </script>
