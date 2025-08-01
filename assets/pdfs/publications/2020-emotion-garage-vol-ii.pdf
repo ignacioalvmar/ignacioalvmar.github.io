@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta rel="search"
+          type="application/opensearchdescription+xml"
+          href="/open_search.xml"
+          title="Academia.edu">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="google-site-verification" content="bKJMBZA7E43xhDOopFZkssMMkBRjvYERV-NaN4R6mrs">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Kc51lkE4FBXwrDoLWx7dQhdTAwKUPVqKMspqrTZhG9UoVbgaUy3Awr1wXKUm1MnU_NQ2PFNZ8HSVu3svlT2aTQ" />
+    <meta name="citation_title" content="Emotion GaRage Vol. II:" />
+<meta name="citation_journal_title" content="12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications" />
+<meta name="citation_author" content="Chihab Nadri" />
+<meta name="citation_author" content="Jingyi Li" />
+<meta name="citation_author" content="Esther Bosch" />
+<meta name="citation_author" content="Michael Oehl" />
+<meta name="citation_author" content="Ignacio Alvarez" />
+<meta name="citation_author" content="Michael Braun" />
+<meta name="citation_author" content="Myounghoon Jeon" />
+<meta name="citation_doi" content="10.1145/3409251.3411736" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.academia.edu/86342026/Emotion_GaRage_Vol_II" />
+<meta name="twitter:title" content="Emotion GaRage Vol. II" />
+<meta name="twitter:description" content="Driver performance and behavior can be partially predicated based on one&amp;#39;s emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user" />
+<meta name="twitter:image" content="https://0.academia-photos.com/59109139/15449780/16070174/s200_ignacio.alvarez.jpg" />
+<meta property="fb:app_id" content="2369844204" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.academia.edu/86342026/Emotion_GaRage_Vol_II" />
+<meta property="og:title" content="Emotion GaRage Vol. II" />
+<meta property="og:image" content="http://a.academia-assets.com/images/open-graph-icons/fb-paper.gif" />
+<meta property="og:description" content="Driver performance and behavior can be partially predicated based on one&amp;#39;s emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user" />
+<meta property="article:author" content="https://independent.academia.edu/IgnacioAlvarez30" />
+<meta name="description" content="Driver performance and behavior can be partially predicated based on one&amp;#39;s emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user" />
+
+
+    <title>(PDF) Emotion GaRage Vol. II</title>
+
+      <link rel="canonical" href="https://www.academia.edu/86342026/Emotion_GaRage_Vol_II" />
+
+
+
+    
+
+    
+<script>
+  var $controller_name = 'single_work';
+  var $action_name = "show";
+  var $rails_env = 'production';
+  var $app_rev = 'c56d36ad6effe0dfec7f9a10aefb11d9a36b6e89';
+  var $domain = 'academia.edu';
+  var $app_host = "academia.edu";
+  var $asset_host = "academia-assets.com";
+  var $start_time = new Date().getTime();
+  var $recaptcha_key = "6LdxlRMTAAAAADnu_zyLhLg0YF9uACwz78shpjJB";
+  var $recaptcha_invisible_key = "6Lf3KHUUAAAAACggoMpmGJdQDtiyrjVlvGJ6BbAj";
+  var $disableClientRecordHit = false;
+
+</script>
+
+
+    <script>
+      window.Aedu = window.Aedu || {};
+      window.Aedu.hit_data = null;
+      window.Aedu.serverRenderTime = new Date(1748103836000);
+      window.Aedu.timeDifference = new Date().getTime() - 1748103836000;
+    </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VKX33P2DS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5VKX33P2DS', {
+    cookie_domain: 'academia.edu',
+    send_page_view: false,
+  });
+  gtag('event', 'page_view', {
+    'controller': "single_work",
+    'action': "show",
+    'controller_action': 'single_work#show',
+    'logged_in': 'false',
+    'edge': 'unknown',
+    // Send nil if there is no A/B test bucket, in case some records get logged
+    // with missing data - that way we can distinguish between the two cases.
+    // ab_test_bucket should be of the form <ab_test_name>:<bucket>
+    'ab_test_bucket': null,
+  })
+</script>
+
+
+    <script>
+      window.$feature_flags = {}
+    </script>
+
+    <script>
+      window.Aedu.SiteStats = {"premium_universities_count":13790,"monthly_visitors":"31 million","monthly_visitor_count":31300000,"monthly_visitor_count_in_millions":31,"user_count":289453593,"paper_count":55203019,"paper_count_in_millions":55,"page_count":432000000,"page_count_in_millions":432,"pdf_count":16500000,"pdf_count_in_millions":16}
+    </script>
+
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","author":[{"@context":"https://schema.org","@type":"Person","name":"Ignacio Alvarez","url":"https://independent.academia.edu/IgnacioAlvarez30","image":"https://0.academia-photos.com/59109139/15449780/16070174/s200_ignacio.alvarez.jpg","sameAs":[]}],"contributor":[],"dateCreated":"2022-09-08","headline":"Emotion GaRage Vol. II","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1145/3409251.3411736"},"image":"https://attachments.academia-assets.com/90812518/thumbnails/1.jpg","inLanguage":"en","keywords":["Computer Science","Affective Computing","Acm"],"publication":"12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications","publisher":{"@context":"https://schema.org","@type":"Organization","name":"ACM"},"sameAs":"https://doi.org/10.1145/3409251.3411736","sourceOrganization":[{"@context":"https://schema.org","@type":"EducationalOrganization","name":null}],"thumbnailUrl":"https://attachments.academia-assets.com/90812518/thumbnails/1.jpg","url":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II"}</script><style>@media(max-width: 567px){:root{--token-mode: Rebrand;--dropshadow: 0 2px 4px 0 #22223340;--primary-brand: #0645b1;--error-dark: #b60000;--success-dark: #05b01c;--inactive-fill: #ebebee;--hover: #0c3b8d;--pressed: #082f75;--button-primary-fill-inactive: #ebebee;--button-primary-fill: #0645b1;--button-primary-text: #ffffff;--button-primary-fill-hover: #0c3b8d;--button-primary-fill-press: #082f75;--button-primary-icon: #ffffff;--button-primary-fill-inverse: #ffffff;--button-primary-text-inverse: #082f75;--button-primary-icon-inverse: #0645b1;--button-primary-fill-inverse-hover: #cddaef;--button-primary-stroke-inverse-pressed: #0645b1;--button-secondary-stroke-inactive: #b1b1ba;--button-secondary-fill: #eef2f9;--button-secondary-text: #082f75;--button-secondary-fill-press: #cddaef;--button-secondary-fill-inactive: #ebebee;--button-secondary-stroke: #cddaef;--button-secondary-stroke-hover: #386ac1;--button-secondary-stroke-press: #0645b1;--button-secondary-text-inactive: #b1b1ba;--button-secondary-icon: #082f75;--button-secondary-fill-hover: #e6ecf7;--button-secondary-stroke-inverse: #ffffff;--button-secondary-fill-inverse: rgba(255, 255, 255, 0);--button-secondary-icon-inverse: #ffffff;--button-secondary-icon-hover: #082f75;--button-secondary-icon-press: #082f75;--button-secondary-text-inverse: #ffffff;--button-secondary-text-hover: #082f75;--button-secondary-text-press: #082f75;--button-secondary-fill-inverse-hover: #043059;--button-xs-stroke: #141413;--button-xs-stroke-hover: #0c3b8d;--button-xs-stroke-press: #082f75;--button-xs-stroke-inactive: #ebebee;--button-xs-text: #141413;--button-xs-text-hover: #0c3b8d;--button-xs-text-press: #082f75;--button-xs-text-inactive: #91919e;--button-xs-icon: #141413;--button-xs-icon-hover: #0c3b8d;--button-xs-icon-press: #082f75;--button-xs-icon-inactive: #91919e;--button-xs-fill: #ffffff;--button-xs-fill-hover: #f4f7fc;--button-xs-fill-press: #eef2f9;--buttons-button-text-inactive: #91919e;--buttons-button-focus: #0645b1;--buttons-button-icon-inactive: #91919e;--buttons-small-buttons-corner-radius: 16px;--buttons-small-buttons-l-r-padding: 20px;--buttons-small-buttons-height: 48px;--buttons-small-buttons-gap: 8px;--buttons-small-buttons-icon-only-width: 48px;--buttons-small-buttons-icon-size: 20px;--buttons-small-buttons-stroke-default: 1px;--buttons-small-buttons-stroke-thick: 2px;--buttons-large-buttons-l-r-padding: 32px;--buttons-large-buttons-height: 64px;--buttons-large-buttons-icon-only-width: 64px;--buttons-large-buttons-icon-size: 20px;--buttons-large-buttons-gap: 8px;--buttons-large-buttons-corner-radius: 16px;--buttons-large-buttons-stroke-default: 1px;--buttons-large-buttons-stroke-thick: 2px;--buttons-extra-small-buttons-l-r-padding: 8px;--buttons-extra-small-buttons-height: 32px;--buttons-extra-small-buttons-icon-size: 16px;--buttons-extra-small-buttons-gap: 4px;--buttons-extra-small-buttons-corner-radius: 8px;--buttons-stroke-default: 1px;--buttons-stroke-thick: 2px;--background-beige: #f9f7f4;--error-light: #fff2f2;--text-placeholder: #6d6d7d;--stroke-dark: #141413;--stroke-light: #dddde2;--stroke-medium: #535366;--accent-green: #ccffd4;--accent-turquoise: #ccf7ff;--accent-yellow: #f7ffcc;--accent-peach: #ffd4cc;--accent-violet: #f7ccff;--accent-purple: #f4f7fc;--text-primary: #141413;--secondary-brand: #141413;--text-hover: #0c3b8d;--text-white: #ffffff;--text-link: #0645b1;--text-press: #082f75;--success-light: #f0f8f1;--background-light-blue: #f4f7fc;--background-white: #ffffff;--premium-dark: #877440;--premium-light: #f9f6ed;--stroke-white: #ffffff;--inactive-content: #b1b1ba;--annotate-light: #a35dff;--annotate-dark: #824acc;--grid: #eef2f9;--inactive-stroke: #ebebee;--shadow: rgba(34, 34, 51, 0.25);--text-inactive: #6d6d7d;--text-error: #b60000;--stroke-error: #b60000;--background-error: #fff2f2;--background-black: #141413;--icon-default: #141413;--icon-blue: #0645b1;--background-grey: #dddde2;--icon-grey: #b1b1ba;--text-focus: #082f75;--brand-colors-neutral-black: #141413;--brand-colors-neutral-900: #535366;--brand-colors-neutral-800: #6d6d7d;--brand-colors-neutral-700: #91919e;--brand-colors-neutral-600: #b1b1ba;--brand-colors-neutral-500: #c8c8cf;--brand-colors-neutral-400: #dddde2;--brand-colors-neutral-300: #ebebee;--brand-colors-neutral-200: #f8f8fb;--brand-colors-neutral-100: #fafafa;--brand-colors-neutral-white: #ffffff;--brand-colors-blue-900: #043059;--brand-colors-blue-800: #082f75;--brand-colors-blue-700: #0c3b8d;--brand-colors-blue-600: #0645b1;--brand-colors-blue-500: #386ac1;--brand-colors-blue-400: #cddaef;--brand-colors-blue-300: #e6ecf7;--brand-colors-blue-200: #eef2f9;--brand-colors-blue-100: #f4f7fc;--brand-colors-gold-500: #877440;--brand-colors-gold-400: #e9e3d4;--brand-colors-gold-300: #f2efe8;--brand-colors-gold-200: #f9f6ed;--brand-colors-gold-100: #f9f7f4;--brand-colors-error-900: #920000;--brand-colors-error-500: #b60000;--brand-colors-success-900: #035c0f;--brand-colors-green: #ccffd4;--brand-colors-turquoise: #ccf7ff;--brand-colors-yellow: #f7ffcc;--brand-colors-peach: #ffd4cc;--brand-colors-violet: #f7ccff;--brand-colors-error-100: #fff2f2;--brand-colors-success-500: #05b01c;--brand-colors-success-100: #f0f8f1;--text-secondary: #535366;--icon-white: #ffffff;--background-beige-darker: #f2efe8;--icon-dark-grey: #535366;--type-font-family-sans-serif: DM Sans;--type-font-family-serif: Gupter;--type-font-family-mono: IBM Plex Mono;--type-weights-300: 300;--type-weights-400: 400;--type-weights-500: 500;--type-weights-700: 700;--type-sizes-12: 12px;--type-sizes-14: 14px;--type-sizes-16: 16px;--type-sizes-18: 18px;--type-sizes-20: 20px;--type-sizes-22: 22px;--type-sizes-24: 24px;--type-sizes-28: 28px;--type-sizes-30: 30px;--type-sizes-32: 32px;--type-sizes-40: 40px;--type-sizes-42: 42px;--type-sizes-48-2: 48px;--type-line-heights-16: 16px;--type-line-heights-20: 20px;--type-line-heights-23: 23px;--type-line-heights-24: 24px;--type-line-heights-25: 25px;--type-line-heights-26: 26px;--type-line-heights-29: 29px;--type-line-heights-30: 30px;--type-line-heights-32: 32px;--type-line-heights-34: 34px;--type-line-heights-35: 35px;--type-line-heights-36: 36px;--type-line-heights-38: 38px;--type-line-heights-40: 40px;--type-line-heights-46: 46px;--type-line-heights-48: 48px;--type-line-heights-52: 52px;--type-line-heights-58: 58px;--type-line-heights-68: 68px;--type-line-heights-74: 74px;--type-line-heights-82: 82px;--type-paragraph-spacings-0: 0px;--type-paragraph-spacings-4: 4px;--type-paragraph-spacings-8: 8px;--type-paragraph-spacings-16: 16px;--type-sans-serif-xl-font-weight: 400;--type-sans-serif-xl-size: 32px;--type-sans-serif-xl-line-height: 46px;--type-sans-serif-xl-paragraph-spacing: 16px;--type-sans-serif-lg-font-weight: 400;--type-sans-serif-lg-size: 30px;--type-sans-serif-lg-line-height: 36px;--type-sans-serif-lg-paragraph-spacing: 16px;--type-sans-serif-md-font-weight: 400;--type-sans-serif-md-line-height: 30px;--type-sans-serif-md-paragraph-spacing: 16px;--type-sans-serif-md-size: 24px;--type-sans-serif-xs-font-weight: 700;--type-sans-serif-xs-line-height: 24px;--type-sans-serif-xs-paragraph-spacing: 0px;--type-sans-serif-xs-size: 18px;--type-sans-serif-sm-font-weight: 400;--type-sans-serif-sm-line-height: 32px;--type-sans-serif-sm-paragraph-spacing: 16px;--type-sans-serif-sm-size: 20px;--type-body-xl-font-weight: 400;--type-body-xl-size: 24px;--type-body-xl-line-height: 36px;--type-body-xl-paragraph-spacing: 0px;--type-body-sm-font-weight: 400;--type-body-sm-size: 14px;--type-body-sm-line-height: 20px;--type-body-sm-paragraph-spacing: 8px;--type-body-xs-font-weight: 400;--type-body-xs-size: 12px;--type-body-xs-line-height: 16px;--type-body-xs-paragraph-spacing: 0px;--type-body-md-font-weight: 400;--type-body-md-size: 16px;--type-body-md-line-height: 20px;--type-body-md-paragraph-spacing: 4px;--type-body-lg-font-weight: 400;--type-body-lg-size: 20px;--type-body-lg-line-height: 26px;--type-body-lg-paragraph-spacing: 16px;--type-body-lg-medium-font-weight: 500;--type-body-lg-medium-size: 20px;--type-body-lg-medium-line-height: 32px;--type-body-lg-medium-paragraph-spacing: 16px;--type-body-md-medium-font-weight: 500;--type-body-md-medium-size: 16px;--type-body-md-medium-line-height: 20px;--type-body-md-medium-paragraph-spacing: 4px;--type-body-sm-bold-font-weight: 700;--type-body-sm-bold-size: 14px;--type-body-sm-bold-line-height: 20px;--type-body-sm-bold-paragraph-spacing: 8px;--type-body-sm-medium-font-weight: 500;--type-body-sm-medium-size: 14px;--type-body-sm-medium-line-height: 20px;--type-body-sm-medium-paragraph-spacing: 8px;--type-serif-md-font-weight: 400;--type-serif-md-size: 32px;--type-serif-md-paragraph-spacing: 0px;--type-serif-md-line-height: 40px;--type-serif-sm-font-weight: 400;--type-serif-sm-size: 24px;--type-serif-sm-paragraph-spacing: 0px;--type-serif-sm-line-height: 26px;--type-serif-lg-font-weight: 400;--type-serif-lg-size: 48px;--type-serif-lg-paragraph-spacing: 0px;--type-serif-lg-line-height: 52px;--type-serif-xs-font-weight: 400;--type-serif-xs-size: 18px;--type-serif-xs-line-height: 24px;--type-serif-xs-paragraph-spacing: 0px;--type-serif-xl-font-weight: 400;--type-serif-xl-size: 48px;--type-serif-xl-paragraph-spacing: 0px;--type-serif-xl-line-height: 58px;--type-mono-md-font-weight: 400;--type-mono-md-size: 22px;--type-mono-md-line-height: 24px;--type-mono-md-paragraph-spacing: 0px;--type-mono-lg-font-weight: 400;--type-mono-lg-size: 40px;--type-mono-lg-line-height: 40px;--type-mono-lg-paragraph-spacing: 0px;--type-mono-sm-font-weight: 400;--type-mono-sm-size: 14px;--type-mono-sm-line-height: 24px;--type-mono-sm-paragraph-spacing: 0px;--spacing-xs-4: 4px;--spacing-xs-8: 8px;--spacing-xs-16: 16px;--spacing-sm-24: 24px;--spacing-sm-32: 32px;--spacing-md-40: 40px;--spacing-md-48: 48px;--spacing-lg-64: 64px;--spacing-lg-80: 80px;--spacing-xlg-104: 104px;--spacing-xlg-152: 152px;--spacing-xs-12: 12px;--spacing-page-section: 80px;--spacing-card-list-spacing: 48px;--spacing-text-section-spacing: 64px;--spacing-md-xs-headings: 40px;--corner-radius-radius-lg: 16px;--corner-radius-radius-sm: 4px;--corner-radius-radius-md: 8px;--corner-radius-radius-round: 104px}}@media(min-width: 568px)and (max-width: 1279px){:root{--token-mode: Rebrand;--dropshadow: 0 2px 4px 0 #22223340;--primary-brand: #0645b1;--error-dark: #b60000;--success-dark: #05b01c;--inactive-fill: #ebebee;--hover: #0c3b8d;--pressed: #082f75;--button-primary-fill-inactive: #ebebee;--button-primary-fill: #0645b1;--button-primary-text: #ffffff;--button-primary-fill-hover: #0c3b8d;--button-primary-fill-press: #082f75;--button-primary-icon: #ffffff;--button-primary-fill-inverse: #ffffff;--button-primary-text-inverse: #082f75;--button-primary-icon-inverse: #0645b1;--button-primary-fill-inverse-hover: #cddaef;--button-primary-stroke-inverse-pressed: #0645b1;--button-secondary-stroke-inactive: #b1b1ba;--button-secondary-fill: #eef2f9;--button-secondary-text: #082f75;--button-secondary-fill-press: #cddaef;--button-secondary-fill-inactive: #ebebee;--button-secondary-stroke: #cddaef;--button-secondary-stroke-hover: #386ac1;--button-secondary-stroke-press: #0645b1;--button-secondary-text-inactive: #b1b1ba;--button-secondary-icon: #082f75;--button-secondary-fill-hover: #e6ecf7;--button-secondary-stroke-inverse: #ffffff;--button-secondary-fill-inverse: rgba(255, 255, 255, 0);--button-secondary-icon-inverse: #ffffff;--button-secondary-icon-hover: #082f75;--button-secondary-icon-press: #082f75;--button-secondary-text-inverse: #ffffff;--button-secondary-text-hover: #082f75;--button-secondary-text-press: #082f75;--button-secondary-fill-inverse-hover: #043059;--button-xs-stroke: #141413;--button-xs-stroke-hover: #0c3b8d;--button-xs-stroke-press: #082f75;--button-xs-stroke-inactive: #ebebee;--button-xs-text: #141413;--button-xs-text-hover: #0c3b8d;--button-xs-text-press: #082f75;--button-xs-text-inactive: #91919e;--button-xs-icon: #141413;--button-xs-icon-hover: #0c3b8d;--button-xs-icon-press: #082f75;--button-xs-icon-inactive: #91919e;--button-xs-fill: #ffffff;--button-xs-fill-hover: #f4f7fc;--button-xs-fill-press: #eef2f9;--buttons-button-text-inactive: #91919e;--buttons-button-focus: #0645b1;--buttons-button-icon-inactive: #91919e;--buttons-small-buttons-corner-radius: 16px;--buttons-small-buttons-l-r-padding: 20px;--buttons-small-buttons-height: 48px;--buttons-small-buttons-gap: 8px;--buttons-small-buttons-icon-only-width: 48px;--buttons-small-buttons-icon-size: 20px;--buttons-small-buttons-stroke-default: 1px;--buttons-small-buttons-stroke-thick: 2px;--buttons-large-buttons-l-r-padding: 32px;--buttons-large-buttons-height: 64px;--buttons-large-buttons-icon-only-width: 64px;--buttons-large-buttons-icon-size: 20px;--buttons-large-buttons-gap: 8px;--buttons-large-buttons-corner-radius: 16px;--buttons-large-buttons-stroke-default: 1px;--buttons-large-buttons-stroke-thick: 2px;--buttons-extra-small-buttons-l-r-padding: 8px;--buttons-extra-small-buttons-height: 32px;--buttons-extra-small-buttons-icon-size: 16px;--buttons-extra-small-buttons-gap: 4px;--buttons-extra-small-buttons-corner-radius: 8px;--buttons-stroke-default: 1px;--buttons-stroke-thick: 2px;--background-beige: #f9f7f4;--error-light: #fff2f2;--text-placeholder: #6d6d7d;--stroke-dark: #141413;--stroke-light: #dddde2;--stroke-medium: #535366;--accent-green: #ccffd4;--accent-turquoise: #ccf7ff;--accent-yellow: #f7ffcc;--accent-peach: #ffd4cc;--accent-violet: #f7ccff;--accent-purple: #f4f7fc;--text-primary: #141413;--secondary-brand: #141413;--text-hover: #0c3b8d;--text-white: #ffffff;--text-link: #0645b1;--text-press: #082f75;--success-light: #f0f8f1;--background-light-blue: #f4f7fc;--background-white: #ffffff;--premium-dark: #877440;--premium-light: #f9f6ed;--stroke-white: #ffffff;--inactive-content: #b1b1ba;--annotate-light: #a35dff;--annotate-dark: #824acc;--grid: #eef2f9;--inactive-stroke: #ebebee;--shadow: rgba(34, 34, 51, 0.25);--text-inactive: #6d6d7d;--text-error: #b60000;--stroke-error: #b60000;--background-error: #fff2f2;--background-black: #141413;--icon-default: #141413;--icon-blue: #0645b1;--background-grey: #dddde2;--icon-grey: #b1b1ba;--text-focus: #082f75;--brand-colors-neutral-black: #141413;--brand-colors-neutral-900: #535366;--brand-colors-neutral-800: #6d6d7d;--brand-colors-neutral-700: #91919e;--brand-colors-neutral-600: #b1b1ba;--brand-colors-neutral-500: #c8c8cf;--brand-colors-neutral-400: #dddde2;--brand-colors-neutral-300: #ebebee;--brand-colors-neutral-200: #f8f8fb;--brand-colors-neutral-100: #fafafa;--brand-colors-neutral-white: #ffffff;--brand-colors-blue-900: #043059;--brand-colors-blue-800: #082f75;--brand-colors-blue-700: #0c3b8d;--brand-colors-blue-600: #0645b1;--brand-colors-blue-500: #386ac1;--brand-colors-blue-400: #cddaef;--brand-colors-blue-300: #e6ecf7;--brand-colors-blue-200: #eef2f9;--brand-colors-blue-100: #f4f7fc;--brand-colors-gold-500: #877440;--brand-colors-gold-400: #e9e3d4;--brand-colors-gold-300: #f2efe8;--brand-colors-gold-200: #f9f6ed;--brand-colors-gold-100: #f9f7f4;--brand-colors-error-900: #920000;--brand-colors-error-500: #b60000;--brand-colors-success-900: #035c0f;--brand-colors-green: #ccffd4;--brand-colors-turquoise: #ccf7ff;--brand-colors-yellow: #f7ffcc;--brand-colors-peach: #ffd4cc;--brand-colors-violet: #f7ccff;--brand-colors-error-100: #fff2f2;--brand-colors-success-500: #05b01c;--brand-colors-success-100: #f0f8f1;--text-secondary: #535366;--icon-white: #ffffff;--background-beige-darker: #f2efe8;--icon-dark-grey: #535366;--type-font-family-sans-serif: DM Sans;--type-font-family-serif: Gupter;--type-font-family-mono: IBM Plex Mono;--type-weights-300: 300;--type-weights-400: 400;--type-weights-500: 500;--type-weights-700: 700;--type-sizes-12: 12px;--type-sizes-14: 14px;--type-sizes-16: 16px;--type-sizes-18: 18px;--type-sizes-20: 20px;--type-sizes-22: 22px;--type-sizes-24: 24px;--type-sizes-28: 28px;--type-sizes-30: 30px;--type-sizes-32: 32px;--type-sizes-40: 40px;--type-sizes-42: 42px;--type-sizes-48-2: 48px;--type-line-heights-16: 16px;--type-line-heights-20: 20px;--type-line-heights-23: 23px;--type-line-heights-24: 24px;--type-line-heights-25: 25px;--type-line-heights-26: 26px;--type-line-heights-29: 29px;--type-line-heights-30: 30px;--type-line-heights-32: 32px;--type-line-heights-34: 34px;--type-line-heights-35: 35px;--type-line-heights-36: 36px;--type-line-heights-38: 38px;--type-line-heights-40: 40px;--type-line-heights-46: 46px;--type-line-heights-48: 48px;--type-line-heights-52: 52px;--type-line-heights-58: 58px;--type-line-heights-68: 68px;--type-line-heights-74: 74px;--type-line-heights-82: 82px;--type-paragraph-spacings-0: 0px;--type-paragraph-spacings-4: 4px;--type-paragraph-spacings-8: 8px;--type-paragraph-spacings-16: 16px;--type-sans-serif-xl-font-weight: 400;--type-sans-serif-xl-size: 42px;--type-sans-serif-xl-line-height: 46px;--type-sans-serif-xl-paragraph-spacing: 16px;--type-sans-serif-lg-font-weight: 400;--type-sans-serif-lg-size: 32px;--type-sans-serif-lg-line-height: 36px;--type-sans-serif-lg-paragraph-spacing: 16px;--type-sans-serif-md-font-weight: 400;--type-sans-serif-md-line-height: 34px;--type-sans-serif-md-paragraph-spacing: 16px;--type-sans-serif-md-size: 28px;--type-sans-serif-xs-font-weight: 700;--type-sans-serif-xs-line-height: 25px;--type-sans-serif-xs-paragraph-spacing: 0px;--type-sans-serif-xs-size: 20px;--type-sans-serif-sm-font-weight: 400;--type-sans-serif-sm-line-height: 30px;--type-sans-serif-sm-paragraph-spacing: 16px;--type-sans-serif-sm-size: 24px;--type-body-xl-font-weight: 400;--type-body-xl-size: 24px;--type-body-xl-line-height: 36px;--type-body-xl-paragraph-spacing: 0px;--type-body-sm-font-weight: 400;--type-body-sm-size: 14px;--type-body-sm-line-height: 20px;--type-body-sm-paragraph-spacing: 8px;--type-body-xs-font-weight: 400;--type-body-xs-size: 12px;--type-body-xs-line-height: 16px;--type-body-xs-paragraph-spacing: 0px;--type-body-md-font-weight: 400;--type-body-md-size: 16px;--type-body-md-line-height: 20px;--type-body-md-paragraph-spacing: 4px;--type-body-lg-font-weight: 400;--type-body-lg-size: 20px;--type-body-lg-line-height: 26px;--type-body-lg-paragraph-spacing: 16px;--type-body-lg-medium-font-weight: 500;--type-body-lg-medium-size: 20px;--type-body-lg-medium-line-height: 32px;--type-body-lg-medium-paragraph-spacing: 16px;--type-body-md-medium-font-weight: 500;--type-body-md-medium-size: 16px;--type-body-md-medium-line-height: 20px;--type-body-md-medium-paragraph-spacing: 4px;--type-body-sm-bold-font-weight: 700;--type-body-sm-bold-size: 14px;--type-body-sm-bold-line-height: 20px;--type-body-sm-bold-paragraph-spacing: 8px;--type-body-sm-medium-font-weight: 500;--type-body-sm-medium-size: 14px;--type-body-sm-medium-line-height: 20px;--type-body-sm-medium-paragraph-spacing: 8px;--type-serif-md-font-weight: 400;--type-serif-md-size: 40px;--type-serif-md-paragraph-spacing: 0px;--type-serif-md-line-height: 48px;--type-serif-sm-font-weight: 400;--type-serif-sm-size: 28px;--type-serif-sm-paragraph-spacing: 0px;--type-serif-sm-line-height: 32px;--type-serif-lg-font-weight: 400;--type-serif-lg-size: 58px;--type-serif-lg-paragraph-spacing: 0px;--type-serif-lg-line-height: 68px;--type-serif-xs-font-weight: 400;--type-serif-xs-size: 18px;--type-serif-xs-line-height: 24px;--type-serif-xs-paragraph-spacing: 0px;--type-serif-xl-font-weight: 400;--type-serif-xl-size: 74px;--type-serif-xl-paragraph-spacing: 0px;--type-serif-xl-line-height: 82px;--type-mono-md-font-weight: 400;--type-mono-md-size: 22px;--type-mono-md-line-height: 24px;--type-mono-md-paragraph-spacing: 0px;--type-mono-lg-font-weight: 400;--type-mono-lg-size: 40px;--type-mono-lg-line-height: 40px;--type-mono-lg-paragraph-spacing: 0px;--type-mono-sm-font-weight: 400;--type-mono-sm-size: 14px;--type-mono-sm-line-height: 24px;--type-mono-sm-paragraph-spacing: 0px;--spacing-xs-4: 4px;--spacing-xs-8: 8px;--spacing-xs-16: 16px;--spacing-sm-24: 24px;--spacing-sm-32: 32px;--spacing-md-40: 40px;--spacing-md-48: 48px;--spacing-lg-64: 64px;--spacing-lg-80: 80px;--spacing-xlg-104: 104px;--spacing-xlg-152: 152px;--spacing-xs-12: 12px;--spacing-page-section: 104px;--spacing-card-list-spacing: 48px;--spacing-text-section-spacing: 80px;--spacing-md-xs-headings: 40px;--corner-radius-radius-lg: 16px;--corner-radius-radius-sm: 4px;--corner-radius-radius-md: 8px;--corner-radius-radius-round: 104px}}@media(min-width: 1280px){:root{--token-mode: Rebrand;--dropshadow: 0 2px 4px 0 #22223340;--primary-brand: #0645b1;--error-dark: #b60000;--success-dark: #05b01c;--inactive-fill: #ebebee;--hover: #0c3b8d;--pressed: #082f75;--button-primary-fill-inactive: #ebebee;--button-primary-fill: #0645b1;--button-primary-text: #ffffff;--button-primary-fill-hover: #0c3b8d;--button-primary-fill-press: #082f75;--button-primary-icon: #ffffff;--button-primary-fill-inverse: #ffffff;--button-primary-text-inverse: #082f75;--button-primary-icon-inverse: #0645b1;--button-primary-fill-inverse-hover: #cddaef;--button-primary-stroke-inverse-pressed: #0645b1;--button-secondary-stroke-inactive: #b1b1ba;--button-secondary-fill: #eef2f9;--button-secondary-text: #082f75;--button-secondary-fill-press: #cddaef;--button-secondary-fill-inactive: #ebebee;--button-secondary-stroke: #cddaef;--button-secondary-stroke-hover: #386ac1;--button-secondary-stroke-press: #0645b1;--button-secondary-text-inactive: #b1b1ba;--button-secondary-icon: #082f75;--button-secondary-fill-hover: #e6ecf7;--button-secondary-stroke-inverse: #ffffff;--button-secondary-fill-inverse: rgba(255, 255, 255, 0);--button-secondary-icon-inverse: #ffffff;--button-secondary-icon-hover: #082f75;--button-secondary-icon-press: #082f75;--button-secondary-text-inverse: #ffffff;--button-secondary-text-hover: #082f75;--button-secondary-text-press: #082f75;--button-secondary-fill-inverse-hover: #043059;--button-xs-stroke: #141413;--button-xs-stroke-hover: #0c3b8d;--button-xs-stroke-press: #082f75;--button-xs-stroke-inactive: #ebebee;--button-xs-text: #141413;--button-xs-text-hover: #0c3b8d;--button-xs-text-press: #082f75;--button-xs-text-inactive: #91919e;--button-xs-icon: #141413;--button-xs-icon-hover: #0c3b8d;--button-xs-icon-press: #082f75;--button-xs-icon-inactive: #91919e;--button-xs-fill: #ffffff;--button-xs-fill-hover: #f4f7fc;--button-xs-fill-press: #eef2f9;--buttons-button-text-inactive: #91919e;--buttons-button-focus: #0645b1;--buttons-button-icon-inactive: #91919e;--buttons-small-buttons-corner-radius: 16px;--buttons-small-buttons-l-r-padding: 20px;--buttons-small-buttons-height: 48px;--buttons-small-buttons-gap: 8px;--buttons-small-buttons-icon-only-width: 48px;--buttons-small-buttons-icon-size: 20px;--buttons-small-buttons-stroke-default: 1px;--buttons-small-buttons-stroke-thick: 2px;--buttons-large-buttons-l-r-padding: 32px;--buttons-large-buttons-height: 64px;--buttons-large-buttons-icon-only-width: 64px;--buttons-large-buttons-icon-size: 20px;--buttons-large-buttons-gap: 8px;--buttons-large-buttons-corner-radius: 16px;--buttons-large-buttons-stroke-default: 1px;--buttons-large-buttons-stroke-thick: 2px;--buttons-extra-small-buttons-l-r-padding: 8px;--buttons-extra-small-buttons-height: 32px;--buttons-extra-small-buttons-icon-size: 16px;--buttons-extra-small-buttons-gap: 4px;--buttons-extra-small-buttons-corner-radius: 8px;--buttons-stroke-default: 1px;--buttons-stroke-thick: 2px;--background-beige: #f9f7f4;--error-light: #fff2f2;--text-placeholder: #6d6d7d;--stroke-dark: #141413;--stroke-light: #dddde2;--stroke-medium: #535366;--accent-green: #ccffd4;--accent-turquoise: #ccf7ff;--accent-yellow: #f7ffcc;--accent-peach: #ffd4cc;--accent-violet: #f7ccff;--accent-purple: #f4f7fc;--text-primary: #141413;--secondary-brand: #141413;--text-hover: #0c3b8d;--text-white: #ffffff;--text-link: #0645b1;--text-press: #082f75;--success-light: #f0f8f1;--background-light-blue: #f4f7fc;--background-white: #ffffff;--premium-dark: #877440;--premium-light: #f9f6ed;--stroke-white: #ffffff;--inactive-content: #b1b1ba;--annotate-light: #a35dff;--annotate-dark: #824acc;--grid: #eef2f9;--inactive-stroke: #ebebee;--shadow: rgba(34, 34, 51, 0.25);--text-inactive: #6d6d7d;--text-error: #b60000;--stroke-error: #b60000;--background-error: #fff2f2;--background-black: #141413;--icon-default: #141413;--icon-blue: #0645b1;--background-grey: #dddde2;--icon-grey: #b1b1ba;--text-focus: #082f75;--brand-colors-neutral-black: #141413;--brand-colors-neutral-900: #535366;--brand-colors-neutral-800: #6d6d7d;--brand-colors-neutral-700: #91919e;--brand-colors-neutral-600: #b1b1ba;--brand-colors-neutral-500: #c8c8cf;--brand-colors-neutral-400: #dddde2;--brand-colors-neutral-300: #ebebee;--brand-colors-neutral-200: #f8f8fb;--brand-colors-neutral-100: #fafafa;--brand-colors-neutral-white: #ffffff;--brand-colors-blue-900: #043059;--brand-colors-blue-800: #082f75;--brand-colors-blue-700: #0c3b8d;--brand-colors-blue-600: #0645b1;--brand-colors-blue-500: #386ac1;--brand-colors-blue-400: #cddaef;--brand-colors-blue-300: #e6ecf7;--brand-colors-blue-200: #eef2f9;--brand-colors-blue-100: #f4f7fc;--brand-colors-gold-500: #877440;--brand-colors-gold-400: #e9e3d4;--brand-colors-gold-300: #f2efe8;--brand-colors-gold-200: #f9f6ed;--brand-colors-gold-100: #f9f7f4;--brand-colors-error-900: #920000;--brand-colors-error-500: #b60000;--brand-colors-success-900: #035c0f;--brand-colors-green: #ccffd4;--brand-colors-turquoise: #ccf7ff;--brand-colors-yellow: #f7ffcc;--brand-colors-peach: #ffd4cc;--brand-colors-violet: #f7ccff;--brand-colors-error-100: #fff2f2;--brand-colors-success-500: #05b01c;--brand-colors-success-100: #f0f8f1;--text-secondary: #535366;--icon-white: #ffffff;--background-beige-darker: #f2efe8;--icon-dark-grey: #535366;--type-font-family-sans-serif: DM Sans;--type-font-family-serif: Gupter;--type-font-family-mono: IBM Plex Mono;--type-weights-300: 300;--type-weights-400: 400;--type-weights-500: 500;--type-weights-700: 700;--type-sizes-12: 12px;--type-sizes-14: 14px;--type-sizes-16: 16px;--type-sizes-18: 18px;--type-sizes-20: 20px;--type-sizes-22: 22px;--type-sizes-24: 24px;--type-sizes-28: 28px;--type-sizes-30: 30px;--type-sizes-32: 32px;--type-sizes-40: 40px;--type-sizes-42: 42px;--type-sizes-48-2: 48px;--type-line-heights-16: 16px;--type-line-heights-20: 20px;--type-line-heights-23: 23px;--type-line-heights-24: 24px;--type-line-heights-25: 25px;--type-line-heights-26: 26px;--type-line-heights-29: 29px;--type-line-heights-30: 30px;--type-line-heights-32: 32px;--type-line-heights-34: 34px;--type-line-heights-35: 35px;--type-line-heights-36: 36px;--type-line-heights-38: 38px;--type-line-heights-40: 40px;--type-line-heights-46: 46px;--type-line-heights-48: 48px;--type-line-heights-52: 52px;--type-line-heights-58: 58px;--type-line-heights-68: 68px;--type-line-heights-74: 74px;--type-line-heights-82: 82px;--type-paragraph-spacings-0: 0px;--type-paragraph-spacings-4: 4px;--type-paragraph-spacings-8: 8px;--type-paragraph-spacings-16: 16px;--type-sans-serif-xl-font-weight: 400;--type-sans-serif-xl-size: 42px;--type-sans-serif-xl-line-height: 46px;--type-sans-serif-xl-paragraph-spacing: 16px;--type-sans-serif-lg-font-weight: 400;--type-sans-serif-lg-size: 32px;--type-sans-serif-lg-line-height: 38px;--type-sans-serif-lg-paragraph-spacing: 16px;--type-sans-serif-md-font-weight: 400;--type-sans-serif-md-line-height: 34px;--type-sans-serif-md-paragraph-spacing: 16px;--type-sans-serif-md-size: 28px;--type-sans-serif-xs-font-weight: 700;--type-sans-serif-xs-line-height: 25px;--type-sans-serif-xs-paragraph-spacing: 0px;--type-sans-serif-xs-size: 20px;--type-sans-serif-sm-font-weight: 400;--type-sans-serif-sm-line-height: 30px;--type-sans-serif-sm-paragraph-spacing: 16px;--type-sans-serif-sm-size: 24px;--type-body-xl-font-weight: 400;--type-body-xl-size: 24px;--type-body-xl-line-height: 36px;--type-body-xl-paragraph-spacing: 0px;--type-body-sm-font-weight: 400;--type-body-sm-size: 14px;--type-body-sm-line-height: 20px;--type-body-sm-paragraph-spacing: 8px;--type-body-xs-font-weight: 400;--type-body-xs-size: 12px;--type-body-xs-line-height: 16px;--type-body-xs-paragraph-spacing: 0px;--type-body-md-font-weight: 400;--type-body-md-size: 16px;--type-body-md-line-height: 20px;--type-body-md-paragraph-spacing: 4px;--type-body-lg-font-weight: 400;--type-body-lg-size: 20px;--type-body-lg-line-height: 26px;--type-body-lg-paragraph-spacing: 16px;--type-body-lg-medium-font-weight: 500;--type-body-lg-medium-size: 20px;--type-body-lg-medium-line-height: 32px;--type-body-lg-medium-paragraph-spacing: 16px;--type-body-md-medium-font-weight: 500;--type-body-md-medium-size: 16px;--type-body-md-medium-line-height: 20px;--type-body-md-medium-paragraph-spacing: 4px;--type-body-sm-bold-font-weight: 700;--type-body-sm-bold-size: 14px;--type-body-sm-bold-line-height: 20px;--type-body-sm-bold-paragraph-spacing: 8px;--type-body-sm-medium-font-weight: 500;--type-body-sm-medium-size: 14px;--type-body-sm-medium-line-height: 20px;--type-body-sm-medium-paragraph-spacing: 8px;--type-serif-md-font-weight: 400;--type-serif-md-size: 40px;--type-serif-md-paragraph-spacing: 0px;--type-serif-md-line-height: 48px;--type-serif-sm-font-weight: 400;--type-serif-sm-size: 28px;--type-serif-sm-paragraph-spacing: 0px;--type-serif-sm-line-height: 32px;--type-serif-lg-font-weight: 400;--type-serif-lg-size: 58px;--type-serif-lg-paragraph-spacing: 0px;--type-serif-lg-line-height: 68px;--type-serif-xs-font-weight: 400;--type-serif-xs-size: 18px;--type-serif-xs-line-height: 24px;--type-serif-xs-paragraph-spacing: 0px;--type-serif-xl-font-weight: 400;--type-serif-xl-size: 74px;--type-serif-xl-paragraph-spacing: 0px;--type-serif-xl-line-height: 82px;--type-mono-md-font-weight: 400;--type-mono-md-size: 22px;--type-mono-md-line-height: 24px;--type-mono-md-paragraph-spacing: 0px;--type-mono-lg-font-weight: 400;--type-mono-lg-size: 40px;--type-mono-lg-line-height: 40px;--type-mono-lg-paragraph-spacing: 0px;--type-mono-sm-font-weight: 400;--type-mono-sm-size: 14px;--type-mono-sm-line-height: 24px;--type-mono-sm-paragraph-spacing: 0px;--spacing-xs-4: 4px;--spacing-xs-8: 8px;--spacing-xs-16: 16px;--spacing-sm-24: 24px;--spacing-sm-32: 32px;--spacing-md-40: 40px;--spacing-md-48: 48px;--spacing-lg-64: 64px;--spacing-lg-80: 80px;--spacing-xlg-104: 104px;--spacing-xlg-152: 152px;--spacing-xs-12: 12px;--spacing-page-section: 152px;--spacing-card-list-spacing: 48px;--spacing-text-section-spacing: 80px;--spacing-md-xs-headings: 40px;--corner-radius-radius-lg: 16px;--corner-radius-radius-sm: 4px;--corner-radius-radius-md: 8px;--corner-radius-radius-round: 104px}}</style><link rel="stylesheet" href="//a.academia-assets.com/assets/single_work_page/loswp_redesigns/safe_sidebar-88fb1e06f20d5efc35c4a2b1531bd8decaafa3a869860ecd732fc53e076255b1.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/heading-95367dc03b794f6737f30123738a886cf53b7a65cdef98a922a98591d60063e3.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/body-170d1319f0e354621e81ca17054bb147da2856ec0702fe440a99af314a6338c5.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/button-8c9ae4b5c8a2531640c354d92a1f3579c8ff103277ef74913e34c8a76d4e6c00.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/text_button-d1941ab08e91e29ee143084c4749da4aaffa350a2ac6eec2306b1d7a352d911a.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/pill_button-415e0369ec1a9d16d4ee620aec8867d6e8e5e31496b0c56fb8fea35907265a1b.css" media="all" /><link rel="stylesheet" href="//a.academia-assets.com/assets/about_hiring/footer-3bfecfbf744fbf53d9737105522c72bec66ecf67e3df35c1aed831320bee5053.css" media="all" /><link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Gupter:wght@400;500;700&amp;family=IBM+Plex+Mono:wght@300;400&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="//a.academia-assets.com/assets/design_system/common-3c00d3ae0a9cc0bf1476231d85efc602ef73468a39e42dc5dd2bb62d223c4005.css" media="all" />
+  </head>
+
+  <body>
+    <div id='react-modal'></div>
+
+
+      <div class="js-cookie-banner" style="padding: 12px; display: flex; align-items: center; justify-content: center; background-color: #4b4b4b; text-align: center;"><p style="font-size: 14px; font-weight: 400; line-height: 1.2; color: #fff; margin: 0 32px 0 0;">Academia.edu uses cookies to personalize content, tailor ads and improve the user experience.
+By using our site, you agree to our collection of information through the use of cookies.
+To learn more, view our&nbsp;<a href="https://www.academia.edu/privacy" style="color: #e8b730; text-decoration: none;">Privacy Policy.</a></p><button class="js-dismiss-cookie-banner" style="font-size: 24px; color: #fff; background: inherit; padding: 0; border: 0; cursor: pointer;">&times;</button></div><script>document.querySelector('.js-dismiss-cookie-banner').onclick = () => {
+  document.querySelector('.js-cookie-banner').style.display = 'none';
+};</script>
+
+
+    <div class="js-upgrade-ie-banner" style="display: none; text-align: center; padding: 8px 0; background-color: #ebe480;"><p style="color: #000; font-size: 12px; margin: 0 0 4px;">Academia.edu no longer supports Internet Explorer.</p><p style="color: #000; font-size: 12px; margin: 0;">To browse Academia.edu and the wider internet faster and more securely, please take a few seconds to&nbsp;<a href="https://www.academia.edu/upgrade-browser">upgrade your browser</a>.</p></div><script>// Show this banner for all versions of IE
+if (!!window.MSInputMethodContext || /(MSIE)/.test(navigator.userAgent)) {
+  document.querySelector('.js-upgrade-ie-banner').style.display = 'block';
+}</script>
+
+      <div id="fb-root"></div><script>window.fbAsyncInit = function() {
+  FB.init({
+    appId: "2369844204",
+    version: "v8.0",
+    status: true,
+    cookie: true,
+    xfbml: true
+  });
+
+  // Additional initialization code.
+  if (window.InitFacebook) {
+    // facebook.ts already loaded, set it up.
+    window.InitFacebook();
+  } else {
+    // Set a flag for facebook.ts to find when it loads.
+    window.academiaAuthReadyFacebook = true;
+  }
+};</script>
+      <div id="google-root"></div><script>window.loadGoogle = function() {
+  if (window.InitGoogle) {
+    // google.ts already loaded, set it up.
+    window.InitGoogle("331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b");
+  } else {
+    // Set a flag for google.ts to use when it loads.
+    window.GoogleClientID = "331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b";
+  }
+};</script>
+
+      <div class="header--container" id="main-header-container"><div class="header--inner-container header--inner-container-ds2"><div class="header-ds2--left-wrapper"><div class="header-ds2--left-wrapper-inner"><a data-main-header-link-target="logo_home" href="https://www.academia.edu/"><img class="hide-on-desktop-redesign" style="height: 24px; width: 24px;" alt="Academia.edu" src="//a.academia-assets.com/images/academia-logo-redesign-2015-A.svg" width="24" height="24" /><img width="145.2" height="18" class="hide-on-mobile-redesign" style="height: 24px;" alt="Academia.edu" src="//a.academia-assets.com/images/academia-logo-redesign-2015.svg" /></a><div class="header--search-container header--search-container-ds2"><form class="js-SiteSearch-form select2-no-default-pills" action="https://www.academia.edu/search" accept-charset="UTF-8" method="get"><svg style="width: 14px; height: 14px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="header--search-icon svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><input class="header--search-input header--search-input-ds2 js-SiteSearch-form-input" data-main-header-click-target="search_input" name="q" placeholder="Search" type="text" /></form></div></div></div><nav class="header--nav-buttons header--nav-buttons-ds2 js-main-nav"><button class="ds2-5-button ds2-5-button--secondary js-header-login-url header-button-ds2 header-login-ds2 hide-on-mobile-redesign react-login-modal-opener" data-signup-modal="{&quot;location&quot;:&quot;login-button--header&quot;}" rel="nofollow">Log In</button><button class="ds2-5-button ds2-5-button--secondary header-button-ds2 hide-on-mobile-redesign react-login-modal-opener" data-signup-modal="{&quot;location&quot;:&quot;signup-button--header&quot;}" rel="nofollow">Sign Up</button><button class="header--hamburger-button header--hamburger-button-ds2 hide-on-desktop-redesign js-header-hamburger-button"><div class="icon-bar"></div><div class="icon-bar" style="margin-top: 4px;"></div><div class="icon-bar" style="margin-top: 4px;"></div></button></nav></div><ul class="header--dropdown-container js-header-dropdown"><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/login" rel="nofollow">Log In</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/signup" rel="nofollow">Sign Up</a></li><li class="header--dropdown-row js-header-dropdown-expand-button"><button class="header--dropdown-button">more<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="header--dropdown-button-icon svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></button></li><li><ul class="header--expanded-dropdown-container"><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/about">About</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/press">Press</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/documents">Papers</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/terms">Terms</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/privacy">Privacy</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/copyright">Copyright</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://www.academia.edu/hiring"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" class="header--dropdown-row-icon svg-inline--fa fa-briefcase fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>We&#39;re Hiring!</a></li><li class="header--dropdown-row"><a class="header--dropdown-link" href="https://support.academia.edu/hc/en-us"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle" class="header--dropdown-row-icon svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>Help Center</a></li><li class="header--dropdown-row js-header-dropdown-collapse-button"><button class="header--dropdown-button">less<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-up" class="header--dropdown-button-icon svg-inline--fa fa-caret-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></button></li></ul></li></ul></div>
+
+    
+
+    <script src="//a.academia-assets.com/assets/webpack_bundles/fast_loswp-bundle-8d9581f506e5458e56ed83ccf326a6494e5a08876c843c49fb14456e51d43a93.js" defer="defer"></script><script>window.loswp = {};
+window.loswp.author = 59109139;
+window.loswp.bulkDownloadFilterCounts = {};
+window.loswp.hasDownloadableAttachment = true;
+window.loswp.hasViewableAttachments = true;
+// TODO: just use routes for this
+window.loswp.loginUrl = "https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2F86342026%2FEmotion_GaRage_Vol_II%3Fauto%3Ddownload";
+window.loswp.translateUrl = "https://www.academia.edu/login?post_login_redirect_url=https%3A%2F%2Fwww.academia.edu%2F86342026%2FEmotion_GaRage_Vol_II%3Fshow_translation%3Dtrue";
+window.loswp.previewableAttachments = [{"id":90812518,"identifier":"Attachment_90812518","shouldShowBulkDownload":false}];
+window.loswp.shouldDetectTimezone = true;
+window.loswp.shouldShowBulkDownload = true;
+window.loswp.showSignupCaptcha = false
+window.loswp.willEdgeCache = false;
+window.loswp.work = {"work":{"id":86342026,"created_at":"2022-09-08T10:20:18.815-07:00","from_world_paper_id":214620862,"updated_at":"2024-11-25T18:11:51.291-08:00","_data":{"publisher":"ACM","grobid_abstract":"Driver performance and behavior can be partially predicated based on one's emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user experience and driving performance. Challenges remain in the implementation of such strategies, as individual differences play a large role in mediating the effect of affective intervention. Therefore, we propose a workshop that aims to bring together researchers and practitioners interested in affective interfaces and in-vehicle technologies as a forum for the development of targeted emotion intervention methods. During the workshop, we will focus on a common set of use cases and generate approaches that can suit different user groups. By the end of this short workshop, researchers will determine ideal intervention methods for prospective user groups. This will be achieved through the method of insight combination to generate and discuss ideas.","publication_name":"12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications","grobid_abstract_attachment_id":"90812518"},"document_type":"paper","pre_hit_view_count_baseline":null,"quality":"high","language":"en","title":"Emotion GaRage Vol. II","broadcastable":false,"draft":null,"has_indexable_attachment":true,"indexable":true,"seo_quality":4}}["work"];
+window.loswp.workCoauthors = [59109139];
+window.loswp.locale = "en";
+window.loswp.countryCode = "DE";
+window.loswp.cwvAbTestBucket = "";
+window.loswp.designVariant = "safe_sidebar";
+window.loswp.fullPageMobileSutdModalVariant = "control";
+window.loswp.useOptimizedScribd4genScript = false;
+
+window.loginModal = {};
+window.loginModal.appleClientId = 'edu.academia.applesignon';
+window.userInChina = "false";</script><script defer="" src="https://accounts.google.com/gsi/client"></script><div class="safe-loswp--grid-container"><div class="safe-work-card--container js-loswp-work-card"><div class="safe-work-card--cover"><div class="ds-work-cover--wrapper"><div class="ds-work-cover--container"><style>.login-ghost-button {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+
+  display: block;
+  cursor: pointer;
+  position: relative;
+}</style><button class="js-login-button--c59d67de login-ghost-button ds-work-cover--clickable"><img alt="First page of “Emotion GaRage Vol. II”" class="ds-work-cover--cover-thumbnail" src="https://0.academia-photos.com/attachment_thumbnails/90812518/mini_magick20220909-1-1cqy5tv.png?1662692605" /><img alt="PDF Icon" class="ds-work-cover--file-icon" src="//a.academia-assets.com/images/single_work_splash/adobe_icon.svg" /><div class="ds-work-cover--hover-container"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span><p>Download Free PDF</p></div><div class="ds-work-cover--ribbon-container">Download Free PDF</div><div class="ds-work-cover--ribbon-triangle"></div></button><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--c59d67de'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II","clickTrackingContext":{"source":"loswp--swp-splash-paper-cover","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div></div></div><div class="safe-work-card--work-information"><h1 class="ds-work-card--work-title ds2-5-heading-sans-serif-lg">Emotion GaRage Vol. II</h1><div class="ds-work-card--work-authors ds-work-card--detail"><a class="ds-work-card--author js-wsj-grid-card-author ds2-5-body-md ds2-5-body-link" data-author-id="59109139" href="https://independent.academia.edu/IgnacioAlvarez30"><img alt="Profile image of Ignacio Alvarez" class="ds-work-card--author-avatar" src="https://0.academia-photos.com/59109139/15449780/16070174/s65_ignacio.alvarez.jpg" />Ignacio Alvarez</a></div><p class="ds-work-card--detail ds2-5-body-sm">12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</p><a class="ds-work-card--detail js-loswp-work-card-doi-link ds2-5-body-sm ds2-5-body-link" href="https://doi.org/10.1145/3409251.3411736" rel="nofollow">https://doi.org/10.1145/3409251.3411736</a><div class="ds-work-card--work-metadata"><div class="ds-work-card--work-metadata__stat"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">visibility</span><p class="ds2-5-body-sm" id="work-metadata-view-count">…</p></div><div class="ds-work-card--work-metadata__stat"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">description</span><p class="ds2-5-body-sm">3 pages</p></div><div class="ds-work-card--work-metadata__stat"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">link</span><p class="ds2-5-body-sm">1 file</p></div></div><script>(async () => {
+  const workId = 86342026;
+  const worksViewsPath = "/v0/works/views?subdomain_param=api&amp;work_ids%5B%5D=86342026";
+
+  const getWorkViews = async (workId) => {
+    const response = await fetch(worksViewsPath);
+
+    if (!response.ok) {
+      throw new Error('Failed to load work views');
+    }
+
+    const data = await response.json();
+
+    return data.views[workId];
+  };
+  // Get the view count for the work - we send this immediately rather than waiting for
+  // the DOM to load, so it can be available as soon as possible (but without holding up
+  // the backend or other resource requests, because it's a bit expensive and not critical).
+  const viewCount = await getWorkViews(workId);
+
+  const updateViewCount = (viewCount) => {
+    try {
+      const viewCountNumber = parseInt(viewCount, 10);
+      if (viewCountNumber === 0) {
+        // Remove the whole views element if there are zero views.
+        document.getElementById('work-metadata-view-count')?.parentNode?.remove();
+        return;
+      }
+
+      const commaizedViewCount = viewCountNumber.toLocaleString();
+
+      const viewCountBody = document.getElementById('work-metadata-view-count');
+
+      if (!viewCountBody) {
+        throw new Error('Failed to find work views element');
+      }
+
+      viewCountBody.textContent = `${commaizedViewCount} views`;
+    } catch (error) {
+      // Remove the whole views element if there was some issue parsing.
+      document.getElementById('work-metadata-view-count')?.parentNode?.remove();
+      throw new Error(`Failed to parse view count: ${viewCount}`, error);
+    }
+  };
+
+  // If the DOM is still loading, wait for it to be ready before updating the view count.
+  if (document.readyState === "loading") {
+    document.addEventListener('DOMContentLoaded', () => {
+      updateViewCount(viewCount);
+    });
+  // Otherwise, just update it immediately.
+  } else {
+    updateViewCount(viewCount);
+  }
+})();</script><div class="ds-work-card--button-container"><div class="primary-buttons"><button class="ds2-5-button js-tc-loswp--download-pdf-button--work-card js-login-button--1c1e884c"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span>Download PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--download-pdf-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--download-pdf-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--1c1e884c'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II?auto=download","clickTrackingContext":{"source":"loswp--download-pdf-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Download your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue with your free download."},"emailLoginPage":{"subheader":"Log in to continue with your free download."},"emailRegistrationPage":{"subheader":"Sign up to continue with your free download.","submit":"Start Download"}},"registrationParams":{"user_source":"download","doc_id":90812518,"auto":"download"}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-button ds2-5-button--secondary" href="#loswp-work-container"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">description</span>See full PDF</a></div><div class="share-and-save-buttons"><button class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--bookmark-button--work-card js-login-button--11e8aa9b"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">bookmark</span><span class="ds2-5-text-link__content">Save</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--bookmark-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--bookmark-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--11e8aa9b'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II","clickTrackingContext":{"source":"loswp--bookmark-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><button class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--share-button--work-card js-login-button--11662b18"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">share</span><span class="ds2-5-text-link__content">Share</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--share-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--share-button--work-card');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--11662b18'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II","clickTrackingContext":{"source":"loswp--share-button--work-card","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div></div><div class="ds-signup-banner-trigger-container"><div class="ds-signup-banner-trigger ds-signup-banner-trigger-control"></div></div><div class="ds-signup-banner ds-signup-banner-control"><div id="ds-signup-banner-close-button"><button class="ds2-5-button ds2-5-button--secondary ds2-5-button--inverse"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">close</span></button></div><div class="ds-signup-banner-ctas" data-impression-entity-id="86342026" data-impression-entity-type="2" data-impression-source="signup-banner"><img src="//a.academia-assets.com/images/academia-logo-capital-white.svg" /><h4 class="ds2-5-heading-serif-sm">Sign up for access to the world's latest research</h4><button class="ds2-5-button ds2-5-button--inverse ds2-5-button--full-width js-tc-loswp--signup-banner js-login-button--359a4b6c">Sign up for free<span class="material-symbols-outlined" style="font-size: 20px" translate="no">arrow_forward</span></button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--signup-banner","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--signup-banner');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--359a4b6c'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II","clickTrackingContext":{"source":"loswp--signup-banner","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></div><div class="ds-signup-banner-divider"></div><div class="ds-signup-banner-reasons"><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Get notified about relevant papers</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Save papers to use in your research</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Join the discussion with peers</span></div><div class="ds-signup-banner-reasons-item"><span class="material-symbols-outlined" style="font-size: 24px" translate="no">check</span><span>Track your impact</span></div></div></div><script>(() => {
+  // Set up signup banner show/hide behavior:
+  // 1. If the signup banner trigger (a 242px-high* invisible div underneath the 'See Full PDF' / 'Download PDF' buttons)
+  //    is already fully scrolled above the viewport, show the banner by default
+  // 2. If the signup banner trigger is fully visible, show the banner
+  // 3. If the signup banner trigger has even a few pixels scrolled below the viewport, hide the banner
+  //
+  // * 242px is the empirically determined height of the signup banner. It's better to be a bit taller than
+  //   necessary than too short, so it's fine that the mobile (small breakpoint) banner is shorter.
+
+  // First check session storage for the signup banner's visibility state
+  const signupBannerHidden = sessionStorage.getItem('ds-signup-banner-hidden');
+  if (signupBannerHidden === 'true') {
+    return;
+  }
+
+  const signupBanner = document.querySelector('.ds-signup-banner');
+  const signupBannerTrigger = document.querySelector('.ds-signup-banner-trigger');
+
+  let footerShown = false;
+
+  window.addEventListener('load', () => {
+    const rect = signupBannerTrigger.getBoundingClientRect();
+    // If page loaded up already scrolled below the trigger (via scroll restoration), show the banner by default
+    if (rect.bottom < 0) {
+      footerShown = true;
+      signupBanner.classList.add('ds-signup-banner-visible');
+    }
+  });
+
+  // Wait for trigger to fully enter viewport before showing banner (ensures PDF CTAs are never covered by banner)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !footerShown) {
+        footerShown = true;
+        signupBanner.classList.add('ds-signup-banner-visible');
+      } else if (!entry.isIntersecting && footerShown) {
+        if (signupBannerTrigger.getBoundingClientRect().bottom > 0) {
+          footerShown = false;
+          signupBanner.classList.remove('ds-signup-banner-visible');
+        }
+      }
+    });
+  });
+  observer.observe(signupBannerTrigger);
+
+  // Set up signup banner close button event handler:
+  const signupBannerCloseButton = document.querySelector('#ds-signup-banner-close-button');
+  signupBannerCloseButton.addEventListener('click', () => {
+    signupBanner.classList.remove('ds-signup-banner-visible');
+    observer.unobserve(signupBannerTrigger);
+
+    // Store the signup banner's visibility state in session storage
+    sessionStorage.setItem('ds-signup-banner-hidden', 'true');
+  });
+})();</script></div></div><style>@media screen and (min-width: 568px) and (max-width: 621px) {  .ds-work-card--button-container .primary-buttons .ds2-5-button {    font-size: var(--font-size-small);    line-height: var(--line-height-small);    padding: 0 var(--buttons-small-buttons-l-r-padding, 12px);    height: var(--buttons-small-buttons-height, 44px);    gap: var(--buttons-small-buttons-gap, 8px);    border-radius: var(--buttons-small-buttons-corner-radius, 8px);  }}</style><div data-auto_select="false" data-client_id="331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b" data-doc_id="90812518" data-landing_url="https://www.academia.edu/86342026/Emotion_GaRage_Vol_II" data-login_uri="https://www.academia.edu/registrations/google_one_tap" data-moment_callback="onGoogleOneTapEvent" id="g_id_onload"></div><div class="safe-abstract--container"><h2 class="safe-abstract--heading ds2-5-heading-sans-serif-lg" id="abstract">Abstract</h2><div class="safe-abstract--body"><style>.truncate-component {
+  position: relative;
+
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 16;
+  -webkit-line-clamp: 16;
+  -webkit-box-orient: vertical;
+}
+
+.toggle-truncation-button {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}</style><div class="truncate-component js-truncate-component--abstract"><p class="ds2-5-body-md">Driver performance and behavior can be partially predicated based on one&#39;s emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user experience and driving performance. Challenges remain in the implementation of such strategies, as individual differences play a large role in mediating the effect of affective intervention. Therefore, we propose a workshop that aims to bring together researchers and practitioners interested in affective interfaces and in-vehicle technologies as a forum for the development of targeted emotion intervention methods. During the workshop, we will focus on a common set of use cases and generate approaches that can suit different user groups. By the end of this short workshop, researchers will determine ideal intervention methods for prospective user groups. This will be achieved through the method of insight combination to generate and discuss ideas.</p><div class="toggle-truncation-button js-toggle-truncation-button--abstract"><button class="safe-abstract--toggle-truncation-button"><span>... </span><span class="safe-abstract--toggle-truncation-button-text">Read more</span></button></div></div></div></div><div class="safe-right-rail--container"><div class="safe-right-rail--related-works"><h2 class="safe-related-content--heading">Related papers</h2><div class="safe-related-content--container"><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="0" data-entity-id="76584312" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/76584312/Emotion_GaRage_Vol_II_A_Workshop_on_Affective_In_Vehicle_Display_Design">Emotion GaRage Vol. II:: A Workshop on Affective In-Vehicle Display Design</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="1192818" href="https://dlr.academia.edu/DrMichaelOehl">Dr. Michael Oehl</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2020</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Driver performance and behavior can be partially predicated based on one&amp;#39;s emotional state. Through ascertaining the emotional state of passengers and employing various mitigation strategies, empathic cars can show potential in improving user experience and driving performance. Challenges remain in the implementation of such strategies, as individual differences play a large role in mediating the effect of affective intervention. Therefore, we propose a workshop that aims to bring together researchers and practitioners interested in affective interfaces and in-vehicle technologies as a forum for the development of targeted emotion intervention methods. During the workshop, we will focus on a common set of use cases and generate approaches that can suit different user groups. By the end of this short workshop, researchers will determine ideal intervention methods for prospective user groups. This will be achieved through the method of insight combination to generate and discuss i...</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--93b87962"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584312,"extra":{"source_work_id":76584312}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--93b87962'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/76584312/Emotion_GaRage_Vol_II_A_Workshop_on_Affective_In_Vehicle_Display_Design","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584312,"extra":{"source_work_id":76584312}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":84246962}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/76584312/Emotion_GaRage_Vol_II_A_Workshop_on_Affective_In_Vehicle_Display_Design"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="1" data-entity-id="70804271" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/70804271/Improving_Driver_Emotions_with_Affective_Strategies">Improving Driver Emotions with Affective Strategies</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="67092033" href="https://independent.academia.edu/JonasSchubert1">Jonas Schubert</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Multimodal Technologies and Interaction</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Drivers in negative emotional states, such as anger or sadness, are prone to perform bad at driving, decreasing overall road safety for all road users. Recent advances in affective computing, however, allow for the detection of such states and give us tools to tackle the connected problems within automotive user interfaces. We see potential in building a system which reacts upon possibly dangerous driver states and influences the driver in order to drive more safely. We compare different interaction approaches for an affective automotive interface, namely Ambient Light, Visual Notification, a Voice Assistant, and an Empathic Assistant. Results of a simulator study with 60 participants (30 each with induced sadness/anger) indicate that an emotional voice assistant with the ability to empathize with the user is the most promising approach as it improves negative states best and is rated most positively. Qualitative data also shows that users prefer an empathic assistant but also resen...</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--e6bb39e6"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":70804271,"extra":{"source_work_id":70804271}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--e6bb39e6'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/70804271/Improving_Driver_Emotions_with_Affective_Strategies","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":70804271,"extra":{"source_work_id":70804271}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":80399703}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/70804271/Improving_Driver_Emotions_with_Affective_Strategies"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="2" data-entity-id="76584055" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/76584055/Affective_Use_Cases_for_Empathic_Vehicles_in_Highly_Automated_Driving_Results_of_an_Expert_Workshop">Affective Use Cases for Empathic Vehicles in Highly Automated Driving: Results of an Expert Workshop</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="1192818" href="https://dlr.academia.edu/DrMichaelOehl">Dr. Michael Oehl</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Lecture Notes in Computer Science, 2020</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Improving user experience of highly automated vehicles is crucial for increasing their acceptance. One possibility to realize this is the design of empathic vehicles that are capable of assessing the emotional state of vehicle occupants and react to it accordingly by providing tailored support. At the moment, the central challenge is to derive relevant use cases as basis for the design of future empathic vehicles. We report the results of a workshop that brought together researchers and practitioners interested in affective computing, affective interfaces and automated driving as forum for the development of a roadmap towards empathic vehicles using design thinking methods. During the workshop, experts from the field identified relevant affective use cases for three different scenarios in terms of use themes in fully automated vehicles (SAE level 5). These affective use cases are discussed for empathic automated vehicles thereby providing a roadmap of future research and applied issues of designing user-centered empathic vehicles for future mobility.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--f6136285"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584055,"extra":{"source_work_id":76584055}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--f6136285'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/76584055/Affective_Use_Cases_for_Empathic_Vehicles_in_Highly_Automated_Driving_Results_of_an_Expert_Workshop","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584055,"extra":{"source_work_id":76584055}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":84247967}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/76584055/Affective_Use_Cases_for_Empathic_Vehicles_in_Highly_Automated_Driving_Results_of_an_Expert_Workshop"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="3" data-entity-id="11642474" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/11642474/AutoEmotive_Bringing_empathy_to_the_driving_experience_to_manage_stress">AutoEmotive: Bringing empathy to the driving experience to manage stress</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="28434420" href="https://independent.academia.edu/JavierHernandez91">Javier Hernandez</a></div><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">With recent developments in sensing technologies, it&#39;s becoming feasible to comfortably measure several aspects of emotions during challenging daily life situations. This work describes how the stress of drivers can be measured through different types of interactions, and how the information can enable several interactions in the car with the goal of helping to manage stress. These new interactions could help not only to bring empathy to the driving experience but also to improve driver safety and increase social awareness.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--24314ab0"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":11642474,"extra":{"source_work_id":11642474}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--24314ab0'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/11642474/AutoEmotive_Bringing_empathy_to_the_driving_experience_to_manage_stress","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":11642474,"extra":{"source_work_id":11642474}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":46592920}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/11642474/AutoEmotive_Bringing_empathy_to_the_driving_experience_to_manage_stress"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work " data-collection-position="4" data-entity-id="77368409" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/77368409/Designing_in_car_emotion_aware_automation">Designing in-car emotion-aware automation</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="198852840" href="https://independent.academia.edu/LucaGiraldi1">Luca Giraldi</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2022</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Driver behaviour recognition is of paramount importance for in-car automation assistance. It is widely recognized that not only attentional states, but also emotional ones have an impact on the safety of the driving behaviour. This research work proposes an emotion-aware in-car architecture where it is possible to adapt driver’s emotions to the vehicle dynamics, investigating the correlations between negative emotional states and driving performances, and suggesting a system to regulate the driver’s engagement through a unique user experience (e.g. using music, LED lighting) in the car cabin. The relationship between altered emotional states induced through auditory stimuli and vehicle dynamics is investigated in a driving simulator. The results confirm the need for both types of information to improve the robustness of the driver state recognition function and open up the possibility that auditory stimuli can modify driving performance somehow.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--6c16d20d"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":77368409,"extra":{"source_work_id":77368409}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--6c16d20d'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/77368409/Designing_in_car_emotion_aware_automation","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":77368409,"extra":{"source_work_id":77368409}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":84739925}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/77368409/Designing_in_car_emotion_aware_automation"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="5" data-entity-id="63323161" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/63323161/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX_F_RELACS">Towards a frustration-aware assistant for increased in-vehicle UX: F-RELACS</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="100851075" href="https://independent.academia.edu/SonjaCornelsen">Sonja Cornelsen</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2019</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Frustration has negative effects on user experience (UX) both in manual and automated driving. Therefore, it negatively influences driving performance and system acceptance. To address this, the project F-RELACS (Frustration Real-Time Recognition for an Adaptive In-Car System) aims to demonstrate a frustration-aware assistant called MUsE (My User Experience Improvement System) that is capable of estimating the user&amp;#39;s momentary level of frustration and offering tailored support to improve UX. However, up to now little is known about interaction strategies for automotive user interfaces that successfully reduce the user&amp;#39;s frustration and improve UX in frustrating driving situations. Here we report the initial results from user focus groups (current status: 2 groups with in total 11 participants) that are conducted to identify suitable interaction strategies to develop a frustration-aware assistant for enhanced in-vehicle UX in a user-centered design process.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--f37d63fc"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":63323161,"extra":{"source_work_id":63323161}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--f37d63fc'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/63323161/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX_F_RELACS","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":63323161,"extra":{"source_work_id":63323161}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":75791701}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/63323161/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX_F_RELACS"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="6" data-entity-id="105714480" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/105714480/Affective_Computing_and_Augmented_Reality_for_Car_Driving_Simulators">Affective Computing and Augmented Reality for Car Driving Simulators</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="23880269" href="https://independent.academia.edu/leonrothkrantz">leon rothkrantz</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Acta Polytechnica CTU Proceedings, 2017</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Car simulators are essential for training and for analyzing the behavior, the responses and the performance of the driver. Augmented Reality (AR) is the technology that enables virtual images to be overlaid on views of the real world. Affective Computing (AC) is the technology that helps reading emotions by means of computer systems, by analyzing body gestures, facial expressions, speech and physiological signals. The key aspect of the research relies on investigating novel interfaces that help building situational awareness and emotional awareness, to enable affect-driven remote collaboration in AR for car driving simulators. The problem addressed relates to the question about how to build situational awareness (using AR technology) and emotional awareness (by AC technology), and how to integrate these two distinct technologies [4], into a unique affective framework for training, in a car driving simulator.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--ab136e04"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":105714480,"extra":{"source_work_id":105714480}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--ab136e04'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/105714480/Affective_Computing_and_Augmented_Reality_for_Car_Driving_Simulators","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":105714480,"extra":{"source_work_id":105714480}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":105104692}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/105714480/Affective_Computing_and_Augmented_Reality_for_Car_Driving_Simulators"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="7" data-entity-id="97604094" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/97604094/Effects_of_emotions_on_driving_behavior">Effects of emotions on driving behavior</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="74438721" href="https://independent.academia.edu/FranzWurm">Franz Wurm</a><span>, </span><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="261429936" href="https://independent.academia.edu/KlaraSteinhauser">Klara Steinhauser</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Transportation Research Part F: Traffic Psychology and Behaviour, 2018</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">Understanding how emotional states influence driving behavior is crucial for the development of advanced driver assistance systems that improve safety by flexibly adapting to the current state of the driver. However, studies on emotional effects on driving behavior have revealed heterogeneous results. This might reflect that emotion induction methods differed in the extent to which they distracted attention. In the present study, we investigated how positive and negative emotions affect driving behavior, and which of these effects are related to emotional effects on attention. We conducted a driving simulator study in which tonic states of anger, happiness and calmness were induced using a combination of autobiographical imagination and music. Participants completed two driving tasks which involved brake and gas reactions as well as tracking, and in which demands on dual tasking and selective attention were further varied. We found that emotions influenced driving behavior in these tasks in two ways. Emotions changed behavior either directly (e.g., by promoting aggressive driving), or indirectly by altering attentional effects on driving (e.g., by attenuating dual task costs). Our results demonstrate that emotional effects on driving are highly task-specific and crucially depend on attentional demands involved in the driving task and the emotion-inducing event.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--6d2cdbcf"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":97604094,"extra":{"source_work_id":97604094}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--6d2cdbcf'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/97604094/Effects_of_emotions_on_driving_behavior","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":97604094,"extra":{"source_work_id":97604094}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":99180844}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/97604094/Effects_of_emotions_on_driving_behavior"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="8" data-entity-id="55306683" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/55306683/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX">Towards a frustration-aware assistant for increased in-vehicle UX</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="61431787" href="https://independent.academia.edu/AnnaAntoniaPape">Anna-Antonia Pape</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Proceedings of the 11th International Conference on Automotive User Interfaces and Interactive Vehicular Applications: Adjunct Proceedings</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">We are pleased to present to you the Adjunct Proceedings of the 11 th ACM International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI &#39;19), hosted by Utrecht University in the Netherlands. AutomotiveUI is the premier forum for user interface (UI) research in the automotive domain, bringing together researchers from both academia and industry. As in previous years, the papers and presentations of AutomotiveUI &#39;19 target the development of novel vehicle technologies based on principled models and concepts that seek to enhance driver experience, safety, and performance; the development of semi and fully autonomous driving; and the needs of different user groups, including passengers and pedestrians. This year&#39;s topics covered a variety of themes. Specifically, the sessions focused on designing spaces and interfaces, Auto-UI today, driving assistance systems, automated driving, driver displays, multimodal interfaces, multimodal interaction, and visual-manual interaction. The papers are representative of the diverse disciplines and research methodologies that make key contributions to AutomotiveUI research, with submissions from both academia and industry. This year, we requested authors to specify the area of their research contribution, namely design and user experience, software and technology, user studies and human factors, research methods and simulation. We were pleased to have received submissions in all categories, which were suitably reviewed by experts in these areas. In particular, this year&#39;s submissions bears witness to a growth in the diversity of topics and institutes, relative to previous years. This highlights that our community is still growing and that AutomotiveUI research continues to be relevant across the world. Submission and Review Process The main papers track, which are reported in the main proceedings, feature papers of 6-10 pages. In total, we received 119 submissions: a record number for AutomotiveUI, with near 25% increase from previous year. The intensive review process was led by the technical program chairs, who were aided by 51 Associate Chairs, and 141 reviewers. Finally, we would like to thank our sponsors and exhibitors in supporting the conference. Sponsorship and exhibitors bring incomparable visibility to the leading conference on Automotive User Interfaces and we are grateful to have an exciting number of renowned international institutions and companies support us.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--d8a4feef"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":55306683,"extra":{"source_work_id":55306683}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--d8a4feef'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/55306683/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":55306683,"extra":{"source_work_id":55306683}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":71238792}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/55306683/Towards_a_frustration_aware_assistant_for_increased_in_vehicle_UX"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-related-work-sidebar-card js-safe-related-work-related-work hidden" data-collection-position="9" data-entity-id="91563595" data-sort-order="default"><a class="ds-related-work--title js-related-work-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/91563595/Exploring_Empathetic_and_Cognitive_Interfaces_for_Autonomous_Vehicles">Exploring Empathetic and Cognitive Interfaces for Autonomous Vehicles</a><div class="ds-related-work--metadata"><a class="js-related-work-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="96677652" href="https://independent.academia.edu/H%C3%A9l%C3%A8neUnrein">Hélène Unrein</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Proceedings of the 4th International Conference on Computer-Human Interaction Research and Applications, 2020</p><p class="ds2-5-body-sm ds-related-work--abstract hide-on-large">The work presented is carried out within the framework of the European SUaaVE project, whose objective is to study different factors of acceptability of the Autonomous Vehicle (AV) and to test different solutions on a simulator. Among these solutions is an interface capable of informing the user at any time about the road situation and reassuring him/her about the information processed by the vehicle. To do this, it benefits from an empathic function to estimate the cognitive and emotional state of the user and offer answers in terms of comfort and information. This capability is based on a cognitive model of the passenger developed in conjunction with the interface. A comfort module (driving dynamics and ambient comfort) and an emotional module (participates in empathy functions) are developed in parallel by project partners. These modules will be integrated once the prototype presented here has been tested by users and adjusted.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--9c676733"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":91563595,"extra":{"source_work_id":91563595}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--9c676733'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/91563595/Exploring_Empathetic_and_Cognitive_Interfaces_for_Autonomous_Vehicles","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":91563595,"extra":{"source_work_id":91563595}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":94815663}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-related-work-grid-card-view-pdf" href="https://www.academia.edu/91563595/Exploring_Empathetic_and_Cognitive_Interfaces_for_Autonomous_Vehicles"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><button class="ds2-5-text-link ds2-5-text-link--inline safe-related-works--view-more-button js-safe-related-works-related-work--view-more-button"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">keyboard_arrow_down</span><span class="ds2-5-text-link__content">View more papers</span></button></div></div><div class="safe-related-topics--container"><h2 class="safe-related-topics--heading">Related topics</h2><div class="safe-related-topics--list"><div class="safe-related-topics--subgroup"><li class="safe-related-topics--list-item"><a class="ds2-5-body-sm ds2-5-body-link js-related-research-interest" data-entity_id="422" href="https://www.academia.edu/Documents/in/Computer_Science">Computer Science</a><button class="ds-pill-button ds-pill-button--small js-tc-loswp--related-topics--follow js-login-button--0e25a6ec safe-related-topics--pill"><span class="material-symbols-outlined" style="font-size: 16px" translate="no">add</span>Follow</button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--related-topics--follow","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--related-topics--follow');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--0e25a6ec'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/Documents/in/Computer_Science","clickTrackingContext":{"source":"loswp--related-topics--follow","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Follow topics to stay up-to-date"},"emailEntryPage":{"subheader":"Sign up or log in to follow this topic."},"emailLoginPage":{"subheader":"Log in to follow this topic."},"emailRegistrationPage":{"subheader":"Sign up to follow this topic."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></li></div><div class="safe-related-topics--subgroup"><li class="safe-related-topics--list-item"><a class="ds2-5-body-sm ds2-5-body-link js-related-research-interest" data-entity_id="11749" href="https://www.academia.edu/Documents/in/Affective_Computing">Affective Computing</a><button class="ds-pill-button ds-pill-button--small js-tc-loswp--related-topics--follow js-login-button--e296a0f1 safe-related-topics--pill"><span class="material-symbols-outlined" style="font-size: 16px" translate="no">add</span>Follow</button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--related-topics--follow","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--related-topics--follow');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--e296a0f1'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/Documents/in/Affective_Computing","clickTrackingContext":{"source":"loswp--related-topics--follow","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Follow topics to stay up-to-date"},"emailEntryPage":{"subheader":"Sign up or log in to follow this topic."},"emailLoginPage":{"subheader":"Log in to follow this topic."},"emailRegistrationPage":{"subheader":"Sign up to follow this topic."}},"registrationParams":{"user_source":"download","doc_id":90812518}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script></li></div></div></div></div><div class="safe-below-fold--container"><div class="safe-below-fold--related-works"><h2 class="safe-related-content--heading">Related papers</h2><div class="safe-related-content--container"><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="0" data-entity-id="25693959" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/25693959/Emotional_Driving_Experiences_An_Opportunity_for_Future_Technology">Emotional Driving Experiences: An Opportunity for Future Technology</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="323977" href="https://uts.academia.edu/SamBucolo">Sam Bucolo</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2010</p><p class="ds2-5-body-sm ds-related-work--abstract ">QUT Digital Repository: http://eprints.qut.edu.au/ ... Gomez, Rafael E. and Popovic, Vesna and Bucolo, Sam (2006) Emotional driving experiences : an opportunity for future technology. In: International Design and Emotion Conference 2006, 27-29 September 2006, ...</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--906c8cd8"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":25693959,"extra":{"source_work_id":25693959}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--906c8cd8'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/25693959/Emotional_Driving_Experiences_An_Opportunity_for_Future_Technology","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":25693959,"extra":{"source_work_id":25693959}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":46036727}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/25693959/Emotional_Driving_Experiences_An_Opportunity_for_Future_Technology"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="1" data-entity-id="89407362" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/89407362/Emotional_Adaptive_Vehicle_User_Interfaces_moderating_negative_effects_of_failed_technology_interactions_while_driving">Emotional Adaptive Vehicle User Interfaces: moderating negative effects of failed technology interactions while driving</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="29323307" href="https://independent.academia.edu/IgnacioAlvarez7">Ignacio Alvarez</a></div><p class="ds2-5-body-sm ds-related-work--abstract ">Automotive Natural User Interfaces have the potential to increase user experience providing intuitive interactions for drivers. However, in the complex setting of a driving vehicle, failed interactions with in-vehicle technology can lead to frustration and put drivers in a dangerous situation. This paper evaluates the possibility of applying emotion recognition to vehicular spoken dialogue systems in order to adapt the dialog strategies, in error recovery scenarios. An emotional taxonomy is developed for the interactions with a conversational vehicular application, the Voice User Help. The positive results of the performance of VUH emotion recognizer support the creation of real-time classification of the user emotional state, which serves as basis to emotional reappraisal dialog strategies that mitigate negative effects on the driver&#39;s cognitive load and driver performance.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--4f08aa83"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":89407362,"extra":{"source_work_id":89407362}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--4f08aa83'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/89407362/Emotional_Adaptive_Vehicle_User_Interfaces_moderating_negative_effects_of_failed_technology_interactions_while_driving","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":89407362,"extra":{"source_work_id":89407362}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":93216859}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/89407362/Emotional_Adaptive_Vehicle_User_Interfaces_moderating_negative_effects_of_failed_technology_interactions_while_driving"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="2" data-entity-id="68193316" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/68193316/Automotive_Emotions_An_Investigation_of_Their_Natures_Frequencies_of_Occurrence_and_Causes">Automotive Emotions: An Investigation of Their Natures, Frequencies of Occurrence and Causes</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="1025760" href="https://brunel.academia.edu/JosephGiacomin">Joseph Giacomin</a></div><p class="ds-related-work--metadata ds2-5-body-xs">2018</p><p class="ds2-5-body-sm ds-related-work--abstract ">Technological and sociological developments in the automotive sector are shifting the focus of design towards developing a better understanding of driver needs, desires and emotions. Human centred design methods are being more frequently applied to automotive research, including the use of systems to detect human emotions in real-time. One method for a non-contact measurement of emotion with low intrusiveness is Facial-Expression Analysis (FEA). This paper describes a research study investigating emotional responses of 22 participants in a naturalistic driving environment by applying a multi-method approach. The research explored the possibility to investigate emotional responses and their frequencies during naturalistic driving through real-time FEA. Observational analysis was conducted to assign causes to the collected emotional responses. In total, 730 emotional responses were measured in the collective study time of 440 minutes. Causes were assigned to 92% of the measured emotio...</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--dfcb2e3c"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":68193316,"extra":{"source_work_id":68193316}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--dfcb2e3c'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/68193316/Automotive_Emotions_An_Investigation_of_Their_Natures_Frequencies_of_Occurrence_and_Causes","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":68193316,"extra":{"source_work_id":68193316}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":78757394}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/68193316/Automotive_Emotions_An_Investigation_of_Their_Natures_Frequencies_of_Occurrence_and_Causes"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="3" data-entity-id="76584311" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/76584311/Emotional_GaRage">Emotional GaRage</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="1192818" href="https://dlr.academia.edu/DrMichaelOehl">Dr. Michael Oehl</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications, 2018</p><p class="ds2-5-body-sm ds-related-work--abstract ">In-car emotion detection and regulation have become an emerging and important branch of research within the automotive domain. Different emotional states can greatly influence human driving performance and user experience both in manual and automated driving conditions. The monitoring and regulation of relevant emotional states is therefore important to avoid critical driving scenarios with the human driver being in charge, and to ensure comfort and acceptance in autonomous driving. In this workshop we want to discuss the empathic user interface research to address challenges and opportunities and to reveal new research directions for future work. This workshop provides a forum for exchange and discussion on empathic user interfaces, including methods for emotion recognition and regulation, empathic automotive human-machine interaction design, user evaluation and measurements, and subsequent improvement of autonomous driving experience.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--e0175393"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584311,"extra":{"source_work_id":76584311}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--e0175393'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/76584311/Emotional_GaRage","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":76584311,"extra":{"source_work_id":76584311}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":84248182}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/76584311/Emotional_GaRage"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="4" data-entity-id="8679077" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/8679077/Driving_The_Emotional_Experience_and_Automotive_Design_Emotion_and_Design_Product_as_a_Promise_of_an_Experience_at_BULLET_Emotions_and_experience_Tools_and_Methods_for_Emotion_Driven_Design">Driving: The Emotional Experience and Automotive Design Emotion and Design Product as a Promise of an Experience @BULLET Emotions and experience Tools and Methods for Emotion-Driven Design</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="18166671" href="https://independent.academia.edu/AttilaJ%C3%B3n%C3%A1s">Attila Jónás</a></div><p class="ds2-5-body-sm ds-related-work--abstract ">This paper focuses on the experience design approach in respect to automotive design. The literature review indicates that eliciting appropriate positive emotions during interaction is central to experience design.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--c801e442"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":8679077,"extra":{"source_work_id":8679077}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--c801e442'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/8679077/Driving_The_Emotional_Experience_and_Automotive_Design_Emotion_and_Design_Product_as_a_Promise_of_an_Experience_at_BULLET_Emotions_and_experience_Tools_and_Methods_for_Emotion_Driven_Design","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":8679077,"extra":{"source_work_id":8679077}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":35034399}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/8679077/Driving_The_Emotional_Experience_and_Automotive_Design_Emotion_and_Design_Product_as_a_Promise_of_an_Experience_at_BULLET_Emotions_and_experience_Tools_and_Methods_for_Emotion_Driven_Design"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="5" data-entity-id="57825816" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/57825816/Workshop_for_designing_biofeedback_of_driver_s_state_and_emotion_in_automated_vehicles">Workshop for designing biofeedback of driver’s state and emotion in automated vehicles</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="5235754" href="https://hes-so.academia.edu/OmarAbouKhaled">Omar Abou Khaled</a></div><p class="ds-related-work--metadata ds2-5-body-xs">13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</p><p class="ds2-5-body-sm ds-related-work--abstract ">Different drivers&#39; states and emotions can affect negatively the driving performance. Recent advances in affective computing now give the opportunity to measure the users&#39; state or emotions using various sources of data such as physiological signals or voice samples. Conveying biofeedback in the car could help to make roads safer and improve users&#39; health and mental state during a ride in an autonomous car. This workshop aims at selecting the drivers&#39; hazardous states and emotions that are crucial to be assessed, as well as how to convey the appropriate biofeedback to the driver, using multimodal interaction in the car. CCS CONCEPTS • Human-centered computing → HCI theory, concepts and models; Visualization design and evaluation methods.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--c57b1bd6"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":57825816,"extra":{"source_work_id":57825816}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--c57b1bd6'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/57825816/Workshop_for_designing_biofeedback_of_driver_s_state_and_emotion_in_automated_vehicles","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":57825816,"extra":{"source_work_id":57825816}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":72535669}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/57825816/Workshop_for_designing_biofeedback_of_driver_s_state_and_emotion_in_automated_vehicles"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="6" data-entity-id="61049752" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/61049752/Designing_for_Drivers_Emotional_Transitions_and_Rituals">Designing for Driver&#39;s Emotional Transitions and Rituals</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="39462372" href="https://independent.academia.edu/Katrinehesseldahl">Katrine  hesseldahl</a></div><p class="ds-related-work--metadata ds2-5-body-xs">13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications</p><p class="ds2-5-body-sm ds-related-work--abstract ">Emotions are a topic of increasing interest in vehicle design and research as they have a substantive impact on people&#39;s behaviour, affecting driving performance and being a source of safety issues particularly on long journeys. However, emotions do not usually occur distinctly and individually and frequently transition and transform between states. It can be challenging to obtain information about the exact emotions drivers experience, especially when subtle. We present design-led research focusing on identifying scenarios that contain normally unarticulated emotions and mental reminders that drivers use to make a journey safer and develop concepts for in-vehicle interactions that assist with these rituals. As results of the research, we designed and user tested in-vehicle interactions for two emotional transition scenarios-pre-journey preparation (&#39;Ready... Steady. .. Relax&#39;) and checking the progress of a journey (&#39;Driving Whisper&#39;). CCS CONCEPTS • Human-centered computing; • Interaction design; • Interaction design process and methods; • User centered design;</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--74048f97"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":61049752,"extra":{"source_work_id":61049752}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--74048f97'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/61049752/Designing_for_Drivers_Emotional_Transitions_and_Rituals","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":61049752,"extra":{"source_work_id":61049752}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":74227142}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/61049752/Designing_for_Drivers_Emotional_Transitions_and_Rituals"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="7" data-entity-id="82089169" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/82089169/Exploring_Emotion_Responses_toward_Pedestrian_Crossing_Actions_for_Designing_In_vehicle_Empathic_Interfaces">Exploring Emotion Responses toward Pedestrian Crossing Actions for Designing In-vehicle Empathic Interfaces</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="32831854" href="https://independent.academia.edu/SurjyaGhosh">Surjya Ghosh</a></div><p class="ds-related-work--metadata ds2-5-body-xs">CHI Conference on Human Factors in Computing Systems Extended Abstracts</p><p class="ds2-5-body-sm ds-related-work--abstract ">While affective non-verbal communication between pedestrians and drivers has been shown to improve on-road safety and driving experiences, it remains a challenge to design driver assistance systems that can automatically capture these affective cues. In this early work, we identify users&#39; emotional self-report responses towards commonly occurring pedestrian actions while crossing a road. We conducted a crowd-sourced web-based survey (N=91), where respondents with prior driving experience viewed videos of 25 pedestrian interaction scenarios selected from the JAAD (Joint Attention for Autonomous Driving) dataset, and thereafter provided valence and arousal self-reports. We found participants&#39; emotion self-reports (especially valence) are strongly influenced by actions including hand waving, nodding, impolite hand gestures, and inattentive pedestrian(s) crossing while engaged with a phone. Our findings provide a first step towards designing in-vehicle empathic interfaces that can assist in driver emotion regulation during on-road interactions, where the identified pedestrian actions serve as future driver emotion induction stimuli. CCS CONCEPTS • Human-centered computing → Human computer interaction (HCI).</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--cec752ed"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":82089169,"extra":{"source_work_id":82089169}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--cec752ed'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/82089169/Exploring_Emotion_Responses_toward_Pedestrian_Crossing_Actions_for_Designing_In_vehicle_Empathic_Interfaces","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":82089169,"extra":{"source_work_id":82089169}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":87906571}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/82089169/Exploring_Emotion_Responses_toward_Pedestrian_Crossing_Actions_for_Designing_In_vehicle_Empathic_Interfaces"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="8" data-entity-id="909215" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/909215/Improving_automotive_safety_by_pairing_driver_emotion_and_car_voice_emotion">Improving automotive safety by pairing driver emotion and car voice emotion</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="54716" href="https://stanford.academia.edu/CliffordNass">Clifford Nass</a></div><p class="ds-related-work--metadata ds2-5-body-xs">CHI&#39;05 extended  …, 2005</p><p class="ds2-5-body-sm ds-related-work--abstract ">This study examines whether characteristics of a car voice can affect driver performance and affect. In a 2 (driver emotion: happy or upset) x 2 (car voice emotion: energetic vs. subdued) experimental study, participants (N=40) had emotion induced through watching one of two sets of 5-minute video clips. Participants then spent 20 minutes in a driving simulator where a voice in the car spoke 36 questions (e.g., &quot;How do you think that the car is performing?&quot;) and comments (&quot;My favorite part of this drive is the lighthouse.&quot;) in either an energetic or subdued voice. Participants were invited to interact with the car voice. When user emotion matched car voice emotion (happy/energetic and upset/subdued), drivers had fewer accidents, attended more to the road (actual and perceived), and spoke more to the car. Implications for car design and voice user interface design are discussed.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--90ee8cc1"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":909215,"extra":{"source_work_id":909215}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--90ee8cc1'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/909215/Improving_automotive_safety_by_pairing_driver_emotion_and_car_voice_emotion","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":909215,"extra":{"source_work_id":909215}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":51170572}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/909215/Improving_automotive_safety_by_pairing_driver_emotion_and_car_voice_emotion"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div><div class="ds-related-work--container js-wsj-grid-card js-safe-related-work-wsj " data-collection-position="9" data-entity-id="100615299" data-sort-order="default"><a class="ds-related-work--title js-wsj-grid-card-title ds2-5-body-md ds2-5-body-link" href="https://www.academia.edu/100615299/CarEs_An_Emotional_Model_of_a_Car_With_the_Stress_Factor">CarEs: An Emotional Model of a Car With the Stress Factor</a><div class="ds-related-work--metadata"><a class="js-wsj-grid-card-author ds2-5-body-sm ds2-5-body-link" data-author-id="841290" href="https://independent.academia.edu/IonBarosan">Ion Barosan</a></div><p class="ds-related-work--metadata ds2-5-body-xs">Journal of Software Engineering for Autonomous Systems, 2022</p><p class="ds2-5-body-sm ds-related-work--abstract ">Autonomous driving is a growing research ield, that still has many challenges. The main challenges are related with decision-making algorithms, human-machine interaction and acceptance in the technology. Also, the absence of human drivers in autonomous vehicles creates a gap between users and pedestrians interacting with the vehicle. This article aims to de ine vehicle awareness, that eases the collaboration with users to improve safety and have a more human-like driving to increase the technology acceptance. In addition, our approach can be extended to express vehicle social awareness towards the pedestrians and road users. Our approach is based on affective computing. Affective computing is a tool to grant computers to genuinely become intelligent and interact better with humans. Moreover, one of its components is the generation of emotions, of which two of the most important elements are cognitive emotions and primary emotions. The article&#39;s objective is to design the model of a primary emotion component, based on safety and that can be personalized depending on the driving style of the user. This component is called the stress factor. The stress factor is correlated with the probability of an accident. The vehicle stress factors contain parameters that can be personalized as a function of a driving style. The stress factor is then attached to an existing cognitive emotion system (CarE) in the automotive domain which we called CarEs. The results of the system behavior showed promising results. The stress factor showed to be useful as a safety indicator. Also, the stress factor can be personalized with the vehicle operation state component. In conclusion, the new system known as CarEs generates vehicle awareness, by improving the vehicle&#39;s collaboration with the driver. The collaboration has a positive impact on the vehicle&#39;s safety and comfort, and people&#39;s reliance on automated vehicles.</p><div class="ds-related-work--ctas"><a class="ds2-5-text-link ds2-5-text-link--inline js-tc-loswp--wsj-grid-card-download-pdf-modal js-login-button--b9cc3499"><span class="material-symbols-outlined" style="font-size: 18px" translate="no">download</span><span class="ds2-5-text-link__content">Download free PDF</span></a><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":100615299,"extra":{"source_work_id":100615299}};
+  const button = document.querySelector('.js-tc-loswp--wsj-grid-card-download-pdf-modal');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--b9cc3499'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/100615299/CarEs_An_Emotional_Model_of_a_Car_With_the_Stress_Factor","clickTrackingContext":{"source":"loswp--wsj-grid-card-download-pdf-modal","bucket":"safe_sidebar","entity_id":100615299,"extra":{"source_work_id":100615299}},"configuredText":{"buttonsPage":{"header":"Read your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue reading."},"emailLoginPage":{"subheader":"Log in to continue reading."},"emailRegistrationPage":{"subheader":"Sign up to continue reading."}},"registrationParams":{"user_source":"download","doc_id":101388203}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><a class="ds2-5-text-link ds2-5-text-link--inline js-wsj-grid-card-view-pdf" href="https://www.academia.edu/100615299/CarEs_An_Emotional_Model_of_a_Car_With_the_Stress_Factor"><span class="ds2-5-text-link__content">View PDF</span><span class="material-symbols-outlined" style="font-size: 18px" translate="no">chevron_right</span></a></div></div></div></div><div class="safe-sticky-ctas--container js-loswp-sticky-ctas hidden"><button class="ds2-5-button js-tc-loswp--download-pdf-button--sticky-ctas js-login-button--7939b057"><span class="material-symbols-outlined" style="font-size: 20px" translate="no">download</span>Download PDF</button><script>document.addEventListener('DOMContentLoaded', () => {
+  const csrfToken = document.querySelector("[name='csrf-token']").content;
+  const options = {"source":"loswp--download-pdf-button--sticky-ctas","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}};
+  const button = document.querySelector('.js-tc-loswp--download-pdf-button--sticky-ctas');
+  button.addEventListener('click', () => {
+    fetch('/v0/clicks?subdomain_param=api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-Token': csrfToken,
+      },
+      keepalive: true,
+      mode: 'same-origin',
+      body: JSON.stringify({
+        ...options,
+        occurred_at: new Date(),
+        hit_id: window.Aedu?.hit_data?.id,
+      }),
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => { const loginButton = document.querySelector('.js-login-button--7939b057'); if (!loginButton) { throw new Error('Login button not found'); } const options = { detail: {"postLoginRedirectUrl":"https://www.academia.edu/86342026/Emotion_GaRage_Vol_II?auto=download","clickTrackingContext":{"source":"loswp--download-pdf-button--sticky-ctas","bucket":"safe_sidebar","entity_id":86342026,"extra":{"source_work_id":86342026}},"configuredText":{"buttonsPage":{"header":"Download your PDF for free"},"emailEntryPage":{"subheader":"Sign up or log in to continue with your free download."},"emailLoginPage":{"subheader":"Log in to continue with your free download."},"emailRegistrationPage":{"subheader":"Sign up to continue with your free download.","submit":"Start Download"}},"registrationParams":{"user_source":"download","doc_id":90812518,"auto":"download"}} }; loginButton.addEventListener('click', () => { document.dispatchEvent(new CustomEvent('open-login-modal', options)); }); });</script><div id="js-react-on-rails-context" style="display:none" data-rails-context="{&quot;inMailer&quot;:false,&quot;i18nLocale&quot;:&quot;en&quot;,&quot;i18nDefaultLocale&quot;:&quot;en&quot;,&quot;href&quot;:&quot;https://www.academia.edu/86342026/Emotion_GaRage_Vol_II&quot;,&quot;location&quot;:&quot;/86342026/Emotion_GaRage_Vol_II&quot;,&quot;scheme&quot;:&quot;https&quot;,&quot;host&quot;:&quot;www.academia.edu&quot;,&quot;port&quot;:null,&quot;pathname&quot;:&quot;/86342026/Emotion_GaRage_Vol_II&quot;,&quot;search&quot;:null,&quot;httpAcceptLanguage&quot;:null,&quot;serverSide&quot;:false}"></div>
+<div class="js-react-on-rails-component" style="display:none" data-component-name="MoreActionsMenu" data-props="{&quot;citations&quot;:null,&quot;redirectUrl&quot;:&quot;https://www.academia.edu/86342026/Emotion_GaRage_Vol_II&quot;,&quot;trackClickOptions&quot;:{&quot;source&quot;:&quot;loswp--more-actions-menu--sticky-ctas&quot;,&quot;bucket&quot;:&quot;safe_sidebar&quot;,&quot;entity_id&quot;:86342026,&quot;extra&quot;:{&quot;source_work_id&quot;:86342026}}}" data-trace="false" data-dom-id="MoreActionsMenu-react-component-f2837587-2429-498a-a1f7-fe16ef5695f1"></div>
+    <div id="MoreActionsMenu-react-component-f2837587-2429-498a-a1f7-fe16ef5695f1"></div>
+    
+</div><div class="ds-work--container js-loswp-embedded-document" id="loswp-work-container"><div class="attachment_preview" data-attachment="Attachment_90812518" style="display: none"><div class="js-scribd-document-container"><div class="scribd--document-loading js-scribd-document-loader" style="display: block;"><img alt="Loading..." src="//a.academia-assets.com/images/loaders/paper-load.gif" /><p>Loading Preview</p></div></div><div style="text-align: center;"><div class="scribd--no-preview-alert js-preview-unavailable"><p>Sorry, preview is currently unavailable. You can download the paper by clicking the button above.</p></div></div></div></div></div></div><div id="js-react-on-rails-context" style="display:none" data-rails-context="{&quot;inMailer&quot;:false,&quot;i18nLocale&quot;:&quot;en&quot;,&quot;i18nDefaultLocale&quot;:&quot;en&quot;,&quot;href&quot;:&quot;https://www.academia.edu/86342026/Emotion_GaRage_Vol_II&quot;,&quot;location&quot;:&quot;/86342026/Emotion_GaRage_Vol_II&quot;,&quot;scheme&quot;:&quot;https&quot;,&quot;host&quot;:&quot;www.academia.edu&quot;,&quot;port&quot;:null,&quot;pathname&quot;:&quot;/86342026/Emotion_GaRage_Vol_II&quot;,&quot;search&quot;:null,&quot;httpAcceptLanguage&quot;:null,&quot;serverSide&quot;:false}"></div>
+<div class="js-react-on-rails-component" style="display:none" data-component-name="LoginModalManager" data-props="{}" data-trace="false" data-dom-id="LoginModalManager-react-component-8bf0fa2f-a231-4645-979b-2ed9f0b23302"></div>
+    <div id="LoginModalManager-react-component-8bf0fa2f-a231-4645-979b-2ed9f0b23302"></div>
+    
+
+
+      <div class="about-footer-container"><div class="footer-grid"><div class="links-row"><div class="text-column"><div class="academia-logo"><a href="https://www.academia.edu/?source=footer"><img alt="Academia" src="//a.academia-assets.com/images/design_system/academia_logo_short_white.svg" /></a></div></div><div class="responsive-two-column-container"><div class="inner-two-column-container"><ul class="single-column"><li class="header">Explore</li><li><a href="https://www.academia.edu/documents">Papers</a></li><li><a href="https://www.academia.edu/topics">Topics</a></li></ul><ul class="single-column"><li class="header">Features</li><li><a href="https://www.academia.edu/mentions">Mentions</a></li><li><a href="https://www.academia.edu/analytics">Analytics</a></li><li><a href="https://www.academia.edu/research">PDF Packages</a></li><li><a href="https://www.academia.edu/search/advanced">Advanced Search</a></li><li><a href="https://www.academia.edu/saved_searches">Search Alerts</a></li></ul></div><div class="inner-two-column-container"><ul class="single-column"><li class="header">Journals</li><li><a href="https://www.academia.edu/journals">Academia.edu Journals</a></li><li><a href="https://www.academia.edu/journals/submissions">My submissions</a></li><li><a href="https://www.academia.edu/journals/submissions#reviewer/invitations">Reviewer Hub</a></li><li><a href="https://www.academia.edu/journals/about/why-publish-with-us">Why publish with us</a></li><li><a href="https://www.academia.edu/journals/about/testimonials">Testimonials</a></li></ul><ul class="single-column"><li class="header">Company</li><li><a href="https://www.academia.edu/about">About</a></li><li><a href="https://www.academia.edu/careers">Careers</a></li><li><a href="https://www.academia.edu/press">Press</a></li><li><a href="https://support.academia.edu/hc/en-us">Help Center</a></li><li><a href="https://www.academia.edu/terms">Terms</a></li><li><a href="https://www.academia.edu/privacy">Privacy</a></li><li><a href="https://www.academia.edu/copyright">Copyright</a></li><li><a href="https://www.academia.edu/content_policy">Content Policy</a></li></ul></div></div></div><div class="subfooter-row"><div class="academia-logo"><a href="https://www.academia.edu/?source=footer"><img alt="Academia" src="//a.academia-assets.com/images/design_system/academia_logo_white.svg" /></a></div><div class="text"><div>580 California St., Suite 400</div><div>San Francisco, CA, 94104</div></div><div class="text"><div><a href="https://www.academia.edu/copyright">© 2025 Academia. All rights reserved</a></div></div></div></div></div>
+
+  </body>
+</html>
