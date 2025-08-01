@@ -1,56 +1,64 @@
 // Publication Search Functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('publicationSearchInput');
-  
-  // Check if search input exists (in case this script is loaded on other pages)
-  if (!searchInput) {
-    return;
-  }
-  
-  const publications = document.querySelectorAll('.publication-item');
-  const yearDetails = document.querySelectorAll('.year-details');
-
-  function performSearch(query) {
-    query = query.toLowerCase();
+(function() {
+  function initPublicationSearch() {
+    console.log('Initializing publication search...');
+    const searchInput = document.getElementById('publicationSearchInput');
+    if (!searchInput) {
+      console.log('Search input not found');
+      return;
+    }
     
-    publications.forEach(function(pub) {
-      const textContent = pub.textContent || pub.innerText;
-      const matches = textContent.toLowerCase().includes(query);
-      const parentDetails = pub.closest('.year-details');
+    const publications = document.querySelectorAll('.publication-item');
+    const yearDetails = document.querySelectorAll('.year-details');
+    
+    console.log('Found', publications.length, 'publications and', yearDetails.length, 'year details');
 
-      if (matches) {
-        pub.classList.remove('hidden-by-search');
-        if (parentDetails) {
-          parentDetails.open = true;
+    function performSearch(query) {
+      console.log('Performing search for:', query);
+      query = query.toLowerCase();
+      
+      publications.forEach(function(pub) {
+        const textContent = pub.textContent || pub.innerText;
+        const matches = textContent.toLowerCase().includes(query);
+        const parentDetails = pub.closest('.year-details');
+
+        if (matches) {
+          pub.classList.remove('hidden-by-search');
+          if (parentDetails) {
+            parentDetails.open = true;
+          }
+        } else {
+          pub.classList.add('hidden-by-search');
         }
-      } else {
-        pub.classList.add('hidden-by-search');
+      });
+
+      if (query === '') {
+        publications.forEach(function(pub) {
+          pub.classList.remove('hidden-by-search');
+        });
+        yearDetails.forEach(function(detail, index) {
+          if (index === 0) {
+            detail.open = true;
+          }
+        });
       }
+    }
+
+    searchInput.addEventListener('keyup', function(event) {
+      performSearch(event.target.value);
     });
 
-    // If search query is empty, show all and close all non-default-open details
-    if (query === '') {
-      publications.forEach(function(pub) {
-        pub.classList.remove('hidden-by-search');
-      });
-      yearDetails.forEach(function(detail, index) {
-        if (index === 0) {
-          detail.open = true; // Ensure first is open if query is empty
-        }
-      });
-    }
+    searchInput.addEventListener('input', function(event) {
+      performSearch(event.target.value);
+    });
+
+    performSearch('');
   }
 
-  // Add event listener for search input
-  searchInput.addEventListener('keyup', function(event) {
-    performSearch(event.target.value);
-  });
-
-  // Also listen for input event for better compatibility
-  searchInput.addEventListener('input', function(event) {
-    performSearch(event.target.value);
-  });
-
-  // Initialize search state
-  performSearch('');
-}); 
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPublicationSearch);
+  } else {
+    initPublicationSearch();
+  }
+})(); 
