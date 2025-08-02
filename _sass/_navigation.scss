@@ -192,13 +192,20 @@
   button {
     position: absolute;
     height: 100%;
-    right: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+  }
+
+  .theme-toggle {
+    right: 0;
+  }
+
+  .menu-toggle {
+    right: 2.5rem;
   }
 
   .visible-links {
