@@ -12,31 +12,34 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %} Get the post filename without extension for the icon path {% endcomment %}
+{% assign post_filename = post.path | split: '/' | last | split: '.' | first %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
+    <div class="archive__item-content" style="display: flex; align-items: flex-start; gap: 20px;">
+      {% comment %} Display the lecture icon {% endcomment %}
+      <div class="archive__item-icon" style="flex-shrink: 0; align-self: flex-start;">
+        <img src="{{ base_path }}/images/{{ post_filename }}/lecture_icon.png" 
+             alt="Lecture icon" 
+             style="width: 120px; height: auto; max-height: 120px; object-fit: cover; border-radius: 8px;">
       </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+      
+      <div class="archive__item-text" style="flex: 1; align-self: flex-start;">
+        <h2 class="archive__item-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+        
+        {% if post.abstract %}
+          <p class="archive__item-excerpt" style="margin-top: 8px; color: #666;">
+            {{ post.abstract | truncate: 200 }}
+          </p>
+        {% endif %}
+      </div>
+    </div>
   </article>
 </div>

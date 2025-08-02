@@ -31,7 +31,7 @@ The next big change in the automotive domain will be the move towards automated 
 ```
 @Article{riener_et_al:DagRep.6.6.111,
   author =	{Riener, Andreas and Boll, Susanne and Kun, Andrew L.},
-  title =	{{Automotive User Interfaces in the Age of Automation (Dagstuhl Seminar 16262)}},
+  title =	{Automotive User Interfaces in the Age of Automation (Dagstuhl Seminar 16262)},
   pages =	{111--157},
   journal =	{Dagstuhl Reports},
   ISSN =	{2192-5283},

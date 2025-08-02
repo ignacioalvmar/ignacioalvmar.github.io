@@ -54,7 +54,7 @@ author_profile: true
     <div class="list-indent">
       {% for post in year_group.items reversed %}
         <div class="list-item">
-          {% include archive-single.html type='talk' %}
+          {% include archive-single-talk.html type='talk' %}
         </div>
       {% endfor %}
     </div>

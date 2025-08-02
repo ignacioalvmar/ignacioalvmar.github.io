@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Professor of Human-centered Intelligent Systems at the Computer Science Faculty of the Ingolstadt University of Applied Sciences (THI). I work at the AI Motion Bavaria Research Institute at the intersection of AI, Automotive Systems and Human Computer Interaction. Besides state-of-the-art research, I teach courses in our Master programs in AI Systems Engineering User Experience Design.  
+I am Professor of Human-centered Intelligent Systems at the Computer Science Faculty of the Ingolstadt University of Applied Sciences (THI). I work at the AI Motion Bavaria Research Institute at the intersection of AI, Automotive Systems and Human Computer Interaction. Besides state-of-the-art research, I teach courses in our Master programs in AI Systems Engineering and User Experience Design.  
 
 I am also a Principal Engineer at Intel Labs where I lead the Automated Driving Research Program across a worlwide organization of talented researchers with diverse backgrounds in Autonomous Driving, Machine Learning, Safety, Security, Human Factors and Ergonomics and Wireless Communications. 
 
