@@ -2,11 +2,14 @@
 title: "Project Artificial Intelligence: LLM-based Agent for Driver Sleepiness Detection and Mitigation in Automotive Systems"
 collection: teaching
 type: "AI Engineering of Autonomous Systems Master of Science"
-permalink: /teaching/2025-sommer-teaching-2
+permalink: /teaching/2025-mai-llm_sleep
 venue: "Technische Hochschule Ingolstadt, Computer Engineering"
 date: 2025-03-17
 location: "Ingolstadt, Germany"
+abstract: "Seminar for AI Master students exploring development of Multimodal LLMs to monitor and mitigate drowsiness through HMI actions."
 ---
+
+![Course Icon](../images/2025-mai-llm_sleep/lecture_icon.png)
 
 # Description
 Ensuring driver alertness is a cornerstone of automotive safety, and Large Language Models (LLMs) offer a unique opportunity to create intelligent systems capable of detecting and mitigating sleepiness. By integrating multimodal inputs such as audio cues, video streams, and driving context signals, LLMs can process complex, real-time data to assess driver state and trigger appropriate actions to maintain alertness.
@@ -17,3 +20,8 @@ In this course, students designed and implemented a prototype in-vehicle game th
 Student Project Details
 ======
 Coming soon
+
+Interested?
+======
+Contact me if you’d like me to teach this course to you or your audience.
+

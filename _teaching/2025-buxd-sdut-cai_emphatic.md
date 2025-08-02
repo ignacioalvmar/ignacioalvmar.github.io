@@ -2,11 +2,15 @@
 title: "Study design and implementation of UX tests: Emphatic Car"
 collection: teaching
 type: "User Experience Design Bachelor of Science"
-permalink: /teaching/2025-sommer-teaching-4
+permalink: /teaching/2025-buxd-sdut-cai_emphatic
 venue: "Technische Hochschule Ingolstadt, Computer Science"
 date: 2025-03-17
 location: "Ingolstadt, Germany"
+abstract: "Seminar for UXD Bachelor students exploring development of in-vehicle AI assistants capable of detecting and employing affect to improve user driving experience, trust, and satisfaction."
 ---
+
+![Course Icon](../images/2025-buxd-sdut-cai_emphatic/lecture_icon.png)
+
 
 # Description
 This course is designed to prepare students for their final thesis. It provides fundamental knowledge to develop a study design based on a problem definition, conduct the study, evaluate it, and interpret the results. Thematic clusters in the area of ​​human-computer interaction (e.g., productivity, automated driving, sports, and digitalization) are offered, from which student groups can choose and propose a specific topic. This topic will be developed iteratively in close professional coordination with the respective supervising lecturers. • Basics of user studies (possible applications, definition of research hypothesis) • Study design (dependent/independent variables, laboratory vs. field studies, within-groups/between-groups design) • Planning of experiments (different methods, “fidelity” of an experiment, software/hardware prototypes, Wizard of Oz studies, qualitative surveys/quantitative measurements, ethical aspects, role of an institutional review board (IRB)) • Study implementation (preparation, briefing/debriefing, finding and inviting test subjects, determining group size, learning effects, measuring variables/data collection) • Qualitative data analysis (content analysis, evaluation with MAXQDA/NVIVO, preparation and presentation of results, revision/fine-tuning in Illustrator) • Quantitative data analysis (reflection on the research hypothesis, use of SPSS for statistical evaluations, parametric/nonparametric statistics, correct choice of method, presentation and interpretation of results) • Written/oral presentation of the results (preparation of results, peer review process, final conference-style presentation)
@@ -21,3 +25,7 @@ Deliverables included a fully implemented AI assistant prototype with emotional 
 Student Project Details
 ======
 Coming soon
+
+Interested?
+======
+Contact me if you’d like me to teach this course to you or your audience.
