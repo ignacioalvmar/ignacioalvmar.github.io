@@ -176,6 +176,7 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  flex: 1;
 
   a {
     display: block;
@@ -189,7 +190,7 @@
     }
   }
 
-  button {
+  .menu-toggle {
     position: absolute;
     height: 100%;
     right: 0;
@@ -199,6 +200,21 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+    display: none;
+    z-index: 20;
+
+    &.hidden {
+      display: none;
+    }
+
+    &:not(.hidden) {
+      display: block;
+    }
+
+    .navicon {
+      display: block;
+      margin: auto;
+    }
   }
 
   .visible-links {

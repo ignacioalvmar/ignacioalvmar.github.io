@@ -16,4 +16,4 @@ As a researcher, I develop, software, systems and simulation tools to accelerate
 
 Prior to Intel, I worked at BMW leading R&D and product development for Advanced Driver Assistance Systems, Vehicle Telematics Services and Human Machine Interface Solutions in Europe, America and Asia. 
 
-You are welcome to explore the content in this personal page. Check my publications, patents, taks, teaching material, blog posts and resume. Feel free to contact on social media or e-mail.
+You are welcome to explore the content of this page. You can search, check and share my publications, patents, taks, teaching material and resume. Feel free to contact on social media or e-mail.
