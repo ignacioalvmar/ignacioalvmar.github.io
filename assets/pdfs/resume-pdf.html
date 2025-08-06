@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignacio Alvarez - Executive Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @page {
+            margin: 0.5in;
+            size: letter;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.3;
+            color: #333;
+            font-size: 9pt;
+            max-width: 8.5in;
+            margin: 0 auto;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .name {
+            font-size: 16pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.1rem;
+            letter-spacing: 0.3px;
+        }
+
+        .title {
+            font-size: 9pt;
+            color: #7f8c8d;
+            margin-bottom: 0.1rem;
+            font-weight: 500;
+        }
+
+        .location {
+            font-size: 8pt;
+            color: #95a5a6;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 7pt;
+        }
+
+        .contact-link i {
+            font-size: 7pt;
+        }
+
+        /* Summary Section */
+        .summary-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .summary-grid {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .profile-photo {
+            width: 1.2in;
+            height: 1.6in;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 2px solid #3498db;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-size: 11pt;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 0.15rem;
+        }
+
+        .summary-text {
+            color: #555;
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+
+        /* Competencies Section */
+        .competencies-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .competency-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+
+        .tag {
+            background: #e8f4fd;
+            color: #0c5460;
+            padding: 0.2rem 0.4rem;
+            border-radius: 8px;
+            font-size: 7pt;
+            font-weight: 500;
+            border: 1px solid #bee5eb;
+        }
+
+        /* Experience Section */
+        .experience-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-item {
+            margin-bottom: 0.75rem;
+            page-break-inside: avoid;
+        }
+
+        .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.2rem;
+            flex-wrap: wrap;
+        }
+
+        .role-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .role-info h3 {
+            color: #2c3e50;
+            font-size: 9pt;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .role-info .institution {
+            color: #7f8c8d;
+            font-weight: 500;
+            font-size: 7pt;
+            margin-left: 0;
+        }
+
+        .role-info .period {
+            color: #95a5a6;
+            font-size: 7pt;
+            white-space: nowrap;
+            margin-left: 0.5rem;
+        }
+
+        .achievement-summary {
+            background: #f8f9fa;
+            padding: 0.4rem;
+            border-radius: 3px;
+            border-left: 2px solid #3498db;
+            margin-bottom: 0.4rem;
+            font-size: 8pt;
+        }
+
+        .achievement-details {
+            margin-left: 0.75rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .challenge-action-result h4 {
+            color: #2c3e50;
+            font-size: 8pt;
+            font-weight: 600;
+            margin: 0.4rem 0 0.2rem 0;
+        }
+
+        .challenge-action-result p {
+            margin: 0 0 0.4rem 0;
+            color: #555;
+            font-size: 7pt;
+            line-height: 1.2;
+        }
+
+        /* Service Section */
+        .service-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .service-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-list li {
+            margin-bottom: 0.3rem;
+            font-size: 8pt;
+            line-height: 1.2;
+        }
+
+        .service-list .organization {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .service-list .role {
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+
+        /* Innovation Section */
+        .innovation-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .innovation-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .innovation-list li {
+            margin-bottom: 0.4rem;
+            font-size: 8pt;
+            line-height: 1.2;
+        }
+
+        .innovation-list .category {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .innovation-list .description {
+            color: #555;
+            margin-bottom: 0.2rem;
+        }
+
+        .innovation-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 7pt;
+        }
+
+        /* Education Section */
+        .education-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .education-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-list li {
+            margin-bottom: 0.3rem;
+            font-size: 8pt;
+            line-height: 1.2;
+        }
+
+        .education-list .degree {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .education-list .institution {
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+
+        .education-list .honors {
+            color: #27ae60;
+            font-weight: 600;
+            font-size: 6pt;
+        }
+
+        .education-list .details {
+            color: #555;
+            font-style: italic;
+            font-size: 6pt;
+        }
+
+        /* Print optimizations */
+        @media print {
+            body {
+                font-size: 8pt;
+            }
+            
+            .name {
+                font-size: 14pt;
+            }
+            
+            .title {
+                font-size: 8pt;
+            }
+            
+            .section-title {
+                font-size: 9pt;
+            }
+            
+            .role-info h3 {
+                font-size: 9pt;
+            }
+            
+            .innovation-list {
+                margin-bottom: 0.5rem;
+            }
+            
+            .service-list {
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="name">IGNACIO ALVAREZ</h1>
+        <p class="title">Technology Executive | Automotive & AI Leader</p>
+        <!-- <p class="location">📍 Based in Germany · Open to Relocation Globally</p> -->
+        
+        <div class="contact-info">
+            <a href="mailto:ignacio.alvarez@thi.de" class="contact-link">
+                <i class="fas fa-envelope"></i>
+                <span>ignacio.alvarez@thi.de</span>
+            </a>
+            <a href="https://linkedin.com/in/ignacio-alvarez" class="contact-link">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Summary Section -->
+    <section class="summary-section">
+        <!-- <div class="summary-grid">
+            <div class="profile-image">
+                <img src="../../images/Ignacio_Alvarez_resume_shot.png" alt="Ignacio Alvarez" class="profile-photo">
+            </div> -->
+            <div class="summary-content">
+                <h2 class="section-title">Executive Summary</h2>
+                <p class="summary-text">
+                    Technology Executive with a track record of CTO-level impact in the Automotive & AI sectors. Proven leader with 15+ years of experience architecting and scaling intelligent systems from R&D to series production, driving 30% YoY R&D ROI amidst budget reductions, leading global R&D organizations of 100+ engineers, and launching platforms adopted by 1M+ users. Expert in defining technical vision that aligns with C-suite objectives, secures market leadership, and generates massive IP value (150+ patents).
+                </p>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- Core Competencies Section -->
+    <section class="competencies-section">
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="competency-tags">
+            <span class="tag">Technology Strategy & Roadmaps</span>
+            <span class="tag">Artificial Intelligence & Machine Learning</span>
+            <!-- <span class="tag">Deep Learning & LLMs</span> -->
+            <span class="tag">Generative AI</span>
+            <span class="tag">Autonomous Driving</span>
+            <span class="tag">AV/ADAS Systems</span>
+            <span class="tag">Safety Models & Standards</span>
+            <span class="tag">Connected Vehicles</span>
+            <!-- <span class="tag">Vehicle-to-Everything (V2X)</span> -->
+            <span class="tag">Telematics</span>
+            <span class="tag">Intelligent Infrastructure</span>
+            <span class="tag">Human–Machine Interface (HMI)</span>
+            <span class="tag">Adaptive Interfaces</span>
+            <!-- <span class="tag">Context-Aware UX</span> -->
+            <span class="tag">User-Centered Design</span>
+            <span class="tag">Product Development & Delivery</span>
+            <span class="tag">Cross-Functional Leadership</span>
+            <span class="tag">Global Team Leadership</span>
+            <!-- <span class="tag">High-Performance Teams</span> -->
+            <span class="tag">Fluent in English, Spanish, German</span>
+            <span class="tag">Basic Mandarin</span>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section class="experience-section">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <!-- THI Role -->
+        <div class="timeline-item">
+            <div class="role-header">
+                <div class="role-info">
+                    <h3>Tenured Research Professor of Human-centered Intelligent Systems</h3>
+                    <div><span class="institution">Technische Hochschule Ingolstadt</span><span class="period">2025–Present</span></div>
+                </div>
+            </div>
+            <div class="achievement-summary">
+                Tenured research professor at AI Motion Bavaria Research Institute. Leading European Research Initiatives in AI and Automotive. Sponsored by the High-Tech Agenda Program of the Government of Bavaria with a €3M grant to develop a research program in human-centered intelligent vehicles.
+            </div>
+            <div class="achievement-details">
+                <div class="challenge-action-result">
+                    <h4>Challenge:</h4>
+                    <p>Establish and lead cutting-edge research initiatives in human-centered intelligent vehicles while securing substantial funding and building academic-industry partnerships.</p>
+                    <h4>Action:</h4>
+                    <p>Secured €3M grant from the High-Tech Agenda Program of the Government of Bavaria to develop comprehensive research programs in AI and Automotive. Established THI Doctoral School membership and developed advanced curriculum for Automotive AI Masters and User Experience Design programs.</p>
+                    <h4>Result:</h4>
+                    <p>Successfully positioned THI as a leading European research institution in AI and Automotive, with substantial funding secured and advanced educational programs established across Computer Science and Engineering faculties.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intel Principal Engineer Role -->
+        <div class="timeline-item">
+            <div class="role-header">
+                <div class="role-info">
+                    <h3>Principal Engineer & Executive Technical Advisor</h3>
+                    <div><span class="institution">Intel Corporation – Intel Labs</span><span class="period">2021–2025</span></div>
+                </div>
+            </div>
+            <div class="achievement-summary">
+                Reporting to the Intel Labs Director. Tasked with maximizing R&D value amidst an 8% yearly budget reduction. Advised C-suite on strategic technology investments, accelerating product impact and optimizing IP utilization. Drove an average 30% YoY increase in R&D ROI, reversing the impact of budget cuts.
+            </div>
+            <div class="achievement-details">
+                <div class="challenge-action-result">
+                    <h4>Challenge:</h4>
+                    <p>Maximize R&D value and strategic impact while managing 8% yearly budget reductions across Intel Labs' global engineering organization, requiring innovative approaches to resource optimization and strategic technology investments.</p>
+                    <h4>Action:</h4>
+                    <p>Established unified research strategies and cross-functional collaboration across Intel Labs' 500+ person global engineering organization. Steered autonomous driving R&D strategy aligning 100+ multi-regional engineering resources. Served as key technology advisor for M&A, divestiture, and IPO activities within the automotive sector.</p>
+                    <h4>Result:</h4>
+                    <p>Achieved average 30% YoY increase in R&D ROI, reversing the impact of budget cuts across semiconductor design, packaging, systems, networking, software, algorithmic development and AI. Successfully architected and deployed production-grade automated driving safety systems, reducing validation cycles by ~20% and accelerating compliance with emerging safety regulations.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intel Senior Research Scientist Role -->
+        <div class="timeline-item">
+            <div class="role-header">
+                <div class="role-info">
+                    <h3>Senior Research Scientist</h3>
+                    <div><span class="institution">Intel Corporation – Intel Labs</span><span class="period">2014–2021</span></div>
+                </div>
+            </div>
+            <div class="achievement-summary">
+                Directed development of a multimodal in-vehicle R&D platform ("Skyline") integrating driver monitoring, voice assistants, and AR displays. Supporting design winds of Intel Automotive technology by 10+ global automotive OEMs and showcased the platform at international industry forums.
+            </div>
+            <div class="achievement-details">
+                <div class="challenge-action-result">
+                    <h4>Challenge:</h4>
+                    <p>Develop and commercialize a comprehensive multimodal in-vehicle R&D platform that integrates cutting-edge technologies while establishing Intel as a leading automotive technology partner and securing substantial research funding.</p>
+                    <h4>Action:</h4>
+                    <p>Led cross-institutional research collaborations, securing $5M+ in funding and partnerships. Transferred multiple key technologies to Intel's and Mobileye product teams. Led open-source contributions to industry bodies and international standards, bridging research to real-world impact.</p>
+                    <h4>Result:</h4>
+                    <p>Successfully deployed "Skyline" platform across 10+ global automotive OEMs, showcased at international forums (Google IO, Intel 360). Secured 50+ granted patents and 100+ pending in autonomous systems, AI and robotics. Published 70+ papers and built thought leadership in automotive AI safety and HMI.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BMW Role -->
+        <div class="timeline-item">
+            <div class="role-header">
+                <div class="role-info">
+                    <h3>Senior IT Manager & Connected Drive Lead</h3>
+                    <div><span class="institution">BMW Group</span><span class="period">2012–2014</span></div>
+                </div>
+            </div>
+            <div class="achievement-summary">
+                Led a 100+ IT engineering division across Asia-Pacific, delivering next-generation connected vehicle services to drive rapid expansion into the region's fastest-growing market. Oversaw data centers, telematics, and in-car digital services for BMW and MINI brands in China and Asia Pacific markets.
+            </div>
+            <div class="achievement-details">
+                <div class="challenge-action-result">
+                    <h4>Challenge:</h4>
+                    <p>Lead rapid expansion into Asia-Pacific's fastest-growing automotive market while ensuring 24/7 reliability and scalability of connected vehicle services during record growth, and differentiate BMW in a competitive luxury market through innovative in-car technology.</p>
+                    <h4>Action:</h4>
+                    <p>Managed 100+ IT engineering division across Asia-Pacific, overseeing data centers, telematics, and in-car digital services. Pioneered in-car voice and AI assistants, collaborating with partners like Nuance and Microsoft. Developed integrated multimodal user manual for BMW 7 series.</p>
+                    <h4>Result:</h4>
+                    <p>Achieved over 1 million new users in the first year, significantly enhancing customer engagement. Launched industry's first natural-language voice assistant and multimodal user manual, setting new standards for in-vehicle HMI and earning industry-wide commendations for innovation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earlier Experience -->
+        <div class="timeline-item">
+            <div class="role-header">
+                <div class="role-info">
+                    <h3>Advanced Research Roles</h3>
+                    <div><span class="institution">BMW IT Research Center and Clemson University, I-CAR</span><span class="period">2009–2012</span></div>
+                </div>
+            </div>
+            <div class="achievement-summary">
+                Held advanced research roles with BMW Technology Office USA and Clemson University, developing functional prototypes for commercial systems. Contributed to the first proofs-of-concept for location-based services, voice-activated navigation, augmented reality user manuals, and driver assistance prototypes.
+            </div>
+            <div class="achievement-details">
+                <div class="challenge-action-result">
+                    <h4>Challenge:</h4>
+                    <p>Develop cutting-edge automotive technology prototypes that can inform future product roadmaps while bridging academic research with commercial applications in the automotive industry.</p>
+                    <h4>Action:</h4>
+                    <p>Collaborated between BMW Technology Office USA and Clemson University to develop functional prototypes for location-based services, voice-activated navigation, augmented reality user manuals, and driver assistance systems.</p>
+                    <h4>Result:</h4>
+                    <p>Successfully created first proofs-of-concept that informed future BMW product roadmaps, establishing foundational technologies for connected vehicle services and advanced driver assistance systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Leadership Section -->
+    <section class="service-section">
+        <h2 class="section-title">Professional Leadership & Affiliations</h2>
+        <ul class="service-list">
+            <li><span class="organization">IEEE Intelligent Transportation Systems Society</span> • <span class="role">Member of Board of Governors (elected role driving global ITS strategy)</span></li>
+            <li><span class="organization">ACM AutomotiveUI Conference</span> • <span class="role">Steering Committee Member (shaping annual agenda for automotive UX innovation)</span></li>
+            <li><span class="organization">Editorial Boards</span> • <span class="role">Board Member for IEEE ITS Magazine and Int. Journal of Human-Computer Interaction</span></li>
+            <li><span class="organization">Senior Member, IEEE</span> and <span class="organization">Member, ACM, SAE</span> • <span class="role">(recognized professional standing and contributions in tech)</span></li>
+        </ul>
+    </section>
+
+    <!-- Thought Leadership Section -->
+    <section class="innovation-section">
+        <h2 class="section-title">Thought Leadership & Innovation</h2>
+        
+        <ul class="innovation-list">
+            <li>
+                <div class="category">Patents</div>
+                <div class="description">Holder of <strong>150+ patents</strong> (50+ granted) in autonomous systems, AI, and robotics, shaping the core IP strategy for market-leading mobility solutions.</div>
+                <div><a href="/patents/" class="innovation-link">View Patent Portfolio <i class="fas fa-external-link-alt"></i></a></div>
+            </li>
+            <li>
+                <div class="category">Publications</div>
+                <div class="description">Author of <strong>70+ publications</strong> in top-tier IEEE and ACM venues and editor of multiple books on autonomous system engineering.</div>
+                <div><a href="/publications/" class="innovation-link">View Publications <i class="fas fa-external-link-alt"></i></a></div>
+            </li>
+            <li>
+                <div class="category">Industry Standards</div>
+                <div class="description">Key contributor to the definition of global safety and communication standards for autonomous vehicles through leadership roles in IEEE and ETSI.</div>
+                <div><a href="#" class="innovation-link">View Standards Work <i class="fas fa-external-link-alt"></i></a></div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section">
+        <h2 class="section-title">Education</h2>
+        <ul class="education-list">
+            <li><span class="degree">Ph.D. in Computer Science (Automotive Intelligent Systems)</span> • <span class="institution">University of the Basque Country, Spain & Clemson University, USA, 2012</span> • <span class="honors">Summa Cum Laude</span> • <span class="details">Joint international doctoral program focusing on conversational AI for vehicles.</span></li>
+            <li><span class="degree">M.Sc. in Media and Information Technology</span> • <span class="institution">Hochschule Offenburg, Germany, 2009</span> • <span class="details">Coursework in multimedia systems and human-computer interaction.</span></li>
+            <li><span class="degree">B.Sc. in Communication Sciences</span> • <span class="institution">University of Burgos, Spain, 2006</span> • <span class="honors">Summa Cum Laude</span> • <span class="details">Minor in Telecommunications.</span></li>
+        </ul>
+    </section>
+</body>
+</html> 

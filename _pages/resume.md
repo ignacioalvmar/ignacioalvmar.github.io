@@ -26,10 +26,16 @@ redirect_from:
         </a>
       </div>
       
-      <a href="/files/AlvMar_Full_CV.pdf" class="download-btn" download>
-        <i class="fas fa-download"></i>
-        Download PDF Resume
-      </a>
+      <div class="action-buttons">
+        <a href="/assets/pdfs/Ignacio Alvarez - Executive Resume.pdf" class="download-btn" download>
+          <i class="fas fa-download"></i>
+          Download PDF Resume
+        </a>
+        <a href="/assets/audio/Ignacio Alvarez_ Resume_Podcast.mp3" class="podcast-btn" target="_blank" onclick="playPodcast(event)">
+          <i class="fas fa-podcast"></i>
+          Listen Resume Podcast
+        </a>
+      </div>
     </div>
   </header>
 
@@ -42,7 +48,7 @@ redirect_from:
       <div class="summary-content">
         <h2>Executive Summary</h2>
         <p class="summary-text">
-          Technology Executive with a track record of CTO-level impact in the Automotive & AI sectors. Proven leader with 15+ years of experience architecting and scaling intelligent systems from R&D to series production, driving 30% YoY R&D ROI amidst budget reductions, leading global R&D organizations of 100+ engineers, and launching platforms adopted by 1M+ users. Expert in defining technical vision that aligns with C-suite objectives, secures market leadership, and generates massive IP value (150+ patents).
+Technology Executive with a track record of CTO-level impact in the Automotive & AI sectors. Proven leader with 15+ years of experience architecting and scaling intelligent systems from R&D to series production, driving 30% YoY R&D ROI amidst budget reductions, leading global R&D organizations of 100+ engineers, and launching platforms adopted by 1M+ users. Expert in defining technical vision that aligns with C-suite objectives, secures market leadership, and generates massive IP value (150+ patents).
         </p>
       </div>
     </div>
@@ -385,6 +391,33 @@ redirect_from:
 .download-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.podcast-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.podcast-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
 }
 
 /* Summary Section */
@@ -792,6 +825,21 @@ redirect_from:
     align-items: flex-start;
     gap: 0.5rem;
   }
+  
+  .download-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .podcast-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -811,10 +859,107 @@ redirect_from:
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
   }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .podcast-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
 }
 </style>
 
 <script>
+// Podcast playback functionality
+function playPodcast(event) {
+  event.preventDefault();
+  const audioUrl = event.target.href || event.target.closest('a').href;
+  
+  // Create a new window with audio player
+  const audioWindow = window.open('', '_blank', 'width=400,height=200,scrollbars=no,resizable=yes');
+  
+  // Create HTML content for the audio player window
+  const audioHTML = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Resume Podcast - Ignacio Alvarez</title>
+      <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background: linear-gradient(135deg, #e74c3c, #c0392b);
+          margin: 0;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          color: white;
+        }
+        .audio-container {
+          background: rgba(255, 255, 255, 0.1);
+          padding: 30px;
+          border-radius: 15px;
+          backdrop-filter: blur(10px);
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+          text-align: center;
+          max-width: 350px;
+          width: 100%;
+        }
+        h1 {
+          margin: 0 0 20px 0;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+        audio {
+          width: 100%;
+          margin: 20px 0;
+        }
+        .description {
+          font-size: 0.9rem;
+          opacity: 0.9;
+          line-height: 1.4;
+        }
+        .close-btn {
+          background: rgba(255, 255, 255, 0.2);
+          border: none;
+          color: white;
+          padding: 8px 16px;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-top: 15px;
+          font-size: 0.9rem;
+          transition: background 0.3s ease;
+        }
+        .close-btn:hover {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      </style>
+    </head>
+    <body>
+      <div class="audio-container">
+        <h1>🎙️ Resume Podcast</h1>
+        <audio controls autoplay>
+          <source src="${audioUrl}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="description">
+          Listen to Ignacio Alvarez's professional journey and insights in this audio version of his resume.
+        </p>
+        <button class="close-btn" onclick="window.close()">Close Player</button>
+      </div>
+    </body>
+    </html>
+  `;
+  
+  audioWindow.document.write(audioHTML);
+  audioWindow.document.close();
+}
+
 // Interactive Timeline Functionality
 document.addEventListener('DOMContentLoaded', function() {
   const expandableElements = document.querySelectorAll('.achievement-summary');
