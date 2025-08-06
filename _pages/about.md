@@ -8,12 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am Professor of Human-centered Intelligent Systems at the Computer Science Faculty of the Ingolstadt University of Applied Sciences (THI). I work at the AI Motion Bavaria Research Institute at the intersection of AI, Automotive Systems and Human Computer Interaction. Besides state-of-the-art research, I teach courses in our Master programs in AI Systems Engineering and User Experience Design.  
+For more than 15 years, I’ve dedicated my career to a single pursuit: bridging the gap between visionary ideas and the production-ready intelligent systems that shape our world. My journey has taken me from leading corporate R&D for global giants like Intel and BMW to my current role shaping the future of mobility as a tenured research professor.
 
-I am also a Principal Engineer at Intel Labs where I lead the Automated Driving Research Program across a worlwide organization of talented researchers with diverse backgrounds in Autonomous Driving, Machine Learning, Safety, Security, Human Factors and Ergonomics and Wireless Communications. 
+As a technology executive, I’ve had the privilege of operating at scale—leading global R&D organizations of over 100 engineers, advising the C-suite on high-stakes M&A and IPO strategies, and delivering technology that reached millions of users across the globe. I’ve architected industry-firsts, from natural language voice assistants in vehicles to foundational safety systems for autonomous driving, always with a relentless focus on translating deep research into tangible business value and market leadership.
 
-As a researcher, I develop, software, systems and simulation tools to accelerate the adoption of safe automated driving technologies. My research interest is focused on the development of intelligent, connected, automated vehicles that augment human mobility with safer and more enjoyable experiences. 
+Now, as a Professor of Human-centered Intelligent Systems at the prestigious AI Motion Bavaria Research Institute, I am channeling that experience into building the future. My research group is pioneering the next wave of human-centric AI for automated vehicles. It’s here that I get to combine my passion for innovation with my commitment to mentoring the next generation of engineers and designers who will build our intelligent future.
 
-Prior to Intel, I worked at BMW leading R&D and product development for Advanced Driver Assistance Systems, Vehicle Telematics Services and Human Machine Interface Solutions in Europe, America and Asia. 
+This website is a living collection of that journey. A place to explore my publications, patents, and thoughts on the intersection of AI, automotive technology, and user experience.
 
-You are welcome to explore the content of this page. You can search, check and share my publications, patents, taks, teaching material and resume. Feel free to contact on social media or e-mail.
+I welcome you to explore the content here, and I am always open to connecting with fellow innovators, leaders, and researchers. Please feel free to reach out on social media or by email.
+
+-- Prof. Ignacio Alvarez

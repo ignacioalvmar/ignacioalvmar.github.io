@@ -1,5 +1,5 @@
 ---
-title: "Project Artificial Intelligence: LLM-based Agent for Driver Sleepiness Detection and Mitigation in Automotive Systems"
+title: "Artificial Intelligence: LLM-based Agent for Driver Sleepiness Detection and Mitigation in Automotive Systems"
 collection: teaching
 type: "AI Engineering of Autonomous Systems Master of Science"
 permalink: /teaching/2025-mai-llm_sleep

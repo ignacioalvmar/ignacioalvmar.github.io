@@ -1,5 +1,5 @@
 ---
-title: "Project Natural User Interfaces: Enhancing Autonomous Vehicle Safety Awareness through Gamification"
+title: "Natural User Interfaces: Enhancing Autonomous Vehicle Safety Awareness through Gamification"
 collection: teaching
 type: "User Experience Design Master of Science"
 permalink: /teaching/2025-muxd-nui
