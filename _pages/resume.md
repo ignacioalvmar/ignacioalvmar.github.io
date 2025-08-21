@@ -58,26 +58,26 @@ Technology Executive with a track record of CTO-level impact in the Automotive &
   <section class="competencies-section">
     <h2>Core Competencies</h2>
     <div class="competency-tags">
+      <span class="tag">Global R&D Leadership (100+ engineers)</span>
       <span class="tag">Technology Strategy & Roadmaps</span>
+      <span class="tag">Productization & Tech Transfer</span>
+      <span class="tag">Automated Driving Architecture</span>
+      <span class="tag">Compute Platform Strategy</span>
       <span class="tag">Artificial Intelligence & Machine Learning</span>
-      <span class="tag">Deep Learning & LLMs</span>
-      <span class="tag">Generative AI</span>
-      <span class="tag">Autonomous Driving</span>
-      <span class="tag">AV/ADAS Systems</span>
-      <span class="tag">Safety Models & Standards</span>
-      <span class="tag">Connected Vehicles</span>
-      <span class="tag">Vehicle-to-Everything (V2X)</span>
-      <span class="tag">Telematics</span>
-      <span class="tag">Intelligent Infrastructure</span>
-      <span class="tag">Human–Machine Interface (HMI)</span>
-      <span class="tag">Adaptive Interfaces</span>
-      <span class="tag">Context-Aware UX</span>
+      <span class="tag">Deep Learning & Generative AI</span>
+      <span class="tag">Functional Safety</span>
+      <span class="tag">Connected Vehicles (V2X)</span>
       <span class="tag">User-Centered Design</span>
-      <span class="tag">Product Development & Delivery</span>
+      <span class="tag">Human–Machine Interface (HMI)</span>
+      <span class="tag">Cyber-Physical Security</span>   
+      <span class="tag">Digital Twins & Large Scale Simulation</span>
+      <span class="tag">Edge AI & Perception Stacks</span>
+      <span class="tag">Behavior/Planning Verification & Validation</span>
+      <span class="tag">Connected Vehicle Services</span>
+      <span class="tag">Standards Leadership & Ecosystem</span>
+      <span class="tag">Patent Strategy & Portfolio Development</span>
       <span class="tag">Cross-Functional Leadership</span>
-      <span class="tag">Global Team Leadership</span>
-      <span class="tag">High-Performance Teams</span>
-      <span class="tag">Fluent in English, Spanish, German</span>
+      <span class="tag">Fluent in English, Spanish & German</span>
       <span class="tag">Basic Mandarin</span>
     </div>
   </section>
