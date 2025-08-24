@@ -37,15 +37,15 @@ guidance in this matter with practical examples.
 
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-319-49448-7_14)
 
-## BibTeX
+## Citation
 
-```
-@incollection{alvarez2017insight,
+{% include citation-tabs.html 
+  bibtex="@incollection{alvarez2017insight,
   title={The insight--prototype--product cycle best practices and processes to iteratively advance in-vehicle interactive experiences development},
   author={Alvarez, Ignacio and Jordan, Adam and Knopf, Juliana and LeBlanc, Darrell and Rumbel, Laura and Zafiroglu, Alexandra},
   booktitle={Automotive User Interfaces: Creating Interactive Experiences in the Car},
   pages={377--400},
   year={2017},
   publisher={Springer}
-}
-```
+}" 
+  apa="Alvarez, I. (2017). . Automotive User Interfaces: Creating Interactive Experiences in the Car." %}

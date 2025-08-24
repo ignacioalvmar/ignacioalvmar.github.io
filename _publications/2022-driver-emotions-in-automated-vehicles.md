@@ -24,16 +24,16 @@ There is little doubt that driving generates emotional responses, whether thatâ€
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-030-77726-5_4)
 
 
-## BibTeX
+## Citation
 
-```
-@incollection{fakhrhosseini2022driver,
+{% include citation-tabs.html 
+  bibtex="@incollection{fakhrhosseini2022driver,
   title={Driver emotions in automated vehicles},
   author={FakhrHosseini, Shabnam and Ko, Sangjin and Alvarez, Ignacio and Jeon, Myounghoon},
   booktitle={User Experience Design in the Era of Automated Driving},
   pages={85--97},
   year={2022},
   publisher={Springer}
-}
-```
+}" 
+  apa="Alvarez, I. (2022). . User Experience Design in the Era of Automated Driving." %}
 

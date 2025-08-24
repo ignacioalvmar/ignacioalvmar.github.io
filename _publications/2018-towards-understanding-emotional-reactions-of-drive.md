@@ -26,10 +26,10 @@ Automated driving has the potential to reduce the amount of fatal crashes, light
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/8373886/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{8373886,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{8373886,
   author={Alyuz, Nese and Aslan, Sinem and Healey, Jennifer and Alvarez, Ignacio J. and Esme, Asli Arslan},
   booktitle={2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)}, 
   title={Towards Understanding Emotional Reactions of Driver-Passenger Dyads in Automated Driving}, 
@@ -39,5 +39,5 @@ Automated driving has the potential to reduce the amount of fatal crashes, light
   pages={585-592},
   keywords={Labeling;Vehicles;Data collection;Cameras;Automation;Roads;affective computing;automated driving;drive simulation;labeling;inter-rater agreement},
   doi={10.1109/FG.2018.00093}
-}
-```
+}" 
+  apa="Alvarez, I. (2018). . 2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)." %}

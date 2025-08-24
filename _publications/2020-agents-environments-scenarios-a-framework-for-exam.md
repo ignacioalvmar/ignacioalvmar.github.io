@@ -22,10 +22,10 @@ This paper provides a framework for examining human-vehicle interactions with re
 
 [Download paper]('https://www.sciencedirect.com/science/article/pii/S2590198220301251')
 
-## BibTeX
+## Citation
 
-```
-@article{janssen2020agents,
+{% include citation-tabs.html 
+  bibtex="@article{janssen2020agents,
   title={Agents, environments, scenarios: A framework for examining models and simulations of human-vehicle interaction},
   author={Janssen, Christian P and Boyle, Linda Ng and Ju, Wendy and Riener, Andreas and Alvarez, Ignacio},
   journal={Transportation research interdisciplinary perspectives},
@@ -33,5 +33,5 @@ This paper provides a framework for examining human-vehicle interactions with re
   pages={100214},
   year={2020},
   publisher={Elsevier}
-}
-```
+}" 
+  apa="Janssen, Christian P and Boyle, Linda Ng and Ju, Wendy and Riener, Andreas and Alvarez, Ignacio (2020). Agents, environments, scenarios: A framework for examining models and simulations of human-vehicle interaction. Transportation research interdisciplinary perspectives." %}

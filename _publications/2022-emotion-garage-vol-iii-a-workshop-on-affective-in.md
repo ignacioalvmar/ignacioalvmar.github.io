@@ -23,10 +23,10 @@ Empathic in-vehicle interfaces can address driver affect and mitigate decreases 
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3544999.3550161)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3544999.3550161,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3544999.3550161,
     author = {Nadri, Chihab and Dong, Jiayuan and Li, Jingyi and Alvarez, Ignacio and Jeon, Myounghoon},
     title = {Emotion GaRage Vol. III: A Workshop on Affective In-Vehicle Display Applications},
     year = {2022},
@@ -40,5 +40,5 @@ Empathic in-vehicle interfaces can address driver affect and mitigate decreases 
     keywords = {Empathic vehicles, affective computing, emotions, human-centered computing, interaction design, user experience},
     location = {Seoul, Republic of Korea},
     series = {AutomotiveUI '22}
-}
-```
+}" 
+  apa="Nadri, Chihab and Dong, Jiayuan and Li, Jingyi and Alvarez, Ignacio and Jeon, Myounghoon (2022). Emotion GaRage Vol. III: A Workshop on Affective In-Vehicle Display Applications. ." %}

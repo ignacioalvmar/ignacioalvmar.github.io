@@ -25,10 +25,10 @@ The growing advancements of in-vehicle electronics and the intrusion of consumer
 
 [Download paper](https://www.sciencedirect.com/science/article/pii/S1071581914000974)
 
-## BibTeX
+## Citation
 
-```
-@article{alvarez2015help,
+{% include citation-tabs.html 
+  bibtex="@article{alvarez2015help,
   title={Help on the road: Effects of vehicle manual consultation in driving performance across modalities},
   author={Alvarez, Ignacio and Alnizami, Hanan and Dunbar, Jerone and Jackson, France and Gilbert, Juan E},
   journal={International journal of human-computer studies},
@@ -36,5 +36,6 @@ The growing advancements of in-vehicle electronics and the intrusion of consumer
   pages={19--29},
   year={2015},
   publisher={Elsevier}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Alnizami, Hanan and Dunbar, Jerone and Jackson, France and Gilbert, Juan E (2015). Help on the road: Effects of vehicle manual consultation in driving performance
+  across modalities. International journal of human-computer studies." %}

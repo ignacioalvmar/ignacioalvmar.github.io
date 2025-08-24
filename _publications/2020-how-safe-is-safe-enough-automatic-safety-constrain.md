@@ -26,15 +26,15 @@ The determination of safety assurances for automated driving vehicles is one of 
 
 [Download paper](https://ieeexplore.ieee.org/document/9304756)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{rodionova2020safe,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{rodionova2020safe,
   title={How safe is safe enough? Automatic safety constraints boundary estimation for decision-making in automated vehicles},
   author={Rodionova, Al{\"e}na and Alvarez, Ignacio and Elli, Maria Soledad and Oboril, Fabian and Quast, Johannes and Mangharam, Rahul},
   booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
   pages={1457--1464},
   year={2020},
   organization={IEEE}
-}
-```
+}" 
+  apa="Alvarez, I. (2020). . 2020 IEEE Intelligent Vehicles Symposium (IV)." %}

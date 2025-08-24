@@ -26,14 +26,15 @@ As driving is mainly a visual task, auditory displays play a critical role for i
 
 [Download paper]('https://bazilinskyy.github.io/publications/jeon2015report.pdf')
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{jeon2015report,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{jeon2015report,
   title={Report on the in-vehicle auditory interactions workshop: Taxonomy, challenges, and approaches},
   author={Jeon, Myounghoon and Hermann, Thomas and Bazilinskyy, Pavlo},
   booktitle={Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications-Automotive’UI},
   volume={15},
   year={2015}
-}
-```
+}" 
+  apa="Jeon, Myounghoon and Hermann, Thomas and Bazilinskyy, Pavlo (2015). Report on the in-vehicle auditory interactions workshop: Taxonomy, challenges,
+  and approaches. Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications-Automotive’UI." %}

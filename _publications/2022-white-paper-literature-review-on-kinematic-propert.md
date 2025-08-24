@@ -25,10 +25,10 @@ This document presents a review of relevant literature (e.g., standards, regulat
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/9763462)
 
-## BibTeX
+## Citation
 
-```
-@ARTICLE{9763462,
+{% include citation-tabs.html 
+  bibtex="@ARTICLE{9763462,
   author={IEEE VT, ITS},
   journal={Literature Review on Kinematic Properties of Road Users for Use on Safety-Related Models for Automated Driving Systems}, 
   title={Literature Review on Kinematic Properties of Road Users for Use on Safety-Related Models for Automated Driving Systems}, 
@@ -38,5 +38,5 @@ This document presents a review of relevant literature (e.g., standards, regulat
   pages={1-35},
   keywords={ADS;automated driving systems;behaviors;IEEE 2846;kinematic;literature review;road users;standards;white paper},
   doi={}
-}
-```
+}" 
+  apa="Alvarez, I. (2022). . Literature Review on Kinematic Properties of Road Users for Use on Safety-Related Models for Automated Driving Systems." %}

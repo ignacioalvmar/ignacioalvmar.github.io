@@ -24,14 +24,14 @@ This paper outlines and evaluates experiential prototyping for emerging vehicle 
 
 [Download paper]('https://www.researchgate.net/profile/Ignacio-Alvarez-22/publication/284733540_Prototyping_adaptive_automotive_UX_a_Design_Pedagogy_approach/links/56758cdf08ae502c99ce0803/Prototyping-adaptive-automotive-UX-a-Design-Pedagogy-approach.pdf')
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{hendrie2015prototyping,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{hendrie2015prototyping,
   title={Prototyping adaptive automotive UX: A design pedagogy approach},
   author={Hendrie, Maggie and Alvarez, Ignacio and Hooker, Ben},
   booktitle={Extended Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications—AutomotiveUI},
   volume={15},
   year={2015}
-}
-```
+}" 
+  apa="Hendrie, Maggie and Alvarez, Ignacio and Hooker, Ben (2015). Prototyping adaptive automotive UX: A design pedagogy approach. Extended Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications—AutomotiveUI." %}

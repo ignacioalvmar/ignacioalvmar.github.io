@@ -26,14 +26,14 @@ A major challenge in today’s as well as future driving is to keep drivers info
 [Download paper](https://www.auto-ui.org/15/p/workshopproposals/WAADI.pdf)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{locken2015workshop,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{locken2015workshop,
   title={Workshop on Adaptive Ambient In-Vehicle Displays and Interactions},
   author={L{\"o}cken, Andreas and Borojeni, Shadan Sadeghian and Chuang, Lewis and Schroeter, Ronald and Alvarez, Ignacio and Meijering, Valerian and Rover, Jaguar Land},
   booktitle={Workshop on Adaptive Ambient In-Vehicle Displays and Interactions In conjunction with Automotive'UI 2015 (WAADI'15)},
   pages={1--4},
   year={2015}
-}
-```
+}" 
+  apa="Alvarez, I. (2015). . Workshop on Adaptive Ambient In-Vehicle Displays and Interactions In conjunction with Automotive'UI 2015 (WAADI'15)." %}

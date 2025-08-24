@@ -26,15 +26,15 @@ The rapid advancement of vehicular technologies has resulted in an exponential i
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-642-35377-2_43)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{alvarez2012voice,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{alvarez2012voice,
   title={The voice user help, a smart vehicle assistant for the elderly},
   author={Alvarez, Ignacio and L{\'o}pez-de-Ipi{\~n}a, Miren Karmele and Gilbert, Juan E},
   booktitle={International Conference on Ubiquitous Computing and Ambient Intelligence},
   pages={314--321},
   year={2012},
   organization={Springer}
-}
-```
+}" 
+  apa="Alvarez, I. (2012). . International Conference on Ubiquitous Computing and Ambient Intelligence." %}

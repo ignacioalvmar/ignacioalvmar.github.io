@@ -26,15 +26,15 @@ Safety is an important challenge in the development of automated vehicles (AVs).
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/9294637)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{chai2020evaluation,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{chai2020evaluation,
   title={Evaluation of responsibility-sensitive safety (rss) model based on human-in-the-loop driving simulation},
   author={Chai, Chen and Zeng, Xianming and Alvarez, Ignacio and Elli, Maria Soledad},
   booktitle={2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)},
   pages={1--7},
   year={2020},
   organization={IEEE}
-}
-```
+}" 
+  apa="Alvarez, I. (2020). . 2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)." %}

@@ -24,14 +24,14 @@ At least one response is then provided to the user in the form of Voice-based as
 
 [Download paper](https://link.springer.com/book/10.1007/978-3-642-23771-3)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{alvarez2011ihelp,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{alvarez2011ihelp,
   title={iHelp, the Ubiquitous Vehicle User Help},
   author={Alvarez, Ignacio and Fischer, Hans-Peter},
   booktitle={Proceedings of Interact},
   pages={5--9},
   year={2011}
-}
-```
+}" 
+  apa="Alvarez, I. (2011). . Proceedings of Interact." %}

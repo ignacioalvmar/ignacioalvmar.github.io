@@ -22,10 +22,10 @@ This paper describes the research and development process of an in-vehicle user 
 
 [Download paper](https://www.igi-global.com/article/skyline/181597)
 
-## BibTeX
+## Citation
 
-```
-@article{alvarez2017skyline,
+{% include citation-tabs.html 
+  bibtex="@article{alvarez2017skyline,
   title={Skyline: A Platform Towards Scalable UX-Centric In-Vehicle HMI Development},
   author={Alvarez, Ignacio and Rumbel, Laura},
   journal={International Journal of Mobile Human Computer Interaction (IJMHCI)},
@@ -34,5 +34,5 @@ This paper describes the research and development process of an in-vehicle user 
   pages={34--53},
   year={2017},
   publisher={IGI Global Scientific Publishing}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Rumbel, Laura (2017). Skyline: A Platform Towards Scalable UX-Centric In-Vehicle HMI Development. International Journal of Mobile Human Computer Interaction (IJMHCI)." %}

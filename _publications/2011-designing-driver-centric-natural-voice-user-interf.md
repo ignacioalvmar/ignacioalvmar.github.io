@@ -24,16 +24,16 @@ The current growth of automotive electronics aims toextend vehicle functionality
 
 [Download paper](https://www.researchgate.net/profile/Ignacio-Alvarez-22/publication/266589727_Designing_Driver-centric_Natural_Voice_User_Interfaces/links/56018ccb08aeb30ba735028f/Designing-Driver-centric-Natural-Voice-User-Interfaces.pdf)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{alvarez2011designing,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{alvarez2011designing,
   title={Designing driver-centric natural voice user interfaces},
   author={Alvarez, Ignacio and Martin, Aqueasha and Dunbar, Jerone and Taiber, Joachim and Wilson, Dale-Marie and Gilbert, Juan E},
   booktitle={Adjunct Proceedings of the 3rd International Conference on Automotive User Interfaces and Interactive Vehicular Applications. online},
   pages={156--159},
   year={2011}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Martin, Aqueasha and Dunbar, Jerone and Taiber, Joachim and Wilson, Dale-Marie and Gilbert, Juan E (2011). Designing driver centric natural voice user interfaces. Adjunct Proceedings of the 3rd International Conference on Automotive User Interfaces and Interactive Vehicular Applications. online." %}
 
 

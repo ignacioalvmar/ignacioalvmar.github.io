@@ -24,14 +24,14 @@ This book is dedicated to user experience design for automated driving to addres
 
 [Download paper](https://link.springer.com/content/pdf/10.1007/978-3-030-77726-5.pdf)
 
-## BibTeX
+## Citation
 
-```
-@book{riener2022user,
+{% include citation-tabs.html 
+  bibtex="@book{riener2022user,
   title={User experience design in the era of automated driving},
   author={Riener, Andreas and Jeon, Myounghoon and Alvarez, Ignacio},
   volume={980},
   year={2022},
   publisher={Springer}
-}
-```
+}" 
+  apa="Alvarez, I. (2022). . ." %}

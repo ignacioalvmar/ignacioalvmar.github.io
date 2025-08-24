@@ -24,10 +24,10 @@ The rapid advancement of automated vehicles has aroused the curiosity of researc
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3641308.3677403)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3641308.3677403,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3641308.3677403,
 author = {Dong, Jiayuan and Gowda, Nikhil and Wang, Yiyuan and Choe, Mungyeong and Alsaid, Areen and Alvarez, Ignacio and Krome, Sven and Jeon, Myounghoon},
 title = {Inside Out: Emotion GaRage Vol. V},
 year = {2024},
@@ -41,5 +41,5 @@ numpages = {4},
 keywords = {affective external human-machine interaction designs, emotions, empathic in-vehicle interfaces, generative artificial intelligence},
 location = {Stanford, CA, USA},
 series = {AutomotiveUI '24 Adjunct}
-}
-```
+}" 
+  apa="Dong, Jiayuan and Gowda, Nikhil and Wang, Yiyuan and Choe, Mungyeong and Alsaid, Areen and Alvarez, Ignacio and Krome, Sven and Jeon, Myounghoon (2024). Inside Out: Emotion GaRage Vol. V. ." %}

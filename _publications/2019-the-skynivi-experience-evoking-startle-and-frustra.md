@@ -24,10 +24,10 @@ To study naturalistic in-cabin emotion we developed SKYNIVI, a modified open sou
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/8813831/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{8813831,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{8813831,
   author={Alvarez, Ignacio and Healey, Jennifer and Lewis, Erica},
   booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)}, 
   title={The SKYNIVI Experience: Evoking Startle and Frustration in Dyads and Single Drivers}, 
@@ -37,5 +37,6 @@ To study naturalistic in-cabin emotion we developed SKYNIVI, a modified open sou
   pages={76-81},
   keywords={Automobiles;Autonomous vehicles;Monitoring;Roads;Training},
   doi={10.1109/IVS.2019.8813831}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Healey, Jennifer and Lewis, Erica (2019). The SKYNIVI experience: evoking startle and frustration in dyads and single
+  drivers. 2019 IEEE Intelligent Vehicles Symposium (IV)." %}

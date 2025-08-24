@@ -25,15 +25,16 @@ Advancements of in-vehicle technologies and the development of mobile applicatio
 
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-319-41682-3_21)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{alnizami2016socializing,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{alnizami2016socializing,
   title={Socializing under the influence of distracted driving: a study of the effects of in-vehicle and outside-of-the-vehicle communication while driving},
   author={Alnizami, Hanan and Alvarez, Ignacio and Gilbert, Juan E},
   booktitle={Advances in Human Aspects of Transportation: Proceedings of the AHFE 2016 International Conference on Human Factors in Transportation, July 27-31, 2016, Walt Disney World{\textregistered}, Florida, USA},
   pages={243--255},
   year={2016},
   organization={Springer}
-}
-```
+}" 
+  apa="Alnizami, Hanan and Alvarez, Ignacio and Gilbert, Juan E (2016). Socializing under the influence of distracted driving: a study of the effects
+  of in-vehicle and outside-of-the-vehicle communication while driving. Advances in Human Aspects of Transportation: Proceedings of the AHFE 2016 International Conference on Human Factors in Transportation, July 27-31, 2016, Walt Disney World{\textregistered." %}

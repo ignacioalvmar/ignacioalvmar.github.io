@@ -25,10 +25,10 @@ Empathic in-vehicle interfaces are critical in improving user safety and experie
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3581961.3609865)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3581961.3609865,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3581961.3609865,
     author = {Dong, Jiayuan and Nadri, Chihab and Alvarez, Ignacio and Diels, Cyriel and Lee, Myeongkyu and Li, Jingyi and Liao, Pei Hsuan and Manger, Carina and Sadeghian, Shadan and Schu\ss{}, Martina and Walker, Bruce N. and Walker, Francesco and Wang, Yiyuan and Jeon, Myounghoon},
     title = {“Play Your Anger”: A Report on the Empathic In-vehicle Interface Workshop},
     year = {2023},
@@ -42,5 +42,5 @@ Empathic in-vehicle interfaces are critical in improving user safety and experie
     numpages = {6},
     location = {Ingolstadt, Germany},
     series = {AutomotiveUI '23 Adjunct}
-}
-```
+}" 
+  apa="Dong, Jiayuan and Nadri, Chihab and Alvarez, Ignacio and Diels, Cyriel and Lee, Myeongkyu and Li, Jingyi and Liao, Pei Hsuan and Manger, Carina and Sadeghian, Shadan and Schu\ss{ (2023). “Play Your Anger”: A report on the empathic in-vehicle interface workshop. Adjunct Proceedings of the 15th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

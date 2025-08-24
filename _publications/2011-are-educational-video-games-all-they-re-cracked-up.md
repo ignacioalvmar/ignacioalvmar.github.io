@@ -22,15 +22,15 @@ This paper investigates the benefits of learning from educational video games co
 
 [Download paper](https://www.learntechlib.org/primary/p/38763/)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{andujar2011educational,
-  title={Are educational video games all they’re cracked up to be?: A physiological approach for measuring engagement in educational video games vs. conventional learning techniques},
+{% include citation-tabs.html 
+  bibtex="@inproceedings{andujar2011educational,
+  title={Are educational video games all they're cracked up to be?: A physiological approach for measuring engagement in educational video games vs. conventional learning techniques},
   author={Andujar, Marvin and Ekandem, Josh and Alvarez, Ignacio and James, Melva and Gilbert, Juan},
   booktitle={eLearn: World Conference on EdTech},
   pages={539--544},
   year={2011},
   organization={Association for the Advancement of Computing in Education (AACE)}
-}
-```
+}" 
+  apa="Andujar, M., Ekandem, J., Alvarez, I., James, M., & Gilbert, J. (2011). Are educational video games all they're cracked up to be?: A physiological approach for measuring engagement in educational video games vs. conventional learning techniques. eLearn: World Conference on EdTech, 539-544." %}

@@ -25,10 +25,10 @@ To draw a comprehensive and cohesive understanding of human–vehicle cooperatio
 
 [Download paper]('https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1561792')
 
-## BibTeX
+## Citation
 
-```
-@article{biondi2019human,
+{% include citation-tabs.html 
+  bibtex="@article{biondi2019human,
   title={Human--vehicle cooperation in automated driving: A multidisciplinary review and appraisal},
   author={Biondi, Francesco and Alvarez, Ignacio and Jeong, Kyeong-Ah},
   journal={International Journal of Human--Computer Interaction},
@@ -37,5 +37,6 @@ To draw a comprehensive and cohesive understanding of human–vehicle cooperatio
   pages={932--946},
   year={2019},
   publisher={Taylor \& Francis}
-}
-```
+}" 
+  apa="Biondi, Francesco and Alvarez, Ignacio and Jeong, Kyeong-Ah (2019). Human–vehicle cooperation in automated driving: A multidisciplinary review
+  and appraisal. International Journal of Human--Computer Interaction." %}

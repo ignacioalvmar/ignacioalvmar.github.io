@@ -23,13 +23,14 @@ As industry races to complete technical development of automated driving systems
 
 [Download paper](https://www.sae.org/publications/technical-papers/content/2021-01-0875/)
 
-## BibTeX
+## Citation
 
-```
-@techreport{weast2021err,
+{% include citation-tabs.html 
+  bibtex="@techreport{weast2021err,
   title={To err is human: The role of human derived safety metrics in an age of automated vehicles},
   author={Weast, Jack and Elli, Maria and Alvarez, Ignacio},
   year={2021},
   institution={SAE Technical Paper}
-}
-```
+}" 
+  apa="Weast, Jack and Elli, Maria and Alvarez, Ignacio (2021). To err is human: The role of human derived safety metrics in an age of automated
+  vehicles. ." %}

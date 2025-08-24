@@ -22,14 +22,14 @@ Empathic vehicles are expected to improve user experience in automated vehicles 
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3491101.3519623)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{nadri2022empathic,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{nadri2022empathic,
   title={Empathic vehicle design: Use cases and design directions from two workshops},
   author={Nadri, Chihab and Alvarez, Ignacio and Bosch, Esther and Oehl, Michael and Braun, Michael and Healey, Jennifer and Jallais, Christophe and Ju, Wendy and Li, Jingyi and Jeon, Myounghoon},
   booktitle={CHI Conference on Human Factors in Computing Systems Extended Abstracts},
   pages={1--7},
   year={2022}
-}
-```
+}" 
+  apa="Nadri, Chihab and Alvarez, Ignacio and Bosch, Esther and Oehl, Michael and Braun, Michael and Healey, Jennifer and Jallais, Christophe and Ju, Wendy and Li, Jingyi and Jeon, Myounghoon (2022). Empathic vehicle design: Use cases and design directions from two workshops. CHI Conference on Human Factors in Computing Systems Extended Abstracts." %}

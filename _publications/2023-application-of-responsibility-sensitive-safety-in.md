@@ -26,10 +26,10 @@ Areas of limited visibility are common in day-to-day traffic: be it static build
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/10421912/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{10421912,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{10421912,
   author={Gassmann, Bernd and Dey, Shreya and Alvarez, Ignacio and Oboril, Fabian and Scholl, Kay-Ulrich},
   booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 
   title={Application of Responsibility-Sensitive Safety in Areas with Limited Visibility: Occlusions in RSS}, 
@@ -39,5 +39,6 @@ Areas of limited visibility are common in day-to-day traffic: be it static build
   pages={5976-5981},
   keywords={Roads;Kinematics;Safety;Behavioral sciences;Usability;Intelligent transportation systems;Meteorology},
   doi={10.1109/ITSC57777.2023.10421912}
-}
-```
+}" 
+  apa="Gassmann, Bernd and Dey, Shreya and Alvarez, Ignacio and Oboril, Fabian and Scholl, Kay-Ulrich (2023). Application of Responsibility-Sensitive Safety in Areas with Limited Visibility:
+  Occlusions in RSS. 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)." %}

@@ -25,10 +25,10 @@ Automotive user experiences can be increasingly personalized and adaptive thanks
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3004323.3004353)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3004323.3004353,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3004323.3004353,
 author = {Rivera, Victor Palacios and Rumbel, Laura and Alvarez, Ignacio},
 title = {Autonomous HMI Made Easy: Prototyping Reactive In-cabin Aware HMIs},
 year = {2016},
@@ -43,5 +43,5 @@ numpages = {7},
 keywords = {ADAS, Adaptive Interface, Ambient Intelligence, Automotive User Experience, Context Sensing, Context-Awareness, Rapid Prototyping, RealSense, Skyline},
 location = {Ann Arbor, MI, USA},
 series = {AutomotiveUI '16 Adjunct}
-}
-```
+}" 
+  apa="Rivera, Victor Palacios and Rumbel, Laura and Alvarez, Ignacio (2016). Autonomous hmi made easy: Prototyping reactive in-cabin aware hmis. Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

@@ -20,10 +20,10 @@ A major challenge in the future of traffic is to understand how "socially-aware 
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/2667239.2667282)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/2667239.2667282,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/2667239.2667282,
 author = {Riener, Andreas and Pfleging, Bastian and Jeon, Myhounghoon and Chiesa, Mario and Alvarez, Ignacio and L\"{o}cken, Andreas and M\"{u}ller, Heiko},
 title = {Social, Natural, and Peripheral Interactions: Together and Separate},
 year = {2014},
@@ -37,5 +37,5 @@ numpages = {6},
 keywords = {Automotive user interfaces, cognitive limits, human factors, human-centered design, individuality and personality, multimodal interaction, natural user interfaces (NUI), peripheral interaction (PI), social driving},
 location = {Seattle, WA, USA},
 series = {AutomotiveUI '14}
-}
-```
+}" 
+  apa="Riener, Andreas and Pfleging, Bastian and Jeon, Myhounghoon and Chiesa, Mario and Alvarez, Ignacio and L\"{o (2014). Social, natural, and peripheral interactions: Together and separate. ." %}

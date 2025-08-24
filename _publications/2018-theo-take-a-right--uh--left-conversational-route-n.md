@@ -28,10 +28,10 @@ We foresee conversational driver assistants playing a crucial role in automated 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3239092.3267414)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3239092.3267414,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3239092.3267414,
 author = {Ekandem, Joshua E. and Alvarez, Ignacio and Rayburn, Cat and Johnson, Andrea},
 title = {Theo, take a right ... uh ... left: Conversational Route Negotiations with Autonomous Driving Assistants},
 year = {2018},
@@ -46,6 +46,7 @@ numpages = {2},
 keywords = {Advanced Driver Assistance Systems, Automated Driving, Conversational Dialogues, Natural Language Understanding, Route-Based Negotiation},
 location = {Toronto, ON, Canada},
 series = {AutomotiveUI '18}
-}
-```
+}" 
+  apa="Ekandem, Joshua E. and Alvarez, Ignacio and Rayburn, Cat and Johnson, Andrea (2018). Theo, take a right... uh... left: Conversational Route Negotiations with Autonomous
+  Driving Assistants. Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}
 

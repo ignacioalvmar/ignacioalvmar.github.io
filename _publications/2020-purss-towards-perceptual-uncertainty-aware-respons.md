@@ -21,15 +21,16 @@ Automated driving is an ML-intensive problem and its safety depends on the integ
 
 [Download paper](/assets/pdfs/publications/2020-purss-towards-perceptual-uncertainty-aware-respons.pdf)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{salay2020purss,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{salay2020purss,
   title={PURSS: Towards Perceptual Uncertainty Aware Responsibility Sensitive Safety with ML.},
   author={Salay, Rick and Czarnecki, Krzysztof and Elli, Maria Soledad and Alvarez, Ignacio J and Sedwards, Sean and Weast, Jack},
   booktitle={SafeAI@ AAAI},
   pages={91--95},
   year={2020},
   organization={New York}
-}
-```
+}" 
+  apa="Salay, Rick and Czarnecki, Krzysztof and Elli, Maria Soledad and Alvarez, Ignacio J and Sedwards, Sean and Weast, Jack (2020). PURSS: Towards Perceptual Uncertainty Aware Responsibility Sensitive Safety
+  with ML.. SafeAI@ AAAI." %}

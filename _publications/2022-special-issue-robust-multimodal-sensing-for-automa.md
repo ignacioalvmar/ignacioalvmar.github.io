@@ -28,10 +28,10 @@ This Special issue aims to collect original theoretical or empirical articles on
 
 [Download paper]('https://openresearch.surrey.ac.uk/esploro/outputs/journalIssue/Special-Issue-Robust-Multimodal-Sensing-for/99756165902346')
 
-## BibTeX
+## Citation
 
-```
-@article{SpecialIssue,
+{% include citation-tabs.html 
+  bibtex="@article{SpecialIssue,
   author = {Ignacio Alvarez, Jaka Sodnik and Nikolas Thomopoulos},
   title = {Robust Multimodal Sensing for Automated Driving Systems},
   journal = {Sensors},
@@ -40,5 +40,5 @@ This Special issue aims to collect original theoretical or empirical articles on
   issue = {13},
   pages = {},
   doi = {ISSN 1424-8220}
-}
-```
+}" 
+  apa="Ignacio Alvarez, Jaka Sodnik and Nikolas Thomopoulos (2022). Special Issue. Sensors." %}

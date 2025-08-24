@@ -25,15 +25,16 @@ The need for safety in Automated Driving (AD) is becoming increasingly critical 
 
 [Download paper]('https://ieeexplore.ieee.org/document/8813885')
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{gassmann2019towards,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{gassmann2019towards,
   title={Towards standardization of AV safety: C++ library for responsibility sensitive safety},
   author={Gassmann, Bernd and Oboril, Fabian and Buerkle, Cornelius and Liu, Shuang and Yan, Shoumeng and Elli, Maria Soledad and Alvarez, Ignacio and Aerrabotu, Naveen and Jaber, Suhel and Van Beek, Peter and others},
   booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},
   pages={2265--2271},
   year={2019},
   organization={IEEE}
-}
-```
+}" 
+  apa="Gassmann, Bernd and Oboril, Fabian and Buerkle, Cornelius and Liu, Shuang and Yan, Shoumeng and Elli, Maria Soledad and Alvarez, Ignacio and Aerrabotu, Naveen and Jaber, Suhel and Van Beek, Peter and others (2019). Towards standardization of AV safety: C++ library for responsibility sensitive
+  safety. 2019 IEEE Intelligent Vehicles Symposium (IV)." %}

@@ -27,10 +27,10 @@ Automated driving systems (ADS), especially in higher levels of automation, seem
 [Download paper](https://example.com/paper)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3239092.3239097,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3239092.3239097,
 author = {Frison, Anna-Katharina and Riener, Andreas and Jeon, Myounghoon and Pfleging, Bastian and Alvarez, Ignacio},
 title = {Workshop on Designing Highly Automated Driving Systems as Radical Innovation},
 year = {2018},
@@ -45,5 +45,5 @@ numpages = {7},
 keywords = {Automated Driving Systems, Design Thinking, Innovation, SAE J3016, User-Centered Design},
 location = {Toronto, ON, Canada},
 series = {AutomotiveUI '18}
-}
-```
+}" 
+  apa="Alvarez, I. (2018). . Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

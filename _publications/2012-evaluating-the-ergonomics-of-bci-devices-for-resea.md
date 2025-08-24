@@ -26,10 +26,10 @@ Statement of Relevance: Despite increased usage, few studies have examined the u
 [Download paper](https://www.tandfonline.com/doi/abs/10.1080/00140139.2012.662527)
 
 
-## BibTeX
+## Citation
 
-```
-@article{ekandem2012evaluating,
+{% include citation-tabs.html 
+  bibtex="@article{ekandem2012evaluating,
   title={Evaluating the ergonomics of BCI devices for research and experimentation},
   author={Ekandem, Joshua I and Davis, Timothy A and Alvarez, Ignacio and James, Melva T and Gilbert, Juan E},
   journal={Ergonomics},
@@ -38,5 +38,5 @@ Statement of Relevance: Despite increased usage, few studies have examined the u
   pages={592--598},
   year={2012},
   publisher={Taylor \& Francis}
-}
-```
+}" 
+  apa="Alvarez, I. (2012). . Ergonomics." %}

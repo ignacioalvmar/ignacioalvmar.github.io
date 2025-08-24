@@ -24,10 +24,10 @@ In-car emotion detection and regulation have become an emerging and important br
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3239092.3239098)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3239092.3239098,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3239092.3239098,
 author = {Bosch, Esther and Oehl, Michael and Jeon, Myounghoon and Alvarez, Ignacio and Healey, Jennifer and Ju, Wendy and Jallais, Christophe},
 title = {Emotional GaRage: A Workshop on In-Car Emotion Recognition and Regulation},
 year = {2018},
@@ -42,5 +42,5 @@ numpages = {6},
 keywords = {user acceptance, empathic vehicles, emotion recognition and regulation, Driver state assessment},
 location = {Toronto, ON, Canada},
 series = {AutomotiveUI '18}
-}
-```
+}" 
+  apa="Bosch, Esther and Oehl, Michael and Jeon, Myounghoon and Alvarez, Ignacio and Healey, Jennifer and Ju, Wendy and Jallais, Christophe (2018). Emotional GaRage: A workshop on in-car emotion recognition and regulation. Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

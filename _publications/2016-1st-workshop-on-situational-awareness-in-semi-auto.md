@@ -26,10 +26,10 @@ This workshop will focus on the problem of occupant and vehicle situational awar
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3004323.3005687)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3004323.3005688,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3004323.3005688,
 author = {McCall, Rod and Baumann, Martin and Politis, Ioannis and Borojeni, Shadan Sadeghian and Alvarez, Ignacio and Mirnig, Alexander and Meschtscherjakov, Alexander and Tscheligi, Manfred and Chuang, Lewis and Terken, Jacques},
 title = {1st Workshop on Situational Awareness in Semi-Automated Vehicles},
 year = {2016},
@@ -44,5 +44,5 @@ numpages = {4},
 keywords = {Situational Awareness, Context Awareness, Cognitive Load, Automated Driving},
 location = {Ann Arbor, MI, USA},
 series = {AutomotiveUI '16 Adjunct}
-}
-```
+}" 
+  apa="Alvarez, I. (2016). . Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

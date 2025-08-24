@@ -24,10 +24,10 @@ The recent trend of integrating vehicular communications with advanced sensors i
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/8917066/)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{8917066,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{8917066,
   author={Ambrosin, Moreno and Yang, Lily L and Liu, Xiruo and Sastry, Manoj R and Alvarez, Ignacio J},
   booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
   title={Design of a Misbehavior Detection System for Objects Based Shared Perception V2X Applications}, 
@@ -37,5 +37,5 @@ The recent trend of integrating vehicular communications with advanced sensors i
   pages={1165-1172},
   keywords={Sensors;Autonomous vehicles;Roads;Safety;Space vehicles;Time measurement;Security},
   doi={10.1109/ITSC.2019.8917066}
-}
-```
+}" 
+  apa="Ambrosin, Moreno and Yang, Lily L and Liu, Xiruo and Sastry, Manoj R and Alvarez, Ignacio J (2019). Design of a misbehavior detection system for objects based shared perception V2X applications. 2019 IEEE Intelligent Transportation Systems Conference (ITSC)." %}

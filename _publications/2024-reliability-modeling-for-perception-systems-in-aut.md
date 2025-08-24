@@ -26,10 +26,10 @@ Ensuring the reliability of sensor-fusion-based perception systems is crucial fo
 
 [Download paper](https://www.sciencedirect.com/science/article/pii/S0968090X24003899)
 
-## BibTeX
+## Citation
 
-```
-@article{pan2024reliability,
+{% include citation-tabs.html 
+  bibtex="@article{pan2024reliability,
   title={Reliability modeling for perception systems in autonomous vehicles: A recursive event-triggering point process approach},
   author={Pan, Fenglian and Zhang, Yinwei and Liu, Jian and Head, Larry and Elli, Maria and Alvarez, Ignacio},
   journal={Transportation Research Part C: Emerging Technologies},
@@ -37,6 +37,7 @@ Ensuring the reliability of sensor-fusion-based perception systems is crucial fo
   pages={104868},
   year={2024},
   publisher={Elsevier}
-}
-```
+}" 
+  apa="Pan, Fenglian and Zhang, Yinwei and Liu, Jian and Head, Larry and Elli, Maria and Alvarez, Ignacio (2024). Reliability modeling for perception systems in autonomous vehicles: A recursive
+  event-triggering point process approach. Transportation Research Part C: Emerging Technologies." %}
 

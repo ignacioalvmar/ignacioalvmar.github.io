@@ -24,10 +24,10 @@ Augmented reality (AR) has the potential to improve road safety, support more im
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3239092.3239096)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3239092.3239096,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3239092.3239096,
 author = {Riener, Andreas and Kun, Andrew L. and Gabbard, Joe and Brewster, Stephen and Riegler, Andreas},
 title = {ARV 2018: 2nd Workshop on Augmented Reality for Intelligent Vehicles},
 year = {2018},
@@ -42,5 +42,5 @@ numpages = {7},
 keywords = {Augmented reality, WSDs/HUDs, automated driving},
 location = {Toronto, ON, Canada},
 series = {AutomotiveUI '18}
-}
-```
+}" 
+  apa="Riener, Andreas and Kun, Andrew L. and Gabbard, Joe and Brewster, Stephen and Riegler, Andreas (2018). ARV 2018: 2nd Workshop on Augmented Reality for Intelligent Vehicles. Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

@@ -22,30 +22,20 @@ Informing a driver of a vehicle’s changing state and environment is a major ch
 [Download paper]('https://link.springer.com/chapter/10.1007/978-3-319-49448-7_12')
 
 
-## BibTeX
+## Citation
 
-```
-@Inbook{Löcken2017,
-author="L{\"o}cken, Andreas
-and Sadeghian Borojeni, Shadan
-and M{\"u}ller, Heiko
-and Gable, Thomas M.
-and Triberti, Stefano
-and Diels, Cyriel
-and Glatz, Christiane
-and Alvarez, Ignacio
-and Chuang, Lewis
-and Boll, Susanne",
-editor="Meixner, Gerrit
-and M{\"u}ller, Christian",
-title="Towards Adaptive Ambient In-Vehicle Displays and Interactions: Insights and Design Guidelines from the 2015 AutomotiveUI Dedicated Workshop",
-bookTitle="Automotive User Interfaces: Creating Interactive Experiences in the Car",
-year="2017",
-publisher="Springer International Publishing",
-address="Cham",
-pages="325--348",
-isbn="978-3-319-49448-7",
-doi="10.1007/978-3-319-49448-7_12",
-url="https://doi.org/10.1007/978-3-319-49448-7_12"
-}
-```
+{% include citation-tabs.html 
+  bibtex="@Inbook{Löcken2017,
+  author={Löcken, Andreas and Sadeghian Borojeni, Shadan and Müller, Heiko and Gable, Thomas M. and Triberti, Stefano and Diels, Cyriel and Glatz, Christiane and Alvarez, Ignacio and Chuang, Lewis and Boll, Susanne},
+  editor={Meixner, Gerrit and Müller, Christian},
+  title={Towards Adaptive Ambient In-Vehicle Displays and Interactions: Insights and Design Guidelines from the 2015 AutomotiveUI Dedicated Workshop},
+  booktitle={Automotive User Interfaces: Creating Interactive Experiences in the Car},
+  year={2017},
+  publisher={Springer International Publishing},
+  address={Cham},
+  pages={325--348},
+  isbn={978-3-319-49448-7},
+  doi={10.1007/978-3-319-49448-7_12},
+  url={https://doi.org/10.1007/978-3-319-49448-7_12}
+}" 
+  apa="Löcken, A., Sadeghian Borojeni, S., Müller, H., Gable, T. M., Triberti, S., Diels, C., Glatz, C., Alvarez, I., Chuang, L., & Boll, S. (2017). Towards Adaptive Ambient In-Vehicle Displays and Interactions: Insights and Design Guidelines from the 2015 AutomotiveUI Dedicated Workshop. In G. Meixner & C. Müller (Eds.), Automotive User Interfaces: Creating Interactive Experiences in the Car (pp. 325-348). Springer International Publishing." %}

@@ -27,14 +27,14 @@ The search term “driver-vehicle interaction study” results in2,690 Google Sc
 [Download paper](https://www.auto-ui.org/15/p/workshopproposals/PEMMDDVI.pdf)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{riener2015workshop,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{riener2015workshop,
   title={Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions},
   author={Riener, Andreas and Alvarez, Ignacio and Chuang, Lewis and Ju, Wendy and Pfleging, Bastian and Chiesa, Mario},
   booktitle={Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions In conjunction with AutomotiveUI 2015},
   pages={1--4},
   year={2015}
-}
-```
+}" 
+  apa="Alvarez, I. (2015). . Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions In conjunction with AutomotiveUI 2015." %}

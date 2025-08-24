@@ -25,10 +25,10 @@ Advances in vehicular communication technologies have made Connected Vehicles (C
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/8916837/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{8916837,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{8916837,
   author={Ambrosin, Moreno and Alvarez, Ignacio J and Buerkle, Cornelius and Yang, Lily L and Oboril, Fabian and Sastry, Manoj R and Sivanesan, Kathiravetpillai},
   booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
   title={Object-level Perception Sharing Among Connected Vehicles}, 
@@ -38,5 +38,5 @@ Advances in vehicular communication technologies have made Connected Vehicles (C
   pages={1566-1573},
   keywords={Sensor fusion;Vehicle dynamics;Standards;Collaboration;Merging;Covariance matrices},
   doi={10.1109/ITSC.2019.8916837}
-}
-```
+}" 
+  apa="Alvarez, I. (2019). . 2019 IEEE Intelligent Transportation Systems Conference (ITSC)." %}

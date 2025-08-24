@@ -21,13 +21,13 @@ Research on next generation automotive ICT is challenged by the complex interact
 
 [Download paper]('https://www.researchgate.net/profile/Sebastian-Osswald-2/publication/259901238_Adjunct_Proceedings_of_the_5th_International_Conference_on_Automotive_User_Interfaces_and_Interactive_Vehicular_Applications/links/542bdd560cf27e39fa91b678/Adjunct-Proceedings-of-the-5th-International-Conference-on-Automotive-User-Interfaces-and-Interactive-Vehicular-Applications.pdf#page=77')
 
-## BibTeX
+## Citation
 
-```
-@article{rienerworkshop,
+{% include citation-tabs.html 
+  bibtex="@article{rienerworkshop,
   title={WORKSHOP at AutoUI 2013 “Socially-inspired Mechanisms for Future Mobility Services”},
   author={Riener, Andreas and Jeon, Myounghoon and Alvarez, Ignacio},
   journal={Automotive User Interfaces and Interactive Vehicular Applications},
   pages={75}
-}
-```
+}" 
+  apa="Alvarez, I. (). The Social Car: Socially-inspired Mechanisms for Future Mobility Services. Automotive User Interfaces and Interactive Vehicular Applications." %}

@@ -27,10 +27,10 @@ Safety Assurance remains a challenge for the large-scale deployment of Automated
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3581961.3609894)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3581961.3609894,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3581961.3609894,
   author = {Alvarez, Ignacio and Gassmann, Bernd and Pasch, Frederik and Oboril, Fabian},
   title = {RSS Demonstrator: a Tool for User Experience Interactions with Automated Driving Safety Models},
   year = {2023},
@@ -44,5 +44,6 @@ Safety Assurance remains a challenge for the large-scale deployment of Automated
   keywords = {Automated Driving Safety Model, Automated Driving System, Driving Simulation, RSS, Safety, User Experience},
   location = {Ingolstadt, Germany},
   series = {AutomotiveUI '23 Adjunct}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Gassmann, Bernd and Pasch, Frederik and Oboril, Fabian (2023). RSS Demonstrator: a Tool for User Experience Interactions with Automated Driving
+  Safety Models. ." %}

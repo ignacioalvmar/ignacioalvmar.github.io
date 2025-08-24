@@ -24,14 +24,14 @@ Automotive Natural User Interfaces have the potential to increase user experienc
 
 [Download paper]('https://www.auto-ui.org/12/adjunct-proceedings/w1-06-alvarez.pdf')
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{alvarez2012emotional,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{alvarez2012emotional,
   title={Emotional Adaptive Vehicle User Interfaces: moderating negative effects of failed technology interactions while driving},
   author={Alvarez, Ignacio and Lopez-de Ipi{\~n}a, Karmele and Daily, Shaundra B and Gilbert, Juan E},
   booktitle={Proceedings of Workshop of Automotive Natural Interfaces, together with International Conference on Automotive User Interfaces},
   pages={57--60},
   year={2012}
-}
-```
+}" 
+  apa="Alvarez, Ignacio and Lopez-de Ipi{\~n (2012). Emotional Adaptive Vehicle User Interfaces, Moderating negative effects of failed technology interactions while driving. Proceedings of Workshop of Automotive Natural Interfaces, together with International Conference on Automotive User Interfaces." %}

@@ -26,10 +26,10 @@ This workshop aims to design advanced empathic user interfaces for in-vehicle di
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3581961.3609828)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3581961.3609828,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3581961.3609828,
 author = {Choe, Mungyeong and Bosch, Esther and Dong, Jiayuan and Alvarez, Ignacio and Oehl, Michael and Jallais, Christophe and Alsaid, Areen and Nadri, Chihab and Jeon, Myounghoon},
 title = {Emotion GaRage Vol. IV: Creating Empathic In-Vehicle Interfaces with Generative AIs for Automated Vehicle Contexts},
 year = {2023},
@@ -44,5 +44,6 @@ numpages = {3},
 keywords = {ChatGPT, affective computing, emotions, empathic vehicles, interaction design},
 location = {Ingolstadt, Germany},
 series = {AutomotiveUI '23 Adjunct}
-}
-```
+}" 
+  apa="Choe, Mungyeong and Bosch, Esther and Dong, Jiayuan and Alvarez, Ignacio and Oehl, Michael and Jallais, Christophe and Alsaid, Areen and Nadri, Chihab and Jeon, Myounghoon (2023). Emotion GaRage Vol. IV: Creating empathic in-vehicle interfaces with generative
+  AIs for automated vehicle contexts. Adjunct Proceedings of the 15th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

@@ -26,10 +26,10 @@ On July 1st 2016, the first automated vehicle fatality became headline news [9] 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3004323.3005687)
 
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3004323.3005687,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3004323.3005687,
 author = {Riener, Andreas and Jeon, Myounghoon Philart and Alvarez, Ignacio and Pfleging, Bastian and Mirnig, Alexander and Tscheligi, Manfred and Chuang, Lewis},
 title = {1st Workshop on Ethically Inspired User Interfaces for Automated Driving},
 year = {2016},
@@ -44,5 +44,5 @@ numpages = {4},
 keywords = {User acceptance and trust, Trolley problem, Negotiation algorithms, Driver-vehicle interfaces, Decision making, Automated driving, Asimov's laws},
 location = {Ann Arbor, MI, USA},
 series = {AutomotiveUI '16 Adjunct}
-}
-```
+}" 
+  apa="Alvarez, I. (2016). . Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

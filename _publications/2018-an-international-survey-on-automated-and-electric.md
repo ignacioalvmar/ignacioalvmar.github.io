@@ -24,16 +24,17 @@ As development of automated vehicles and adoption of electric vehicles continue 
 
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-319-91397-1_47)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{jeon2018international,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{jeon2018international,
   title={An international survey on automated and electric vehicles: Austria, Germany, South Korea, and USA},
   author={Jeon, Myounghoon and Riener, Andreas and Sterkenburg, Jason and Lee, Ju-Hwan and Walker, Bruce N and Alvarez, Ignacio},
   booktitle={International Conference on Digital Human Modeling and Applications in Health, Safety, Ergonomics and Risk Management},
   pages={579--587},
   year={2018},
   organization={Springer}
-}
-```
+}" 
+  apa="Jeon, Myounghoon and Riener, Andreas and Sterkenburg, Jason and Lee, Ju-Hwan and Walker, Bruce N and Alvarez, Ignacio (2018). An international survey on automated and electric vehicles: Austria, Germany,
+  South Korea, and USA. International Conference on Digital Human Modeling and Applications in Health, Safety, Ergonomics and Risk Management." %}
 

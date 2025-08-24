@@ -1,0 +1,36 @@
+{% comment %}
+  Citation Tabs Component
+  
+  Usage: {% include citation-tabs.html bibtex=bibtex_content apa=apa_content %}
+  
+  Parameters:
+  - bibtex: The BibTeX citation text
+  - apa: The APA citation text
+{% endcomment %}
+
+<div class="citation-tabs">
+  <div class="citation-tabs__header">
+    <button class="citation-tab active" data-target="bibtex">BibTeX</button>
+    <button class="citation-tab" data-target="apa">APA</button>
+  </div>
+  
+  <div class="citation-tabs__content">
+    <div class="citation-tab-content active" data-tab="bibtex">
+      <div class="citation-content">
+        <button class="copy-button" title="Copy to clipboard">
+          <i class="fa fa-copy copy-icon"></i>
+        </button>
+        <div class="citation-text">{{ include.bibtex }}</div>
+      </div>
+    </div>
+    
+    <div class="citation-tab-content" data-tab="apa">
+      <div class="citation-content">
+        <button class="copy-button" title="Copy to clipboard">
+          <i class="fa fa-copy copy-icon"></i>
+        </button>
+        <div class="citation-text">{{ include.apa }}</div>
+      </div>
+    </div>
+  </div>
+</div>

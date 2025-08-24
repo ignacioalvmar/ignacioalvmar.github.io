@@ -26,10 +26,10 @@ Current automated driving systems assume drivers continuously monitor the vehicl
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/8569686/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{8569686,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{8569686,
   author={Strano, Marina and Novak, Fabricio and Walbert, Shelly and Palmeiro, Beatriz and Morales, Sonia and Alvarez, Ignacio},
   booktitle={2018 21st International Conference on Intelligent Transportation Systems (ITSC)}, 
   title={“Peace of Mind”, An Experiential Safety Framework for Automated Driving Technology Interactions}, 
@@ -39,5 +39,5 @@ Current automated driving systems assume drivers continuously monitor the vehicl
   pages={53-59},
   keywords={Safety;Automation;Interviews;Automobiles;Guidelines;Task analysis;Automated Driving;Experiential Safety;User experience design;design research;design theory;design science;methodology design;emerging technology},
   doi={10.1109/ITSC.2018.8569686}
-}
-```
+}" 
+  apa="Alvarez, I. (2018). . 2018 21st International Conference on Intelligent Transportation Systems (ITSC)." %}

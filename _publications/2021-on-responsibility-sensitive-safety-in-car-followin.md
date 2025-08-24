@@ -26,10 +26,10 @@ The need for safety in automated driving is undisputed. Since automated vehicles
 
 [Download paper](https://www.sae.org/publications/technical-papers/content/2021-01-0875/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{9575420,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{9575420,
   author={Naumann, Maximilian and Wirth, Florian and Oboril, Fabian and Scholl, Kay–Ulrich and Elli, Maria Soledad and Alvarez, Ignacio and Weast, Jack and Stiller, Christoph},
   booktitle={2021 IEEE Intelligent Vehicles Symposium (IV)}, 
   title={On Responsibility Sensitive Safety in Car-following Situations - A Parameter Analysis on German Highways}, 
@@ -38,7 +38,6 @@ The need for safety in automated driving is undisputed. Since automated vehicles
   number={},
   pages={83-90},
   keywords={Law;Intelligent vehicles;Roads;Safety;Brakes;Responsibility-Sensitive Safety (RSS);Automated Driving (AD);Safety Verification;Parameter Analysis},
-  doi={10.1109/IV48863.2021.9575420}}
-
-```
+  doi={10.1109/IV48863.2021.9575420}}" 
+  apa="Alvarez, I. (2021). . 2021 IEEE Intelligent Vehicles Symposium (IV)." %}
 

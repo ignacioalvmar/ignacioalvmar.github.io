@@ -22,10 +22,10 @@ ACM SIGCHI Auto-UI is a growing community, but one in which some continents were
 
 [Download paper](https://interactions.acm.org/blog/view/auto-ui-global-perspectives1)
 
-## BibTeX
+## Citation
 
-```
-@article{janssen2020auto,
+{% include citation-tabs.html 
+  bibtex="@article{janssen2020auto,
   title={Auto-UI: global perspectives},
   author={Janssen, Christian P and Schroeter, Ronald and Bidwell, Nicola J and Ji, Yong Gu and Alvarez, Ignacio and Bao, Shan and Jeon, Myounghoon and Boyle, Linda Ng and Donker, Stella F and Chuang, Lewis L and others},
   journal={Interactions},
@@ -34,6 +34,6 @@ ACM SIGCHI Auto-UI is a growing community, but one in which some continents were
   pages={7--9},
   year={2020},
   publisher={ACM New York, NY, USA}
-}
-```
+}" 
+  apa="Janssen, Christian P and Schroeter, Ronald and Bidwell, Nicola J and Ji, Yong Gu and Alvarez, Ignacio and Bao, Shan and Jeon, Myounghoon and Boyle, Linda Ng and Donker, Stella F and Chuang, Lewis L and others (2020). Auto-UI Global Perspectives. Interactions." %}
 

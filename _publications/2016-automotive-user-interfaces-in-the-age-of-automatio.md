@@ -26,10 +26,10 @@ The next big change in the automotive domain will be the move towards automated 
 [Download paper](https://drops.dagstuhl.de/entities/document/10.4230/DagRep.6.6.111)
 
 
-## BibTeX
+## Citation
 
-```
-@Article{riener_et_al:DagRep.6.6.111,
+{% include citation-tabs.html 
+  bibtex="@Article{riener_et_al:DagRep.6.6.111,
   author =	{Riener, Andreas and Boll, Susanne and Kun, Andrew L.},
   title =	{Automotive User Interfaces in the Age of Automation (Dagstuhl Seminar 16262)},
   pages =	{111--157},
@@ -45,5 +45,5 @@ The next big change in the automotive domain will be the move towards automated 
   URN =		{urn:nbn:de:0030-drops-67582},
   doi =		{10.4230/DagRep.6.6.111},
   annote =	{Keywords: Automotive UIs; Driver-vehicle interaction services; UX in driving; Customization of vehicles/UIs; (Over)trust; Ethical issues}
-}
-```
+}" 
+  apa="Alvarez, I. (2016). . Dagstuhl Reports." %}

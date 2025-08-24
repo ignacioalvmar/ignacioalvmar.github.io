@@ -22,13 +22,13 @@ Driver performance and behavior can be partially predicated based on one’s emo
 
 [Download paper](https://dl.acm.org/doi/10.1145/3409251.3411736)
 
-## BibTeX
+## Citation
 
-```
-@misc{nadri2020emotion,
+{% include citation-tabs.html 
+  bibtex="@misc{nadri2020emotion,
   title={Emotion GaRage Vol. II},
   author={Nadri, Chihab and Bosch, E and Oehl, M and Alvarez, I and Braun, M and Jeon, M},
   year={2020},
   publisher={II}
-}
-```
+}" 
+  apa="Nadri, Chihab and Bosch, E and Oehl, M and Alvarez, I and Braun, M and Jeon, M (2020). Emotion GaRage Vol. II A Workshop on Affective In-Vehicle Display Design. ." %}

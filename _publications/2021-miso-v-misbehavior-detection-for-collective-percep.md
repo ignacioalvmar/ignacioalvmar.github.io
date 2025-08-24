@@ -22,10 +22,10 @@ Recently, Collective Perception Messages (CPM) that carry additional information
 
 [Download paper](https://ieeexplore.ieee.org/abstract/document/9575970/)
 
-## BibTeX
+## Citation
 
-```
-@INPROCEEDINGS{9575970,
+{% include citation-tabs.html 
+  bibtex="@INPROCEEDINGS{9575970,
   author={Liu, Xiruo and Yang, Lily and Alvarez, Ignacio and Sivanesan, Kathiravetpillai and Merwaday, Arvind and Oboril, Fabian and Buerkle, Cornelius and Sastry, Manoj and Baltar, Leonardo Gomes},
   booktitle={2021 IEEE Intelligent Vehicles Symposium (IV)}, 
   title={MISO- V: Misbehavior Detection for Collective Perception Services in Vehicular Communications}, 
@@ -35,5 +35,5 @@ Recently, Collective Perception Messages (CPM) that carry additional information
   pages={369-376},
   keywords={Simulation;Semantics;Redundancy;Receivers;Tools;Robustness;Safety},
   doi={10.1109/IV48863.2021.9575970}
-}
-```
+}" 
+  apa="Liu, Xiruo and Yang, Lily and Alvarez, Ignacio and Sivanesan, Kathiravetpillai and Merwaday, Arvind and Oboril, Fabian and Buerkle, Cornelius and Sastry, Manoj and Baltar, Leonardo Gomes (2021). MISO-V: Misbehavior detection for collective perception services in vehicular communications. 2021 IEEE Intelligent Vehicles Symposium (IV)." %}

@@ -24,13 +24,13 @@ Manuals were designed to provide support and information about the usage and mai
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/1969773.1969782)
 
-## BibTeX
+## Citation
 
-```
-@article{ignacio2010voiceinterfaced,
+{% include citation-tabs.html 
+  bibtex="@article{ignacio2010voiceinterfaced,
   author    = {Ignacio Alvarez et al.},
   title     = {Voice interfaced vehicle user help},
   journal  = {Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications},
   year      = {2010}
-}
-```
+}" 
+  apa="Alvarez, I., et al. (2010). Voice interfaced vehicle user help. Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications." %}

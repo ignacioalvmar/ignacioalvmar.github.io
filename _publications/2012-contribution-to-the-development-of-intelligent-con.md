@@ -26,13 +26,13 @@ This thesis presents the design and development of the Conversational Automotive
 [Download paper](https://ekoizpen-zientifikoa.ehu.eus/documentos/5ecb7f8c299952131520514f?lang=en)
 
 
-## BibTeX
+## Citation
 
-```
-@phdthesis{martinez2012contribution,
+{% include citation-tabs.html 
+  bibtex="@phdthesis{martinez2012contribution,
   title={Contribution to the development of intelligent conversational assistants in automotive environments},
   author={Mart{\'\i}nez, Ignacio Javier {\'A}lvarez},
   year={2012},
   school={Universidad del Pa{\'\i}s Vasco-Euskal Herriko Unibertsitatea}
-}
-```
+}" 
+  apa="Alvarez, I. (2012). . ." %}

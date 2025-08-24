@@ -24,10 +24,10 @@ Automated driving systems (ADS) are mainly regarded from an innovation and techn
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3131726.3131734)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{10.1145/3131726.3131734,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{10.1145/3131726.3131734,
 author = {Frison, Anna-Katharina and Pfleging, Bastian and Riener, Andreas and Jeon, Myounghoon Philart and Alvarez, Ignacio and Ju, Wendy},
 title = {Workshop on User-Centered Design for Automated Driving Systems},
 year = {2017},
@@ -42,5 +42,5 @@ numpages = {6},
 keywords = {User-centered design, Automotive user interfaces, Automated driving systems},
 location = {Oldenburg, Germany},
 series = {AutomotiveUI '17}
-}
-```
+}" 
+  apa="Alvarez, I. (2017). . Proceedings of the 9th International Conference on Automotive User Interfaces and Interactive Vehicular Applications Adjunct." %}

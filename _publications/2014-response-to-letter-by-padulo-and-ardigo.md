@@ -22,10 +22,10 @@ Not available
 [Download paper](https://www.tandfonline.com/doi/full/10.1080/00140139.2013.877599)
 
 
-## BibTeX
+## Citation
 
-```
-@article{Ekandem01022014,
+{% include citation-tabs.html 
+  bibtex="@article{Ekandem01022014,
 author = {Joshua I. Ekandem and Ignacio Alvarez and Melva T. James and Juan E. Gilbert and Timothy A. Davis},
 title = {Response to Letter by Padulo and Ardigò},
 journal = {Ergonomics},
@@ -38,5 +38,5 @@ doi = {10.1080/00140139.2013.877599},
 note ={PMID: 24517237},
 URL = {https://doi.org/10.1080/00140139.2013.877599},
 eprint = {https://doi.org/10.1080/00140139.2013.877599}
-}
-```
+}" 
+  apa="Alvarez, I. (2014). . Ergonomics." %}

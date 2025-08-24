@@ -24,14 +24,14 @@ The search term “driver-vehicle interaction study” results in 2,690 Google S
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/2799250.2799290)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{riener2015workshop,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{riener2015workshop,
   title={Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions},
   author={Riener, Andreas and Alvarez, Ignacio and Chuang, Lewis and Ju, Wendy and Pfleging, Bastian and Chiesa, Mario},
   booktitle={Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions In conjunction with AutomotiveUI 2015},
   pages={1--4},
   year={2015}
-}
-```
+}" 
+  apa="Riener, Andreas and Alvarez, Ignacio and Chuang, Lewis and Ju, Wendy and Pfleging, Bastian and Chiesa, Mario (2015). Skyline: a rapid prototyping driving simulator for user experience. Workshop on Practical Experiences in Measuring and Modeling Drivers and Driver-Vehicle Interactions In conjunction with AutomotiveUI 2015." %}

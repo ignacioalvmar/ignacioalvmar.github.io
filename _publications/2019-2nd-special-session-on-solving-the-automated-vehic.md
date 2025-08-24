@@ -25,13 +25,13 @@ The scientific knowledge and tools for the mass deployment of Automated Vehicles
 
 [Download paper](https://ieee-itsc.org/2019/www.itsc2019.org/__data/assets/pdf_file/0037/679294/ITSC19_0018_MS.pdf)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{elli20192nd,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{elli20192nd,
   title={2nd special session on solving the automated vehicle safety assurance challenge},
   author={Elli, Maria Soledad and Alvarez, Ignacio and Ota, Jeffrey and Weast, Jack and Maurer, Markus},
   booktitle={International Conference on Intelligent Transportation Systems (ITSC)},
   year={2019}
-}
-```
+}" 
+  apa="Alvarez, I. (2019). . International Conference on Intelligent Transportation Systems (ITSC)." %}

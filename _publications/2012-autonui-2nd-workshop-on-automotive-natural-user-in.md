@@ -20,13 +20,13 @@ Natural user interfaces—generally based on gesture and speech interaction—ar
 
 [Download paper](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1000354)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{pflegling2012autonui,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{pflegling2012autonui,
   title={AutoNUI: 2nd Workshop on Automotive Natural User Interfaces},
   author={Pflegling, Bastian and D{\"o}ring, Tanja and Alvarez, Ignacio and Kranz, Matthias and Weinberg, Garrett and Healey, Jennifer},
   booktitle={International Conference on Automotive User Interfaces and Interactive Vehicular Applications: 17/10/2012-19/10/2012},
   year={2012}
-}
-```
+}" 
+  apa="Pflegling, Bastian and D{\"o (2012). AutoNUI: 2nd Workshop on Automotive Natural User Interfaces. International Conference on Automotive User Interfaces and Interactive Vehicular Applications: 17/10/2012-19/10/2012." %}

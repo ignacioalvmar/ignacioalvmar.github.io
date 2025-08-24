@@ -23,14 +23,14 @@ The goal of this workshop is to explore the design space of natural multi-modal 
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/2381416.2381450)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{pfleging2011autonui,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{pfleging2011autonui,
   title={Autonui: a workshop on automotive natural user interfaces},
   author={Pfleging, Bastian and Schmidt, Albrecht and D{\"o}ring, Tanja and Knobel, Martin},
   booktitle={Proceedings of the 3rd International Conference on Automotive User Interfaces and Interactive Vehicular Applications},
   pages={207--209},
   year={2011}
-}
-```
+}" 
+  apa="Pfleging, B., Schmidt, A., Döring, T., & Knobel, M. (2011). Autonui: a workshop on automotive natural user interfaces. Proceedings of the 3rd International Conference on Automotive User Interfaces and Interactive Vehicular Applications, 207-209." %}

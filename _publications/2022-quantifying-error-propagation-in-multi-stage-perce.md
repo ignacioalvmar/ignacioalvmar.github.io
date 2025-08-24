@@ -26,15 +26,15 @@ Ensuring the safety of autonomous vehicle (AV) relies on accurate prediction of 
 
 [Download paper](https://example.com/paper)
 
-## BibTeX
+## Citation
 
-```
-@inproceedings{pan2022quantifying,
+{% include citation-tabs.html 
+  bibtex="@inproceedings{pan2022quantifying,
   title={Quantifying error propagation in multi-stage perception system of autonomous vehicles via physics-based simulation},
   author={Pan, Fenglian and Zhang, Yinwei and Head, Larry and Liu, Jian and Elli, Maria and Alvarez, Ignacio},
   booktitle={2022 Winter Simulation Conference (WSC)},
   pages={2511--2522},
   year={2022},
   organization={IEEE}
-}
-```
+}" 
+  apa="Alvarez, I. (2022). . 2022 Winter Simulation Conference (WSC)." %}

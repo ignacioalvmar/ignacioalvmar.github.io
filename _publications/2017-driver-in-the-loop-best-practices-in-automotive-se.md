@@ -22,15 +22,15 @@ Given the rapid advancement of technologies in the automotive domain, driver–v
 
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-319-49448-7_11)
 
-## BibTeX
+## Citation
 
-```
-@incollection{riener2017driver,
+{% include citation-tabs.html 
+  bibtex="@incollection{riener2017driver,
   title={Driver in the loop: Best practices in automotive sensing and feedback mechanisms},
   author={Riener, Andreas and Jeon, Myounghoon and Alvarez, Ignacio and Frison, Anna K},
   booktitle={Automotive user interfaces: creating interactive experiences in the car},
   pages={295--323},
   year={2017},
   publisher={Springer}
-}
-```
+}" 
+  apa="Riener, Andreas and Jeon, Myounghoon and Alvarez, Ignacio and Frison, Anna K (2017). Driver in the loop: Best practices in automotive sensing and feedback mechanisms. Automotive user interfaces: creating interactive experiences in the car." %}
