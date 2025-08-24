@@ -8,7 +8,7 @@ paperurl: https://dl.acm.org/doi/abs/10.1145/3239092.3239096
 citation: 'Ignacio Alvarez et al.. (2018). ARV 2018: 2nd Workshop on Augmented Reality for Intelligent Vehicles. Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’18).'
 ---
 
-Published in *Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’18)*, ACM 2018
+Published in *'Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’18)'*, ACM 2018
 
 ## Abstract
 
@@ -21,7 +21,6 @@ Augmented reality (AR) has the potential to improve road safety, support more im
 * Identifies four key AR problem fields
 * Discusses practical usage of AR devices
 * Outlines research challenges and hypotheses
-
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3239092.3239096)
 

@@ -10,7 +10,7 @@ citation: 'Ignacio Alvarez et al.. (2023). RSS Demonstrator: a Tool for User Exp
   Safety Models. Adjunct Proceedings of the 15th International Conference on Automotive User Interfaces and Interactive Vehicular Applications.'
 ---
 
-Published in *Adjunct Proceedings of the 15th International Conference on Automotive User Interfaces and Interactive Vehicular Applications*, 2023
+Published in *'Adjunct Proceedings of the 15th International Conference on Automotive User Interfaces and Interactive Vehicular Applications'*, 2023
 
 ## Abstract
 
@@ -26,22 +26,23 @@ Safety Assurance remains a challenge for the large-scale deployment of Automated
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3581961.3609894)
 
+
 ## BibTeX
 
 ```
 @inproceedings{10.1145/3581961.3609894,
-author = {Alvarez, Ignacio and Gassmann, Bernd and Pasch, Frederik and Oboril, Fabian},
-title = {RSS Demonstrator: a Tool for User Experience Interactions with Automated Driving Safety Models},
-year = {2023},
-isbn = {9798400701122},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3581961.3609894},
-doi = {10.1145/3581961.3609894},
-pages = {180–185},
-numpages = {6},
-keywords = {Automated Driving Safety Model, Automated Driving System, Driving Simulation, RSS, Safety, User Experience},
-location = {Ingolstadt, Germany},
-series = {AutomotiveUI '23 Adjunct}
+  author = {Alvarez, Ignacio and Gassmann, Bernd and Pasch, Frederik and Oboril, Fabian},
+  title = {RSS Demonstrator: a Tool for User Experience Interactions with Automated Driving Safety Models},
+  year = {2023},
+  isbn = {9798400701122},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3581961.3609894},
+  doi = {10.1145/3581961.3609894},
+  pages = {180–185},
+  numpages = {6},
+  keywords = {Automated Driving Safety Model, Automated Driving System, Driving Simulation, RSS, Safety, User Experience},
+  location = {Ingolstadt, Germany},
+  series = {AutomotiveUI '23 Adjunct}
 }
 ```

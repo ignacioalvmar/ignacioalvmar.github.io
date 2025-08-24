@@ -8,7 +8,7 @@ paperurl: https://www.igi-global.com/article/skyline/181597
 citation: 'Ignacio Alvarez et al.. (2017). Skyline: A Platform Towards Scalable UX-Centric In-Vehicle HMI Development. International Journal of Mobile Human Computer Interaction (IJMHCI).'
 ---
 
-Published in *International Journal of Mobile Human Computer Interaction (IJMHCI)*, 2017
+Published in *'International Journal of Mobile Human Computer Interaction (IJMHCI)'*, 2017
 
 ## Abstract
 

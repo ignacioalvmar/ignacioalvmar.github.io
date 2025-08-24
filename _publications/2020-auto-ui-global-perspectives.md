@@ -1,14 +1,14 @@
 ---
 title: 'Auto-UI Global Perspectives'
 collection: publications
-permalink: /publications/2020/auto-ui
+permalink: /publications/2020/2020-auto-ui
 date: 2020-01-01
-venue: ACM IX Interaction Journal
+venue: 'ACM IX Interaction Journal'
 paperurl: https://interactions.acm.org/blog/view/auto-ui-global-perspectives1
-citation: Christian P Janssen et al.. (2020). Auto-UI. ACM.
+citation: 'Ignacio Alvarez et al.. (2020). Auto-UI Global Perspectives. ACM IX Interaction Journal.'
 ---
 
-Published in *IX Interactions Journal*, ACM 2023
+Published in *ACM IX Interaction Journal*, 2020
 
 ## Abstract
 
@@ -16,9 +16,9 @@ ACM SIGCHI Auto-UI is a growing community, but one in which some continents were
 
 ## Key Contributions
 
-* Automotive UI
-* Global Perspectives in HMI Design
-* Sustainability 
+* Research methodology development
+* Experimental design and analysis
+* Technical implementation and validation
 
 [Download paper](https://interactions.acm.org/blog/view/auto-ui-global-perspectives1)
 
@@ -36,3 +36,4 @@ ACM SIGCHI Auto-UI is a growing community, but one in which some continents were
   publisher={ACM New York, NY, USA}
 }
 ```
+

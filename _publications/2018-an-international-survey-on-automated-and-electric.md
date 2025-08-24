@@ -10,7 +10,7 @@ citation: 'Ignacio Alvarez et al.. (2018). An international survey on automated 
   South Korea, and USA. Springer Nature.'
 ---
 
-Published in *Springer Nature , Digital Human Modelling*, Springer 2018
+Published in *'Springer Natural Digital Human Modelling'*, Springer 2018
 
 ## Abstract
 
@@ -19,9 +19,8 @@ As development of automated vehicles and adoption of electric vehicles continue 
 ## Key Contributions
 
 * Automated driving system development
-* International perspectives on Automated Vehicles
-* International perspectives on Electric Vehicles
-* Asian, European and US differences in Automotive Technology Adoption
+* Electric Vehicles
+* International Trends
 
 [Download paper](https://link.springer.com/chapter/10.1007/978-3-319-91397-1_47)
 
@@ -37,3 +36,4 @@ As development of automated vehicles and adoption of electric vehicles continue 
   organization={Springer}
 }
 ```
+

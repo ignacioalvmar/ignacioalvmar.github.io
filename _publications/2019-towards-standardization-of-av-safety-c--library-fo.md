@@ -5,12 +5,11 @@ collection: publications
 permalink: /publications/2019/2019-towards-standardization-of-av-safety-c--library-fo
 date: 2019-01-01
 venue: 'Proceedings of the IEEE Intelligent Vehicle Symposium 2019'
-paperurl: '#'
-citation: 'Ignacio Alvarez et al.. (2019). Towards standardization of AV safety: C++ library for responsibility sensitive
-  safety. Proceedings of the IEEE Intelligent Vehicle Symposium 2019.'
+paperurl: 'https://ieeexplore.ieee.org/document/8813885'
+citation: 'Ignacio Alvarez et al.. (2019). Towards standardization of AV safety: C++ library for responsibility sensitive safety. Proceedings of the IEEE Intelligent Vehicle Symposium 2019.'
 ---
 
-Published in *Proceedings of the IEEE Intelligent Vehicle Symposium 2019*, IEEE 2019
+Published in *'Proceedings of the IEEE Intelligent Vehicle Symposium 2019'*, IEEE 2019
 
 ## Abstract
 
@@ -24,8 +23,7 @@ The need for safety in Automated Driving (AD) is becoming increasingly critical 
 * Verification and validation methodology
 * Open-source safety model deployment
 
-
-[Download paper]('https://ieeexplore.ieee.org/document/8813885#')
+[Download paper]('https://ieeexplore.ieee.org/document/8813885')
 
 ## BibTeX
 

@@ -6,11 +6,10 @@ permalink: /publications/2017/2017-socializing-under-the-influence-of-distracted
 date: 2017-01-01
 venue: 'Springer Nature Advances in Human Aspects of Transportation'
 paperurl: https://link.springer.com/chapter/10.1007/978-3-319-41682-3_21
-citation: 'Ignacio Alvarez et al.. (2017). Socializing under the influence of distracted driving: a study of the effects
-  of in-vehicle and outside-of-the-vehicle communication while driving. Springer Nature Advances in Human Aspects of Transportation.'
+citation: 'Ignacio Alvarez et al.. (2017). Socializing under the influence of distracted driving: a study of the effects of in-vehicle and outside-of-the-vehicle communication while driving. Springer Nature Advances in Human Aspects of Transportation.'
 ---
 
-Published in *Springer Nature Advances in Human Aspects of Transportation*, Springer 2017
+Published in *'Springer Nature Advances in Human Aspects of Transportation'*, Springer 2017
 
 ## Abstract
 

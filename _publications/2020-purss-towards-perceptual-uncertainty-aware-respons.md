@@ -6,11 +6,10 @@ permalink: /publications/2020/2020-purss-towards-perceptual-uncertainty-aware-re
 date: 2020-01-01
 venue: 'Proceedings of 2020 AAAI Conference'
 paperurl: /assets/pdfs/publications/2020-purss-towards-perceptual-uncertainty-aware-respons.pdf
-citation: 'Ignacio Alvarez et al.. (2020). PURSS: Towards Perceptual Uncertainty Aware Responsibility Sensitive Safety
-  with ML.  Proceedings of 2020 AAAI Conference.'
+citation: 'Ignacio Alvarez et al.. (2020). PURSS: Towards Perceptual Uncertainty Aware Responsibility Sensitive Safety with ML.. Proceedings of 2020 AAAI Conference.'
 ---
 
-Published in *Proceedings of 2020 AAAI Conference*, AAI 2020
+Published in *'Proceedings of 2020 AAAI Conference'*, AAAI 2020
 
 ## Abstract
 
@@ -18,12 +17,9 @@ Automated driving is an ML-intensive problem and its safety depends on the integ
 
 ## Key Contributions
 
-* Automated Driving Safety
 * Safety analysis and validation
-* Responsibility Sensitive Safety
 
 [Download paper](/assets/pdfs/publications/2020-purss-towards-perceptual-uncertainty-aware-respons.pdf)
-
 
 ## BibTeX
 

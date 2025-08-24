@@ -4,13 +4,12 @@ title: 'Reliability modeling for perception systems in autonomous vehicles: A re
 collection: publications
 permalink: /publications/2024/2024-reliability-modeling-for-perception-systems-in-aut
 date: 2024-01-01
-venue: 'Transportation Research Part C: Emerging Technologies'
+venue: 'Transportation Research Part C Emerging Technologies'
 paperurl: https://www.sciencedirect.com/science/article/pii/S0968090X24003899
-citation: 'Ignacio Alvarez et al.. (2024). Reliability modeling for perception systems in autonomous vehicles: A recursive
-  event-triggering point process approach. Transportation Research Part C: Emerging Technologies.'
+citation: 'Ignacio Alvarez et al.. (2024). Reliability modeling for perception systems in autonomous vehicles: A recursive event-triggering point process approach. Transportation Research Part C Emerging Technologies.'
 ---
 
-Published in *Transportation Research Part C: Emerging Technologies*, TRB 2024
+Published in *'Transportation Research Part C: Emerging Technologies'*, 2024
 
 ## Abstract
 
@@ -19,11 +18,11 @@ Ensuring the reliability of sensor-fusion-based perception systems is crucial fo
 ## Key Contributions
 
 * Automated driving system development
-* Proposes recursive event-triggering point process.
-* Develops modified EM estimation algorithm.
-* Presents simulation error injection framework.
-* Differentiates primary and propagated errors.
-* Models redundant multi-module perception systems.
+* Proposes recursive event-triggering point process
+* Develops modified EM estimation algorithm
+* Presents simulation error injection framework
+* Differentiates primary and propagated errors
+* Models redundant multi-module perception systems
 
 [Download paper](https://www.sciencedirect.com/science/article/pii/S0968090X24003899)
 
@@ -40,3 +39,4 @@ Ensuring the reliability of sensor-fusion-based perception systems is crucial fo
   publisher={Elsevier}
 }
 ```
+

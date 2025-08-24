@@ -5,14 +5,14 @@ permalink: /publications/2018/2018-automotiveui-18-adjunct-proceedings-of-the-10
 date: 2018-01-01
 venue: 'Automotive UI 2018'
 paperurl: 'https://publications.ait.ac.at/en/publications/automotiveui-18-adjunct-proceedings-of-the-10th-international-con'
-citation: 'Ignacio Alvarez et al.. (2018). AutomotiveUI 2018.'
+citation: 'Ignacio Alvarez et al.. (2018). AutomotiveUI. Automotive UI 2018.'
 ---
 
-Published in *Proceeding of Automotive UI *, ACM 2018
+Published in *'Automotive UI 2018'*, 2018
 
 ## Abstract
 
-Abstract not available.
+Abstract not yet available.
 
 ## Key Contributions
 

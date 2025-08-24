@@ -8,11 +8,11 @@ paperurl: '/assets/pdfs/publications/2018-chairs-welcome.pdf'
 citation: 'Ignacio Alvarez et al.. (2018). Chairs. Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications.'
 ---
 
-Published in *Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications*, ACM 2018
+Published in *'Adjunct Proceedings of the 10th International Conference on Automotive User Interfaces and Interactive Vehicular Applications'*, 2018
 
 ## Abstract
 
-Abstract not available.
+Abstract not yet available.
 
 ## Key Contributions
 
@@ -21,4 +21,3 @@ Abstract not available.
 * Technical implementation and validation
 
 [Download paper]('/assets/pdfs/publications/2018-chairs-welcome.pdf')
-

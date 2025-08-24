@@ -6,11 +6,10 @@ permalink: /publications/2015/2015-help-on-the-road-effects-of-vehicle-manual-co
 date: 2015-01-01
 venue: 'International journal of human-computer studies'
 paperurl: https://www.sciencedirect.com/science/article/pii/S1071581914000974
-citation: 'Ignacio Alvarez et al.. (2015). Help on the road: Effects of vehicle manual consultation in driving performance
-  across modalities. International journal of human-computer studies.'
+citation: 'Ignacio Alvarez et al.. (2015). Help on the road: Effects of vehicle manual consultation in driving performance across modalities. International journal of human-computer studies.'
 ---
 
-Published in *International journal of human-computer studies*, Elsevier 2015
+Published in *'International journal of human-computer studies'*, Elsevier 2015
 
 ## Abstract
 

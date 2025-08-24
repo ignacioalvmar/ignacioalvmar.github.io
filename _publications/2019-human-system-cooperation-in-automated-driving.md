@@ -1,12 +1,11 @@
 ---
-title: 'Human–vehicle cooperation in automated driving: A multidisciplinary review
-  and appraisal'
+title: "Human-system cooperation in automated driving"
 collection: publications
-permalink: /publications/2019/2019-human-vehicle-cooperation-in-automated-driving-a-m
+permalink: /publications/2019/human-system-cooperation-in-automated-driving
 date: 2019-01-01
-venue: 'International Journal of Human Computer Interaction'
-paperurl: 'https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1561792'
-citation: 'Ignacio Alvarez et al.. (2019). Human–vehicle cooperation in automated driving: A multidisciplinary review and appraisal. International Journal of Human Computer Interaction.'
+venue: 'No venue listed'
+paperurl: 'https://www.tandfonline.com/doi/full/10.1080/10447318.2018.1561793'
+citation: 'Francesco Biondi, Ignacio Alvarez, Kyeong-Ah Jeong. (2019). Human-system cooperation in automated driving. No venue listed.'
 ---
 
 Published in *'International Journal of Human Computer Interaction'*, Elsevier 2019

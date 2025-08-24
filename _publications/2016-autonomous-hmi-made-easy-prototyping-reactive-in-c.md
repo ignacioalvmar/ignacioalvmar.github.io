@@ -8,7 +8,7 @@ paperurl: https://dl.acm.org/doi/abs/10.1145/3004323.3004353
 citation: 'Ignacio Alvarez et al.. (2016). Autonomous hmi made easy: Prototyping reactive in-cabin aware hmis. Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’16).'
 ---
 
-Published in *Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’16)*, ACM 2016
+Published in *'Adjunct Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’16)'*, ACM 2016
 
 ## Abstract
 

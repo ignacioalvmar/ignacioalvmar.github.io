@@ -4,13 +4,13 @@ title: 'The SKYNIVI experience: evoking startle and frustration in dyads and sin
 collection: publications
 permalink: /publications/2019/2019-the-skynivi-experience-evoking-startle-and-frustra
 date: 2019-01-01
-venue: 'Proceedings of the IEEE International Conference in Intelligent Trasnportations Systems 2019'
+venue: 'Proceedings of the IEEE International Conference in Intelligent Transportations Systems 2019'
 paperurl: https://ieeexplore.ieee.org/abstract/document/8813831/
 citation: 'Ignacio Alvarez et al.. (2019). The SKYNIVI experience: evoking startle and frustration in dyads and single
   drivers. Proceedings of the IEEE International Conference in Intelligent Trasnportations Systems 2019.'
 ---
 
-Published in *Proceedings of the IEEE International Conference in Intelligent Trasnportations Systems 2019*, IEEE 2019
+Published in *'Proceedings of the IEEE International Conference in Intelligent Transportations Systems 2019'*, IEEE 2019
 
 ## Abstract
 

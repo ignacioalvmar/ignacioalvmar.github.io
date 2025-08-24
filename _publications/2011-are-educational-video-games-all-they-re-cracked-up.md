@@ -1,11 +1,11 @@
 ---
-title: 'Are educational video games all they'
+title: 'Are educational video games all they are cracked up to be'
 collection: publications
 permalink: /publications/2011/2011-are-educational-video-games-all-they-re-cracked-up
 date: 2011-01-01
 venue: 'International Journal of Learning Technology'
 paperurl: https://www.learntechlib.org/primary/p/38763/
-citation: 'Ignacio Alvarez et al.. (2011). Are educational video games all they. International Journal of Learning Technology.'
+citation: 'Ignacio Alvarez et al.. (2011). Are educational video games all they are cracked up to be published in International Journal of Learning Technology'
 ---
 
 Published in *'International Journal of Learning Technology'*, 2011

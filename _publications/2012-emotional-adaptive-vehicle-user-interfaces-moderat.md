@@ -1,17 +1,14 @@
 ---
-title: 'Emotional Adaptive Vehicle User Interfaces: moderating negative effects of failed technology interactions while driving'
+title: 'Emotional Adaptive Vehicle User Interfaces, Moderating negative effects of failed technology interactions while driving'
 collection: publications
 permalink: /publications/2012/2012-emotional-adaptive-vehicle-user-interfaces-moderat
 date: 2012-01-01
 venue: 'Adjunct Proceedings of the 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 2012)'
 paperurl: 'https://www.auto-ui.org/12/adjunct-proceedings/w1-06-alvarez.pdf'
-citation: 'Ignacio Alvarez et al.. (2012). Emotional Adaptive Vehicle User Interfaces: moderating negative effects of
-  failed technology interactions while driving. Adjunct Proceedings of the 4th International Conference on Automotive User Interfaces and
-Interactive Vehicular Applications (AutomotiveUI 2012)'
+citation: 'Ignacio Alvarez et al.. (2012). Emotional Adaptive Vehicle User Interfaces: moderating negative effects of failed technology interactions while driving. Adjunct Proceedings of the 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 2012).'
 ---
 
-Published in *Adjunct Proceedings of the 4th International Conference on Automotive User Interfaces and
-Interactive Vehicular Applications (AutomotiveUI 2012)*, ACM 2012
+Published in *'Adjunct Proceedings of the 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 2012)'*, 2012
 
 ## Abstract
 
@@ -19,14 +16,13 @@ Automotive Natural User Interfaces have the potential to increase user experienc
 
 ## Key Contributions
 
-* Developed the Voice User Help system 
-* Created a VUH-specific emotional taxonomy 
-* Built a real-time emotion recognizer 
-* Proposed adaptive emotional dialog strategies 
-* Used emotion for error recovery 
+* Developed the Voice User Help system
+* Created a VUH-specific emotional taxonomy
+* Built a real-time emotion recognizer
+* Proposed adaptive emotional dialog strategies
+* Used emotion for error recovery
 
-[Download paper](https://www.auto-ui.org/12/adjunct-proceedings/w1-06-alvarez.pdf)
-
+[Download paper]('https://www.auto-ui.org/12/adjunct-proceedings/w1-06-alvarez.pdf')
 
 ## BibTeX
 

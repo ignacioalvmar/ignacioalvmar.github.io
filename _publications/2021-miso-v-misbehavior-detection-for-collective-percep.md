@@ -5,11 +5,10 @@ permalink: /publications/2021/2021-miso-v-misbehavior-detection-for-collective-p
 date: 2021-01-01
 venue: 'Proceedings of IEEE Intelligent Transportation Systems Conference 2021'
 paperurl: https://ieeexplore.ieee.org/abstract/document/9575970/
-citation: 'Ignacio Alvarez et al.. (2021). MISO-V: Misbehavior detection for collective perception services in vehicular
-  communications. Proceedings of IEEE Intelligent Transportation Systems Conference 2021.'
+citation: 'Ignacio Alvarez et al.. (2021). MISO-V: Misbehavior detection for collective perception services in vehicular communications. Proceedings of IEEE Intelligent Transportation Systems Conference 2021.'
 ---
 
-Published in *Proceedings of IEEE Intelligent Transportation Systems Conference 2021*, IEEE 2021
+Published in *'Proceedings of IEEE Intelligent Transportation Systems Conference 2021'*, IEEE 2021
 
 ## Abstract
 

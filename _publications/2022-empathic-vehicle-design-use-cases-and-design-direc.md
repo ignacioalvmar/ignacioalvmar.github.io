@@ -3,12 +3,12 @@ title: 'Empathic vehicle design: Use cases and design directions from two worksh
 collection: publications
 permalink: /publications/2022/2022-empathic-vehicle-design-use-cases-and-design-direc
 date: 2022-01-01
-venue: 'No venue listed'
+venue: 'CHI EA 2022'
 paperurl: https://dl.acm.org/doi/abs/10.1145/3491101.3519623
-citation: 'Ignacio Alvarez et al.. (2022). Empathic vehicle design: Use cases and design directions from two workshops. No venue listed.'
+citation: 'Ignacio Alvarez et al.. (2022). Empathic vehicle design: Use cases and design directions from two workshops. CHI 2022.'
 ---
 
-Published in *No venue listed*, 2022
+Published in *'Proceedings of ACM's Computer Human Interaction Conference (CHI)'*, ACM 2022
 
 ## Abstract
 
@@ -19,7 +19,6 @@ Empathic vehicles are expected to improve user experience in automated vehicles 
 * Emphathetic HMI design in Automotive
 * Generative AI prototyping
 * Workshop organization and community building
-
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/3491101.3519623)
 

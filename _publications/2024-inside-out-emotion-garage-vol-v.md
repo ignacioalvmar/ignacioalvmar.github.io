@@ -8,7 +8,7 @@ paperurl: https://dl.acm.org/doi/abs/10.1145/3641308.3677403
 citation: 'Ignacio Alvarez et al.. (2024). Inside Out: Emotion GaRage Vol. V. Adjunct Proceedings of the 16th International Conference on Automotive User Interfaces and Interactive Vehicular Applications.'
 ---
 
-Published in *Adjunct Proceedings of the 16th International Conference on Automotive User Interfaces and Interactive Vehicular Applications*, 2024
+Published in *'Adjunct Proceedings of the 16th International Conference on Automotive User Interfaces and Interactive Vehicular Applications'*, 2024
 
 ## Abstract
 

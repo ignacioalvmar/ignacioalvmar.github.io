@@ -6,11 +6,10 @@ permalink: /publications/2015/2015-report-on-the-in-vehicle-auditory-interaction
 date: 2015-01-01
 venue: 'Adjunct Proceedings AutomotiveUI ’15'
 paperurl: 'https://bazilinskyy.github.io/publications/jeon2015report.pdf'
-citation: 'Ignacio Alvarez et al.. (2015). Report on the in-vehicle auditory interactions workshop: Taxonomy, challenges,
-  and approaches. Adjunct Proceedings AutomotiveUI ’15.'
+citation: 'Ignacio Alvarez et al.. (2015). Report on the in-vehicle auditory interactions workshop: Taxonomy, challenges, and approaches. Adjunct Proceedings AutomotiveUI ’15.'
 ---
 
-Published in *Adjunct Proceedings AutomotiveUI ’15*, ACM 2015
+Published in *'Adjunct Proceedings AutomotiveUI ’15'*, ACM 2015
 
 ## Abstract
 
@@ -25,7 +24,7 @@ As driving is mainly a visual task, auditory displays play a critical role for i
 * Taxonomized auditory collision warning issues
 * Bridged auditory and automotive UI communities
 
-[Download paper](https://bazilinskyy.github.io/publications/jeon2015report.pdf)
+[Download paper]('https://bazilinskyy.github.io/publications/jeon2015report.pdf')
 
 ## BibTeX
 

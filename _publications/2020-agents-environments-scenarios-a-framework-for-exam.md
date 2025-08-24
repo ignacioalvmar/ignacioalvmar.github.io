@@ -5,11 +5,10 @@ permalink: /publications/2020/2020-agents-environments-scenarios-a-framework-for
 date: 2020-01-01
 venue: 'Transportation research interdisciplinary perspectives'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2590198220301251'
-citation: 'Ignacio Alvarez et al.. (2020). Agents, environments, scenarios: A framework for examining models and simulations
-  of human-vehicle interaction. Transportation research interdisciplinary perspectives.'
+citation: 'Ignacio Alvarez et al.. (2020). Agents, environments, scenarios: A framework for examining models and simulations of human-vehicle interaction. Transportation research interdisciplinary perspectives.'
 ---
 
-Published in *Transportation research interdisciplinary perspectives*, 2020
+Published in *'Transportation research interdisciplinary perspectives'*, 2020
 
 ## Abstract
 
@@ -18,8 +17,8 @@ This paper provides a framework for examining human-vehicle interactions with re
 ## Key Contributions
 
 * Human-computer interaction design
-* Dimentions of simulation models
-* Automated Driving Development 
+* Dimensions of simulation models
+* Automated Driving Development
 
 [Download paper]('https://www.sciencedirect.com/science/article/pii/S2590198220301251')
 

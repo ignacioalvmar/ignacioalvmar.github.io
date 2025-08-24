@@ -5,10 +5,10 @@ permalink: /publications/2018/2018-emotional-garage-a-workshop-on-in-car-emotion
 date: 2018-01-01
 venue: 'Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications AutomotiveUI 2018'
 paperurl: https://dl.acm.org/doi/abs/10.1145/3239092.3239098
-citation: 'Ignacio Alvarez et al.. (2018). Emotional GaRage: A workshop on in-car emotion recognition and regulation. Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 2018).'
+citation: 'Ignacio Alvarez et al.. (2018). Emotional GaRage: A workshop on in-car emotion recognition and regulation. Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications AutomotiveUI 2018.'
 ---
 
-Published in *Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications*, ACM 2018
+Published in *'Adjunct Proceedings of the 10th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications AutomotiveUI 2018'*, ACM 2018
 
 ## Abstract
 

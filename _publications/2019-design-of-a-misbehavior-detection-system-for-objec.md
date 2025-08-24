@@ -1,14 +1,14 @@
 ---
 title: 'Design of a misbehavior detection system for objects based shared perception V2X applications'
 collection: publications
-permalink: /publications/2019/design-of-a-misbehavior-detection-system-for-objec
+permalink: /publications/2019/2019-design-of-a-misbehavior-detection-system-for-objec
 date: 2019-01-01
 venue: 'IEEE Intelligent Transportation Systems Conference'
 paperurl: https://ieeexplore.ieee.org/abstract/document/8917066/
-citation: 'Moreno Ambrosin et al.. (2019). Design of a misbehavior detection system for objects based shared perception V2X applications. 2019 IEEE Intelligent Transportation Systems Conference.'
+citation: 'Ignacio Alvarez et al.. (2019). Design of a misbehavior detection system for objects based shared perception V2X applications. IEEE Intelligent Transportation Systems Conference.'
 ---
 
-Published in *Proceedings of the 2019 IEEE Intelligent Transportation Systems Conference*, IEEE 2019
+Published in *'IEEE Intelligent Transportation Systems Conference'*, IEEE 2019
 
 ## Abstract
 
@@ -16,13 +16,13 @@ The recent trend of integrating vehicular communications with advanced sensors i
 
 ## Key Contributions
 
-* Proposes a generic misbehavior detection framework 
-* Divides detection into local/collaborative components 
-* Categorizes four levels of anomaly detection 
-* Defines Unobservability and Undecidability concepts 
-* Defines conditions for successful attacks 
+* Proposes a generic misbehavior detection framework
+* Divides detection into local/collaborative components
+* Categorizes four levels of anomaly detection
+* Defines Unobservability and Undecidability concepts
+* Defines conditions for successful attacks
 
-[Download paper](https://ieeexplore.ieee.org/abstract/document/8917066)
+[Download paper](https://ieeexplore.ieee.org/abstract/document/8917066/)
 
 ## BibTeX
 

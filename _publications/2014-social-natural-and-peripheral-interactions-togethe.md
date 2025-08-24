@@ -8,7 +8,7 @@ paperurl: https://dl.acm.org/doi/abs/10.1145/2667239.2667282
 citation: 'Ignacio Alvarez et al.. (2014). Social, natural, and peripheral interactions: Together and separate. Proceedings of AutomotiveUI 2014.'
 ---
 
-Published in *Proceedings of AutomotiveUI 2014*, ACM 2014
+Published in *'Proceedings of AutomotiveUI 2014'*, 2014
 
 ## Abstract
 
@@ -16,11 +16,7 @@ A major challenge in the future of traffic is to understand how "socially-aware 
 
 ## Key Contributions
 
-* Proposes workshop on automotive interaction
-* Explores social, natural, peripheral interaction
-* Brings together different research areas
-* Introduces peripheral interaction to discussion
-* Debates concepts for "social car"
+* Human-computer interaction design
 
 [Download paper](https://dl.acm.org/doi/abs/10.1145/2667239.2667282)
 
@@ -36,12 +32,10 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/2667239.2667282},
 doi = {10.1145/2667239.2667282},
-booktitle = {Adjunct Proceedings of the 6th International Conference on Automotive User Interfaces and Interactive Vehicular Applications},
 pages = {1–6},
 numpages = {6},
 keywords = {Automotive user interfaces, cognitive limits, human factors, human-centered design, individuality and personality, multimodal interaction, natural user interfaces (NUI), peripheral interaction (PI), social driving},
 location = {Seattle, WA, USA},
 series = {AutomotiveUI '14}
 }
-
 ```

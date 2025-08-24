@@ -4,17 +4,17 @@ title: 'Emotion GaRage Vol. IV: Creating empathic in-vehicle interfaces with gen
 collection: publications
 permalink: /publications/2023/2023-emotion-garage-vol-iv-creating-empathic-in-vehicle
 date: 2023-01-01
-venue: 'No venue listed'
+venue: 'Proceedings of Automotive UI 2023'
 paperurl: https://dl.acm.org/doi/abs/10.1145/3581961.3609828
 citation: 'Ignacio Alvarez et al.. (2023). Emotion GaRage Vol. IV: Creating empathic in-vehicle interfaces with generative
-  AIs for automated vehicle contexts. No venue listed.'
+  AIs for automated vehicle contexts. Proceedings of Automotive UI 2023.'
 ---
 
-Published in *No venue listed*, 2023
+Published in *'Proceedings of ACM's Automotive UI 2023'*, ACM 2023
 
 ## Abstract
 
-Abstract not yet available.
+This workshop aims to design advanced empathic user interfaces for in-vehicle displays, particularly for high-level automated vehicles (SAE level 3 or higher). Incorporating model-based approaches for understanding human emotion regulation, it seeks to enhance the user-vehicle interaction. A unique aspect of this workshop is the integration of generative artificial intelligence (AI) tools in the design process. The workshop will explore generative AI’s potential in crafting contextual responses and its impact on user experience and interface design. The agenda includes brainstorming on various driving scenarios, developing emotion-oriented intervention methods, and rapid prototyping with AI tools. The anticipated outcome includes practical prototypes of affective user interfaces and insights on the role of AI in designing human-machine interactions. Through this workshop, we hope to contribute to making automated driving more accessible and enjoyable.
 
 ## Key Contributions
 
