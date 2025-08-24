@@ -11,7 +11,7 @@
   --background-color: #121212;
   --text-color: #e4e4e4;
   --link-color: #58a6ff;
-  --masthead-background: #1e1e1e;
+  --masthead-background: transparent;
   --footer-background: #1e1e1e;
   --footer-border: #333333;
 }
@@ -37,18 +37,35 @@ a {
 
 .theme-toggle {
   background: none;
-  border: none;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  color: #3498db;
+  padding: 0.5rem;
+  border-radius: 8px;
   cursor: pointer;
-}
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 
-.theme-toggle .sun-icon {
-  display: none;
-}
+  &:hover {
+    background: rgba(52, 152, 219, 0.1);
+    border-color: #3498db;
+  }
 
-[data-theme="dark"] .theme-toggle .sun-icon {
-  display: inline;
-}
+  .moon-icon,
+  .sun-icon {
+    font-size: 1.2rem;
+  }
 
-[data-theme="dark"] .theme-toggle .moon-icon {
-  display: none;
+  .sun-icon {
+    display: none;
+  }
+
+  [data-theme="dark"] & {
+    .moon-icon {
+      display: none;
+    }
+    .sun-icon {
+      display: inline;
+    }
+  }
 }

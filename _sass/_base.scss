@@ -21,6 +21,11 @@ body {
   }
 }
 
+/* Add padding for fixed navigation */
+body {
+  padding-top: 80px; /* Adjust based on your navigation height */
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;

@@ -3,19 +3,30 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  border-bottom: 1px solid $border-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--masthead-background);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(52, 152, 219, 0.2);
+  transition: all 0.3s ease;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1rem 2rem;
     font-family: $sans-serif-narrow;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -32,6 +43,10 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
   ul {
     margin: 0;
@@ -49,29 +64,37 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    
+    a {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $primary-color;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: #5dade2;
+      }
+    }
   }
 }
 
-.masthead__menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .theme-toggle {
-  position: relative;
-  z-index: 15;
-  margin-left: 1rem;
+  background: none;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  color: $primary-color;
   padding: 0.5rem;
-  border: none;
-  background: transparent;
-  color: $masthead-link-color;
+  border-radius: 8px;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-left: 1rem;
 
   &:hover {
-    background-color: rgba($primary-color, 0.1);
+    background: rgba(52, 152, 219, 0.1);
+    border-color: $primary-color;
   }
 
   .moon-icon,
@@ -90,5 +113,49 @@
     .sun-icon {
       display: inline;
     }
+  }
+}
+
+/* Enhanced navigation styling */
+.greedy-nav {
+  .visible-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+    li {
+      display: flex;
+      align-items: center;
+      
+      &:first-child {
+        font-weight: bold;
+        margin-right: 2rem;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    padding: 1rem;
+  }
+  
+  .greedy-nav .visible-links {
+    gap: 1rem;
+  }
+  
+  .masthead__menu-item--lg a {
+    font-size: 1.2rem;
   }
 }
