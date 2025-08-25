@@ -40,8 +40,6 @@ redirect_from:
 /* Hero Container */
 .hero-container {
   min-height: 100vh;
-  /* background: #1a1a1a; */
-  /* color: #ffffff; */
   position: relative;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -104,7 +102,6 @@ redirect_from:
   position: relative;
   width: 100%;
   height: 500px;
-  /* background: #1a1a1a; */
   background: transparent;
   transition: background 0.3s ease;
 }
@@ -218,14 +215,6 @@ redirect_from:
   }
 }
 
-/* Light theme name visibility fix */
-/* .hero-container.light-mode .hero-name {
-  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-} */
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-content {
@@ -324,12 +313,12 @@ function initNeuralNetwork() {
     neuronCount: 35,
     connectionDistance: 150,
     neuronSize: { min: 4, max: 10 },
-    connectionOpacity: 0.8,
+    connectionOpacity: 0.6,
     trafficSpeed: 0.6,
     spawnRate: 0.03,
     maxConnections: 6,
     gridSize: 80,
-    roadWidth: 3,
+    roadWidth: 2,
     connectionColors: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
     connectionLifespan: { min: 80, max: 200 },
     connectionUpdateInterval: 2000
