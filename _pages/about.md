@@ -14,7 +14,7 @@ redirect_from:
   <!-- Hero Content -->
   <div class="hero-content">
     <div class="hero-text">
-      <h1 class="hero-name">Ignacio Alvarez</h1>
+      <!-- <h1 class="hero-name">Ignacio Alvarez</h1> -->
       <p class="hero-tagline">Shaping the Future of Mobility with Human-Centered AI</p>
       
       <p class="hero-description">
@@ -22,6 +22,7 @@ redirect_from:
         As a research professor, I am now pioneering the next wave of human-centric AI to build a safer, more intelligent mobility future.
         This site is an exploration of that journey at the intersection of AI, automotive, and user experience.
       </p>
+      <p class="signature">Prof. Dr. Alvarez</p>
     </div>
 
     <div class="hero-visual">
@@ -92,6 +93,20 @@ redirect_from:
   margin: 0;
   opacity: 0;
   animation: fadeInUp 0.8s ease forwards 0.8s;
+}
+
+/* Signature styling */
+.signature {
+  font-family: 'Brush Script MT', 'Lucida Handwriting', 'Segoe Script', cursive;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #3498db;
+  margin: 1.5rem 0 0 0;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards 1s;
+  transform: rotate(-2deg);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  letter-spacing: 1px;
 }
 
 /* Visual area */
@@ -367,8 +382,75 @@ async function initNeuralNetwork() {
       for (let i=0;i<this.roads.length;i++){
         for (let k=0;k<counts[i];k++) this.vehicles.push(new Vehicle(this.roads[i]));
       }
+
+      // Pulse animation system
+      this.pulses = [];
+      this.pulseRadius = 0;
+      this.pulseSpeed = 2;
+      this.pulseMaxRadius = 100;
     }
-    update(){ for(const v of this.vehicles) v.update(this.vehicles); }
+
+    // Add a new pulse at click position
+    addPulse(x, y) {
+      this.pulses.push({
+        x: x,
+        y: y,
+        radius: 0,
+        maxRadius: this.pulseMaxRadius,
+        speed: this.pulseSpeed,
+        connections: this.findPulseConnections(x, y)
+      });
+    }
+
+    // Find vehicles that can be connected in a pulse
+    findPulseConnections(centerX, centerY) {
+      const connections = [];
+      const maxDistance = this.pulseMaxRadius;
+      
+      for (let i = 0; i < this.vehicles.length; i++) {
+        for (let j = i + 1; j < this.vehicles.length; j++) {
+          const v1 = this.vehicles[i];
+          const v2 = this.vehicles[j];
+          
+          const p1 = v1.road.sample(v1.s, v1.laneOffset());
+          const p2 = v2.road.sample(v2.s, v2.laneOffset());
+          
+          const dist1 = Math.hypot(p1.x - centerX, p1.y - centerY);
+          const dist2 = Math.hypot(p2.x - centerX, p2.y - centerY);
+          
+          // Only connect vehicles within pulse range
+          if (dist1 <= maxDistance && dist2 <= maxDistance) {
+            const vehicleDist = Math.hypot(p1.x - p2.x, p1.y - p2.y);
+            if (vehicleDist <= 150) { // Max connection distance between vehicles
+              connections.push({
+                v1: v1, v2: v2,
+                p1: p1, p2: p2,
+                dist1: dist1, dist2: dist2,
+                vehicleDist: vehicleDist
+              });
+            }
+          }
+        }
+      }
+      
+      return connections;
+    }
+
+    update(){ 
+      for(const v of this.vehicles) v.update(this.vehicles); 
+      
+      // Update pulses
+      for (let i = this.pulses.length - 1; i >= 0; i--) {
+        const pulse = this.pulses[i];
+        pulse.radius += pulse.speed;
+        
+        // Remove expired pulses
+        if (pulse.radius >= pulse.maxRadius) {
+          this.pulses.splice(i, 1);
+        }
+      }
+    }
+
     drawRoads(){
       const ctx=this.ctx;
       this.roads.forEach((r,ri)=>{
@@ -389,6 +471,7 @@ async function initNeuralNetwork() {
         }
       });
     }
+
     drawConnections(){
       const ctx=this.ctx;
       ctx.save();
@@ -407,11 +490,52 @@ async function initNeuralNetwork() {
       }
       ctx.restore();
     }
+
+    drawPulses() {
+      const ctx = this.ctx;
+      
+      for (const pulse of this.pulses) {
+        // Draw pulse circle
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, 1 - pulse.radius / pulse.maxRadius) * 0.3;
+        ctx.strokeStyle = '#e74c3c';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(pulse.x, pulse.y, pulse.radius, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.restore();
+
+        // Draw pulse connections
+        for (const conn of pulse.connections) {
+          const fadeStart = 20; // Start fading after 20px
+          const fadeEnd = pulse.maxRadius;
+          
+          let alpha = 1;
+          if (pulse.radius > fadeStart) {
+            alpha = Math.max(0, 1 - (pulse.radius - fadeStart) / (fadeEnd - fadeStart));
+          }
+          
+          if (alpha > 0) {
+            ctx.save();
+            ctx.globalAlpha = alpha * 0.8;
+            ctx.lineWidth = 1.5;
+            ctx.strokeStyle = '#900dd6';
+            ctx.beginPath();
+            ctx.moveTo(conn.p1.x, conn.p1.y);
+            ctx.lineTo(conn.p2.x, conn.p2.y);
+            ctx.stroke();
+            ctx.restore();
+          }
+        }
+      }
+    }
+
     draw(){
       const {ctx, canvas} = this;
       ctx.clearRect(0,0,canvas.width,canvas.height);
       this.drawRoads();
       this.drawConnections();
+      this.drawPulses(); // Draw pulses after regular connections
       for(const v of this.vehicles) v.draw(ctx);
     }
   }
@@ -476,6 +600,15 @@ async function initNeuralNetwork() {
       }
     }
   }, {passive:true});
+
+  // Click to create pulse animation
+  canvas.addEventListener('click', (e)=>{
+    if (!sim) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    sim.addPulse(x, y);
+  });
 
   // Initial build
   resizeCanvas();
