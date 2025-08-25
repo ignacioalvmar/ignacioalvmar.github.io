@@ -14,15 +14,10 @@ redirect_from:
   <!-- Hero Content -->
   <div class="hero-content">
     <div class="hero-text">
-      <div class="hero-greeting">
-        <span class="greeting-text">Hi there, I'm</span>
-      </div>
       <h1 class="hero-name">Ignacio Alvarez</h1>
       <p class="hero-tagline">Shaping the Future of Mobility with Human-Centered AI</p>
       
-      <div class="hero-description">
-        <p>I bring dreams to reality. For over 15 years, I've turned concepts into production-ready intelligent systems at Intel and BMW, shaping the transportation industry. Now, as a research professor, I'm pioneering the next wave of human-centric AI that will define the future of mobility. This site is an exploration of a journey at the intersection of AI, automotive, and user experience.</p>
-      </div>
+        <p class="hero-description">For over 15 years, I have turned idea concepts into production-ready intelligent systems at Intel and BMW. As a research professor, I am now pioneering the next wave of human-centric AI to build a safer, more intelligent mobility future. This site is an exploration of that journey at the intersection of AI, automotive, and user experience.</p>
     </div>
 
     <div class="hero-visual">
@@ -58,33 +53,20 @@ redirect_from:
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 8rem 2rem 2rem;
+  padding: 4rem 2rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: center;
+  align-items: start;
   min-height: 100vh;
   background: transparent;
 }
 
 .hero-text {
   z-index: 2;
-  background: transparent;
 }
 
-.hero-greeting {
-  margin-bottom: 0.5rem;
-  background: transparent;
-}
 
-.greeting-text {
-  font-size: 1.1rem;
-  color: #3498db;
-  font-weight: 500;
-  letter-spacing: 1px;
-  opacity: 0;
-  animation: fadeInUp 0.8s ease forwards 0.2s;
-}
 
 .hero-name {
   font-size: 4rem;
@@ -109,23 +91,18 @@ redirect_from:
 }
 
 .hero-description {
-  opacity: 0;
-  animation: fadeInUp 0.8s ease forwards 0.8s;
-  background: transparent;
-}
-
-.hero-description p {
   font-size: 1.1rem;
   line-height: 1.7;
   color: #ecf0f1;
   margin: 0;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards 0.8s;
 }
 
 /* Hero Visual */
 .hero-visual {
   position: relative;
   z-index: 1;
-  background: transparent;
 }
 
 .visual-container {
@@ -136,10 +113,7 @@ redirect_from:
   transition: background 0.3s ease;
 }
 
-/* Theme-responsive visual container background */
-.hero-container.light-mode .visual-container {
-  background: #ffffff;
-}
+
 
 /* Dynamic Neural Network */
 .neural-canvas {
@@ -274,13 +248,11 @@ redirect_from:
 
 
 
-.hero-container.light-mode .hero-description p {
+.hero-container.light-mode .hero-description {
   color: #34495e;
 }
 
-.hero-container.light-mode .visual-container {
-  background: #ffffff;
-}
+
 
 /* Light theme name visibility fix */
 .hero-container.light-mode .hero-name {
@@ -303,13 +275,7 @@ redirect_from:
     font-size: 2.5rem;
   }
   
-  .nav-content {
-    padding: 1rem;
-  }
-  
-  .nav-menu {
-    display: none;
-  }
+
   
   .visual-container {
     height: 300px;
@@ -347,10 +313,18 @@ redirect_from:
 <script>
 // Theme Toggle Functionality
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM loaded, initializing...');
+  
   const heroContainer = document.querySelector('.hero-container');
+  if (!heroContainer) {
+    console.error('Hero container not found!');
+    return;
+  }
   
   // Check for saved theme preference or default to dark
   const currentTheme = localStorage.getItem('theme') || 'dark';
+  console.log('Current theme:', currentTheme);
+  
   document.documentElement.setAttribute('data-theme', currentTheme);
   
   if (currentTheme === 'light') {
@@ -365,6 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('storage', function(e) {
     if (e.key === 'theme') {
       const newTheme = e.newValue;
+      console.log('Theme changed to:', newTheme);
       if (newTheme === 'light') {
         heroContainer.classList.add('light-mode');
         heroContainer.classList.remove('dark-mode');
@@ -375,8 +350,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Initialize Neural Network Animation
-  initNeuralNetwork();
+  // Initialize Neural Network Animation with retry mechanism
+  let initAttempts = 0;
+  const maxAttempts = 3;
+  
+  function tryInitNeuralNetwork() {
+    try {
+      console.log(`Attempt ${initAttempts + 1} to initialize neural network...`);
+      initNeuralNetwork();
+    } catch (error) {
+      console.error('Failed to initialize neural network:', error);
+      initAttempts++;
+      
+      if (initAttempts < maxAttempts) {
+        console.log(`Retrying in 1 second... (${initAttempts}/${maxAttempts})`);
+        setTimeout(tryInitNeuralNetwork, 1000);
+      } else {
+        console.error('Failed to initialize neural network after', maxAttempts, 'attempts');
+        // Show fallback content
+        showFallbackContent();
+      }
+    }
+  }
+  
+  // Start initialization after a short delay
+  setTimeout(tryInitNeuralNetwork, 500);
   
   // Parallax effect for visual elements
   window.addEventListener('scroll', function() {
@@ -390,16 +388,65 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// Fallback content if neural network fails to load
+function showFallbackContent() {
+  const canvas = document.getElementById('neuralCanvas');
+  if (canvas) {
+    const ctx = canvas.getContext('2d');
+    if (ctx) {
+      // Draw a simple fallback pattern
+      ctx.fillStyle = 'rgba(52, 152, 219, 0.1)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw some simple geometric shapes
+      ctx.strokeStyle = 'rgba(52, 152, 219, 0.3)';
+      ctx.lineWidth = 1;
+      
+      for (let i = 0; i < 5; i++) {
+        const x = (i + 1) * canvas.width / 6;
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+      }
+      
+      for (let i = 0; i < 5; i++) {
+        const y = (i + 1) * canvas.height / 6;
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
+      }
+    }
+  }
+}
+
 // Neural Network Animation System
 function initNeuralNetwork() {
+  console.log('Initializing neural network...');
+  
   const canvas = document.getElementById('neuralCanvas');
+  if (!canvas) {
+    console.error('Canvas element not found!');
+    return;
+  }
+  
   const ctx = canvas.getContext('2d');
+  if (!ctx) {
+    console.error('Could not get 2D context!');
+    return;
+  }
+  
+  console.log('Canvas and context initialized successfully');
   
   // Set canvas size
   function resizeCanvas() {
     const container = canvas.parentElement;
-    canvas.width = container.offsetWidth;
-    canvas.height = container.offsetHeight;
+    if (container) {
+      canvas.width = container.offsetWidth;
+      canvas.height = container.offsetHeight;
+      console.log(`Canvas resized to: ${canvas.width}x${canvas.height}`);
+    }
   }
   
   resizeCanvas();
@@ -408,17 +455,17 @@ function initNeuralNetwork() {
   // Neural Network Configuration
   const config = {
     neuronCount: 35,
-    connectionDistance: 150, // Increased for more distant connections
+    connectionDistance: 150,
     neuronSize: { min: 4, max: 10 },
-    connectionOpacity: 0.6,
-    trafficSpeed: 0.6, // Reduced for slower, more realistic traffic flow
+    connectionOpacity: 0.8, // Increased for better visibility
+    trafficSpeed: 0.6,
     spawnRate: 0.03,
-    maxConnections: 6, // Increased maximum connections per neuron
-    gridSize: 80, // Grid cell size for road network
-    roadWidth: 2, // Width of road connections
-    connectionColors: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'], // Different colors for connections
-    connectionLifespan: { min: 80, max: 200 }, // Random lifespan for connections
-    connectionUpdateInterval: 2000 // Update connections every 2 seconds
+    maxConnections: 6,
+    gridSize: 80,
+    roadWidth: 3, // Increased for better visibility
+    connectionColors: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
+    connectionLifespan: { min: 80, max: 200 },
+    connectionUpdateInterval: 2000
   };
   
   // Neuron class
@@ -435,20 +482,16 @@ function initNeuralNetwork() {
       this.phase = Math.random() * Math.PI * 2;
       this.pulseSpeed = Math.random() * 0.05 + 0.02;
       this.speed = Math.random() * 0.8 + 0.5;
-      this.direction = Math.floor(Math.random() * 4); // 0: right, 1: down, 2: left, 3: up
+      this.direction = Math.floor(Math.random() * 4);
       this.gridX = Math.floor(x / config.gridSize);
       this.gridY = Math.floor(y / config.gridSize);
     }
     
     update() {
-      // Grid-based movement along road network
       this.moveAlongGrid();
-      
-      // Update life cycle
       this.life++;
       this.phase += this.pulseSpeed;
       
-      // Remove old neurons
       if (this.life > this.maxLife) {
         return false;
       }
@@ -456,58 +499,46 @@ function initNeuralNetwork() {
       return true;
     }
     
-         moveAlongGrid() {
-       // Move towards target position
-       const dx = this.targetX - this.x;
-       const dy = this.targetY - this.y;
-       
-       if (Math.abs(dx) < 2 && Math.abs(dy) < 2) {
-         // Reached target, set new target
-         this.setNewTarget();
-       }
-       
-       // Move towards target with slower, more realistic traffic speed
-       if (dx !== 0) {
-         this.x += Math.sign(dx) * this.speed * config.trafficSpeed * 0.5; // Additional slowdown factor
-       }
-       if (dy !== 0) {
-         this.y += Math.sign(dy) * this.speed * config.trafficSpeed * 0.5; // Additional slowdown factor
-       }
-       
-       // Update grid position
-       this.gridX = Math.floor(this.x / config.gridSize);
-       this.gridY = Math.floor(this.y / config.gridSize);
-     }
+    moveAlongGrid() {
+      const dx = this.targetX - this.x;
+      const dy = this.targetY - this.y;
+      
+      if (Math.abs(dx) < 2 && Math.abs(dy) < 2) {
+        this.setNewTarget();
+      }
+      
+      if (dx !== 0) {
+        this.x += Math.sign(dx) * this.speed * config.trafficSpeed * 0.5;
+      }
+      if (dy !== 0) {
+        this.y += Math.sign(dy) * this.speed * config.trafficSpeed * 0.5;
+      }
+      
+      this.gridX = Math.floor(this.x / config.gridSize);
+      this.gridY = Math.floor(this.y / config.gridSize);
+    }
     
     setNewTarget() {
-      // Set new target along grid lines (road network)
       const directions = [
-        [1, 0],   // right
-        [0, 1],   // down
-        [-1, 0],  // left
-        [0, -1]   // up
+        [1, 0], [0, 1], [-1, 0], [0, -1]
       ];
       
-      // Choose a random direction
       this.direction = Math.floor(Math.random() * 4);
       const [dirX, dirY] = directions[this.direction];
       
-      // Calculate new target within grid bounds
       let newGridX = this.gridX + dirX;
       let newGridY = this.gridY + dirY;
       
-      // Keep within canvas bounds
       const maxGridX = Math.floor(canvas.width / config.gridSize);
       const maxGridY = Math.floor(canvas.height / config.gridSize);
       
       if (newGridX < 0 || newGridX > maxGridX) {
-        newGridX = this.gridX - dirX; // Reverse direction
+        newGridX = this.gridX - dirX;
       }
       if (newGridY < 0 || newGridY > maxGridY) {
-        newGridY = this.gridY - dirY; // Reverse direction
+        newGridY = this.gridY - dirY;
       }
       
-      // Set target to center of grid cell
       this.targetX = (newGridX + 0.5) * config.gridSize;
       this.targetY = (newGridY + 0.5) * config.gridSize;
     }
@@ -521,17 +552,17 @@ function initNeuralNetwork() {
       ctx.translate(this.x, this.y);
       ctx.scale(scale, scale);
       
-      // Draw neuron with glow effect
+      // Draw neuron with stronger glow effect
       ctx.beginPath();
       ctx.arc(0, 0, this.size, 0, Math.PI * 2);
       ctx.fillStyle = '#3498db';
       ctx.fill();
       
-      // Glow effect
+      // Enhanced glow effect
       ctx.shadowColor = '#3498db';
-      ctx.shadowBlur = 15;
+      ctx.shadowBlur = 20;
       ctx.beginPath();
-      ctx.arc(0, 0, this.size * 0.5, 0, Math.PI * 2);
+      ctx.arc(0, 0, this.size * 0.6, 0, Math.PI * 2);
       ctx.fill();
       
       ctx.restore();
@@ -544,8 +575,8 @@ function initNeuralNetwork() {
       this.from = from;
       this.to = to;
       this.progress = 0;
-      this.speed = Math.random() * 0.012 + 0.006; // Slightly slower for traffic flow
-      this.width = Math.random() * 3 + 2;
+      this.speed = Math.random() * 0.012 + 0.006;
+      this.width = Math.random() * 4 + 3; // Increased size
       this.life = 0;
       this.maxLife = Math.random() * (config.connectionLifespan.max - config.connectionLifespan.min) + config.connectionLifespan.min;
       this.color = config.connectionColors[Math.floor(Math.random() * config.connectionColors.length)];
@@ -580,17 +611,17 @@ function initNeuralNetwork() {
       const x = this.from.x + (this.to.x - this.from.x) * this.progress;
       const y = this.from.y + (this.to.y - this.from.y) * this.progress;
       
-      ctx.globalAlpha = 0.9;
+      ctx.globalAlpha = 1.0; // Full opacity for particles
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(x, y, this.width, 0, Math.PI * 2);
       ctx.fill();
       
-      // Add glow effect to moving particle
+      // Enhanced glow effect to moving particle
       ctx.shadowColor = this.color;
-      ctx.shadowBlur = 8;
+      ctx.shadowBlur = 12;
       ctx.beginPath();
-      ctx.arc(x, y, this.width * 0.6, 0, Math.PI * 2);
+      ctx.arc(x, y, this.width * 0.7, 0, Math.PI * 2);
       ctx.fill();
       
       ctx.restore();
@@ -602,58 +633,56 @@ function initNeuralNetwork() {
     constructor() {
       this.particles = [];
       this.connections = [];
+      this.lastUpdate = Date.now();
     }
     
     addParticle(x, y) {
       this.particles.push(new Neuron(x, y));
     }
     
-         update() {
-       // Update neurons
-       this.particles = this.particles.filter(neuron => neuron.update());
-       
-       // Spawn new neurons
-       if (Math.random() < config.spawnRate) {
-         const x = Math.random() * canvas.width;
-         const y = Math.random() * canvas.height;
-         this.addParticle(x, y);
-       }
-       
-       // Randomly remove some connections for dynamic effect
-       this.connections = this.connections.filter(conn => {
-         // 5% chance per frame for each connection to disappear
-         if (Math.random() < 0.05) {
-           return false;
-         }
-         return conn.update();
-       });
-       
-       // Create connections between nearby neurons
-       this.createConnections();
-     }
+    update() {
+      // Update neurons
+      this.particles = this.particles.filter(neuron => neuron.update());
+      
+      // Spawn new neurons
+      if (Math.random() < config.spawnRate) {
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height;
+        this.addParticle(x, y);
+      }
+      
+      // Randomly remove some connections for dynamic effect
+      this.connections = this.connections.filter(conn => {
+        if (Math.random() < 0.03) { // Reduced from 0.05 for more stable connections
+          return false;
+        }
+        return conn.update();
+      });
+      
+      // Create connections between nearby neurons
+      this.createConnections();
+    }
     
     createConnections() {
       // Clear existing connections periodically
-      if (Date.now() % config.connectionUpdateInterval < 16) { // Check every frame if it's time to update
+      const now = Date.now();
+      if (now - this.lastUpdate > config.connectionUpdateInterval) {
         this.connections = [];
         this.particles.forEach(neuron => neuron.connections = []);
+        this.lastUpdate = now;
       }
       
       for (let i = 0; i < this.particles.length; i++) {
         const neuron = this.particles[i];
         
-        // Create more diverse connections - both nearby and distant
-        const connectionCount = Math.floor(Math.random() * 3) + 4; // 4-6 connections per neuron
+        const connectionCount = Math.floor(Math.random() * 3) + 4;
         
         for (let j = 0; j < connectionCount; j++) {
           let target;
           
-          // 60% chance to connect to nearby neurons, 40% chance to distant ones
           if (Math.random() < 0.6) {
-            // Find nearby neurons
             target = this.findNearestNeuron(neuron, config.connectionDistance);
           } else {
-            // Find distant neurons
             target = this.findDistantNeuron(neuron, config.connectionDistance * 1.5);
           }
           
@@ -661,7 +690,6 @@ function initNeuralNetwork() {
               neuron.connections.length < config.maxConnections &&
               target.connections.length < config.maxConnections) {
             
-            // Create connection
             const connection = new Connection(neuron, target);
             this.connections.push(connection);
             neuron.connections.push(connection);
@@ -712,10 +740,10 @@ function initNeuralNetwork() {
     }
     
     draw() {
-      // Clear canvas with transparent background (no fade effect)
+      // Clear canvas with transparent background
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
-      // Draw grid lines for road network visualization (optional)
+      // Draw grid lines for road network visualization
       this.drawGridLines();
       
       // Draw connections first (roads)
@@ -726,11 +754,10 @@ function initNeuralNetwork() {
     }
     
     drawGridLines() {
-      // Draw subtle grid lines to show road network structure
       ctx.save();
-      ctx.globalAlpha = 0.1;
+      ctx.globalAlpha = 0.15; // Slightly more visible
       ctx.strokeStyle = '#3498db';
-      ctx.lineWidth = 0.5;
+      ctx.lineWidth = 0.8;
       
       // Vertical lines
       for (let x = 0; x <= canvas.width; x += config.gridSize) {
@@ -764,14 +791,43 @@ function initNeuralNetwork() {
     trafficFlow.addParticle(x, y);
   }
   
-  // Animation loop
+  console.log(`Initialized ${config.neuronCount} neurons`);
+  
+  // Animation loop with error handling
   function animate() {
-    trafficFlow.update();
-    trafficFlow.draw();
-    requestAnimationFrame(animate);
+    try {
+      trafficFlow.update();
+      trafficFlow.draw();
+      requestAnimationFrame(animate);
+    } catch (error) {
+      console.error('Animation error:', error);
+      // Restart animation after a short delay
+      setTimeout(() => {
+        requestAnimationFrame(animate);
+      }, 100);
+    }
   }
   
-  animate();
+  // Test canvas functionality
+  function testCanvas() {
+    try {
+      ctx.fillStyle = 'rgba(52, 152, 219, 0.5)';
+      ctx.fillRect(10, 10, 50, 50);
+      console.log('Canvas test successful - basic drawing works');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    } catch (error) {
+      console.error('Canvas test failed:', error);
+    }
+  }
+  
+  // Test canvas before starting animation
+  testCanvas();
+  
+  // Start animation with a small delay to ensure everything is ready
+  setTimeout(() => {
+    console.log('Starting animation loop...');
+    animate();
+  }, 100);
   
   // Interactive mouse effects
   canvas.addEventListener('mousemove', (e) => {
@@ -779,7 +835,6 @@ function initNeuralNetwork() {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     
-    // Add neurons on mouse movement
     if (Math.random() < 0.1) {
       trafficFlow.addParticle(x, y);
     }
@@ -797,5 +852,7 @@ function initNeuralNetwork() {
       trafficFlow.addParticle(x, y);
     }
   });
+  
+  console.log('Neural network initialization complete');
 }
 </script>
