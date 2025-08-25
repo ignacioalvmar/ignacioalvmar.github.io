@@ -17,7 +17,7 @@ redirect_from:
       <h1 class="hero-name">Ignacio Alvarez</h1>
       <p class="hero-tagline">Shaping the Future of Mobility with Human-Centered AI</p>
       
-        <p class="hero-description">For over 15 years, I have turned idea concepts into production-ready intelligent systems at Intel and BMW. As a research professor, I am now pioneering the next wave of human-centric AI to build a safer, more intelligent mobility future. This site is an exploration of that journey at the intersection of AI, automotive, and user experience.</p>
+      <p class="hero-description">For over 15 years, I have turned idea concepts into production-ready intelligent systems at Intel and BMW. As a research professor, I am now pioneering the next wave of human-centric AI to build a safer, more intelligent mobility future. This site is an exploration of that journey at the intersection of AI, automotive, and user experience.</p>
     </div>
 
     <div class="hero-visual">
@@ -47,8 +47,6 @@ redirect_from:
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-
-
 /* Hero Content */
 .hero-content {
   max-width: 1200px;
@@ -65,8 +63,6 @@ redirect_from:
 .hero-text {
   z-index: 2;
 }
-
-
 
 .hero-name {
   font-size: 4rem;
@@ -113,8 +109,6 @@ redirect_from:
   transition: background 0.3s ease;
 }
 
-
-
 /* Dynamic Neural Network */
 .neural-canvas {
   position: absolute;
@@ -122,15 +116,9 @@ redirect_from:
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0; /* Ensure canvas is behind other elements */
+  z-index: 0;
   background: transparent;
   cursor: crosshair;
-}
-
-/* Canvas theme responsiveness - fully transparent */
-.hero-container.light-mode .neural-canvas,
-.hero-container.dark-mode .neural-canvas {
-  background: transparent;
 }
 
 .neural-overlay {
@@ -139,8 +127,8 @@ redirect_from:
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1; /* Ensure overlay is above canvas */
-  pointer-events: none; /* Allow clicks to pass through */
+  z-index: 1;
+  pointer-events: none;
 }
 
 .connection-paths, .data-flow-lines, .traffic-indicators {
@@ -163,11 +151,11 @@ redirect_from:
   animation: dataStreamFlow 10s ease-in-out infinite;
 }
 
- .traffic-indicators {
-   background: rgba(52, 152, 219, 0.1);
-   opacity: 0.5;
-   animation: trafficFlow 8s ease-in-out infinite;
- }
+.traffic-indicators {
+  background: rgba(52, 152, 219, 0.1);
+  opacity: 0.5;
+  animation: trafficFlow 8s ease-in-out infinite;
+}
 
 /* Animations */
 @keyframes fadeInUp {
@@ -244,15 +232,13 @@ redirect_from:
   color: #2c3e50;
 }
 
-
-
-
-
 .hero-container.light-mode .hero-description {
   color: #34495e;
 }
 
-
+.hero-container.light-mode .visual-container {
+  background: #ffffff;
+}
 
 /* Light theme name visibility fix */
 .hero-container.light-mode .hero-name {
@@ -275,8 +261,6 @@ redirect_from:
     font-size: 2.5rem;
   }
   
-
-  
   .visual-container {
     height: 300px;
   }
@@ -287,11 +271,6 @@ redirect_from:
   
   .neural-overlay {
     transform: scale(0.7);
-  }
-  
-  .vehicle-outline {
-    width: 80px;
-    height: 40px;
   }
 }
 
@@ -313,18 +292,10 @@ redirect_from:
 <script>
 // Theme Toggle Functionality
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM loaded, initializing...');
-  
   const heroContainer = document.querySelector('.hero-container');
-  if (!heroContainer) {
-    console.error('Hero container not found!');
-    return;
-  }
   
   // Check for saved theme preference or default to dark
   const currentTheme = localStorage.getItem('theme') || 'dark';
-  console.log('Current theme:', currentTheme);
-  
   document.documentElement.setAttribute('data-theme', currentTheme);
   
   if (currentTheme === 'light') {
@@ -339,7 +310,6 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('storage', function(e) {
     if (e.key === 'theme') {
       const newTheme = e.newValue;
-      console.log('Theme changed to:', newTheme);
       if (newTheme === 'light') {
         heroContainer.classList.add('light-mode');
         heroContainer.classList.remove('dark-mode');
@@ -349,95 +319,15 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
-
-  // Initialize Neural Network Animation with retry mechanism
-  let initAttempts = 0;
-  const maxAttempts = 3;
-  
-  function tryInitNeuralNetwork() {
-    try {
-      console.log(`Attempt ${initAttempts + 1} to initialize neural network...`);
-      initNeuralNetwork();
-    } catch (error) {
-      console.error('Failed to initialize neural network:', error);
-      initAttempts++;
-      
-      if (initAttempts < maxAttempts) {
-        console.log(`Retrying in 1 second... (${initAttempts}/${maxAttempts})`);
-        setTimeout(tryInitNeuralNetwork, 1000);
-      } else {
-        console.error('Failed to initialize neural network after', maxAttempts, 'attempts');
-        // Show fallback content
-        showFallbackContent();
-      }
-    }
-  }
-  
-  // Start initialization after a short delay
-  setTimeout(tryInitNeuralNetwork, 500);
-  
-  // Parallax effect for visual elements
-  window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.neural-overlay > *');
-    
-    parallaxElements.forEach((element, index) => {
-      const speed = 0.3 + (index * 0.05);
-      element.style.transform = `translateY(${scrolled * speed}px)`;
-    });
-  });
 });
-
-// Fallback content if neural network fails to load
-function showFallbackContent() {
-  const canvas = document.getElementById('neuralCanvas');
-  if (canvas) {
-    const ctx = canvas.getContext('2d');
-    if (ctx) {
-      // Draw a simple fallback pattern
-      ctx.fillStyle = 'rgba(52, 152, 219, 0.1)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      
-      // Draw some simple geometric shapes
-      ctx.strokeStyle = 'rgba(52, 152, 219, 0.3)';
-      ctx.lineWidth = 1;
-      
-      for (let i = 0; i < 5; i++) {
-        const x = (i + 1) * canvas.width / 6;
-        ctx.beginPath();
-        ctx.moveTo(x, 0);
-        ctx.lineTo(x, canvas.height);
-        ctx.stroke();
-      }
-      
-      for (let i = 0; i < 5; i++) {
-        const y = (i + 1) * canvas.height / 6;
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(canvas.width, y);
-        ctx.stroke();
-      }
-    }
-  }
-}
 
 // Neural Network Animation System
 function initNeuralNetwork() {
-  console.log('Initializing neural network...');
-  
   const canvas = document.getElementById('neuralCanvas');
-  if (!canvas) {
-    console.error('Canvas element not found!');
-    return;
-  }
+  if (!canvas) return;
   
   const ctx = canvas.getContext('2d');
-  if (!ctx) {
-    console.error('Could not get 2D context!');
-    return;
-  }
-  
-  console.log('Canvas and context initialized successfully');
+  if (!ctx) return;
   
   // Set canvas size
   function resizeCanvas() {
@@ -445,7 +335,6 @@ function initNeuralNetwork() {
     if (container) {
       canvas.width = container.offsetWidth;
       canvas.height = container.offsetHeight;
-      console.log(`Canvas resized to: ${canvas.width}x${canvas.height}`);
     }
   }
   
@@ -457,12 +346,12 @@ function initNeuralNetwork() {
     neuronCount: 35,
     connectionDistance: 150,
     neuronSize: { min: 4, max: 10 },
-    connectionOpacity: 0.8, // Increased for better visibility
+    connectionOpacity: 0.8,
     trafficSpeed: 0.6,
     spawnRate: 0.03,
     maxConnections: 6,
     gridSize: 80,
-    roadWidth: 3, // Increased for better visibility
+    roadWidth: 3,
     connectionColors: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
     connectionLifespan: { min: 80, max: 200 },
     connectionUpdateInterval: 2000
@@ -576,7 +465,7 @@ function initNeuralNetwork() {
       this.to = to;
       this.progress = 0;
       this.speed = Math.random() * 0.012 + 0.006;
-      this.width = Math.random() * 4 + 3; // Increased size
+      this.width = Math.random() * 4 + 3;
       this.life = 0;
       this.maxLife = Math.random() * (config.connectionLifespan.max - config.connectionLifespan.min) + config.connectionLifespan.min;
       this.color = config.connectionColors[Math.floor(Math.random() * config.connectionColors.length)];
@@ -611,7 +500,7 @@ function initNeuralNetwork() {
       const x = this.from.x + (this.to.x - this.from.x) * this.progress;
       const y = this.from.y + (this.to.y - this.from.y) * this.progress;
       
-      ctx.globalAlpha = 1.0; // Full opacity for particles
+      ctx.globalAlpha = 1.0;
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(x, y, this.width, 0, Math.PI * 2);
@@ -653,7 +542,7 @@ function initNeuralNetwork() {
       
       // Randomly remove some connections for dynamic effect
       this.connections = this.connections.filter(conn => {
-        if (Math.random() < 0.03) { // Reduced from 0.05 for more stable connections
+        if (Math.random() < 0.03) {
           return false;
         }
         return conn.update();
@@ -755,7 +644,7 @@ function initNeuralNetwork() {
     
     drawGridLines() {
       ctx.save();
-      ctx.globalAlpha = 0.15; // Slightly more visible
+      ctx.globalAlpha = 0.15;
       ctx.strokeStyle = '#3498db';
       ctx.lineWidth = 0.8;
       
@@ -791,43 +680,15 @@ function initNeuralNetwork() {
     trafficFlow.addParticle(x, y);
   }
   
-  console.log(`Initialized ${config.neuronCount} neurons`);
-  
-  // Animation loop with error handling
+  // Animation loop
   function animate() {
-    try {
-      trafficFlow.update();
-      trafficFlow.draw();
-      requestAnimationFrame(animate);
-    } catch (error) {
-      console.error('Animation error:', error);
-      // Restart animation after a short delay
-      setTimeout(() => {
-        requestAnimationFrame(animate);
-      }, 100);
-    }
+    trafficFlow.update();
+    trafficFlow.draw();
+    requestAnimationFrame(animate);
   }
   
-  // Test canvas functionality
-  function testCanvas() {
-    try {
-      ctx.fillStyle = 'rgba(52, 152, 219, 0.5)';
-      ctx.fillRect(10, 10, 50, 50);
-      console.log('Canvas test successful - basic drawing works');
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-    } catch (error) {
-      console.error('Canvas test failed:', error);
-    }
-  }
-  
-  // Test canvas before starting animation
-  testCanvas();
-  
-  // Start animation with a small delay to ensure everything is ready
-  setTimeout(() => {
-    console.log('Starting animation loop...');
-    animate();
-  }, 100);
+  // Start animation
+  animate();
   
   // Interactive mouse effects
   canvas.addEventListener('mousemove', (e) => {
@@ -852,7 +713,10 @@ function initNeuralNetwork() {
       trafficFlow.addParticle(x, y);
     }
   });
-  
-  console.log('Neural network initialization complete');
 }
+
+// Initialize neural network when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(initNeuralNetwork, 100);
+});
 </script>
