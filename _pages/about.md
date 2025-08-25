@@ -40,8 +40,8 @@ redirect_from:
 /* Hero Container */
 .hero-container {
   min-height: 100vh;
-  background: #1a1a1a;
-  color: #ffffff;
+  /* background: #1a1a1a; */
+  /* color: #ffffff; */
   position: relative;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -68,7 +68,7 @@ redirect_from:
   font-size: 4rem;
   font-weight: 800;
   margin: 0 0 1rem 0;
-  background: linear-gradient(135deg, #ffffff 0%, #3498db 100%);
+  background: linear-gradient(135deg,rgb(182, 186, 255) 0%, #3498db 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -89,7 +89,6 @@ redirect_from:
 .hero-description {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #ecf0f1;
   margin: 0;
   opacity: 0;
   animation: fadeInUp 0.8s ease forwards 0.8s;
@@ -105,7 +104,8 @@ redirect_from:
   position: relative;
   width: 100%;
   height: 500px;
-  background: #1a1a1a;
+  /* background: #1a1a1a; */
+  background: transparent;
   transition: background 0.3s ease;
 }
 
@@ -218,35 +218,13 @@ redirect_from:
   }
 }
 
-/* Dark Mode Styles */
-.hero-container.dark-mode {
-  background: #121212;
-}
-
-.hero-container.dark-mode .visual-container {
-  background: #121212;
-}
-
-.hero-container.light-mode {
-  background: #ffffff;
-  color: #2c3e50;
-}
-
-.hero-container.light-mode .hero-description {
-  color: #34495e;
-}
-
-.hero-container.light-mode .visual-container {
-  background: #ffffff;
-}
-
 /* Light theme name visibility fix */
-.hero-container.light-mode .hero-name {
+/* .hero-container.light-mode .hero-name {
   background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {
