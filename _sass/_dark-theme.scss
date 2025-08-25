@@ -69,3 +69,39 @@ a {
     }
   }
 }
+
+/* Custom icon styling for author profile */
+.author__urls {
+  /* Make location icons red */
+  .fa-map-marker {
+    color: #e74c3c !important; /* Red color for location icons */
+  }
+  
+  /* Dark theme GitHub icon - handle both regular and brand versions */
+  [data-theme="dark"] & .fa-github,
+  [data-theme="dark"] & .fab.fa-github {
+    color: #ffffff !important; /* White color for dark theme */
+  }
+  
+  /* Light theme GitHub icon - handle both regular and brand versions */
+  .fa-github,
+  .fab.fa-github {
+    color: #171516 !important; /* Dark color for light theme */
+  }
+}
+
+/* Ensure location icons are always red regardless of theme */
+.author__urls .fa-map-marker {
+  color: #e74c3c !important;
+}
+
+/* Override any existing GitHub icon styles in utilities */
+.social-icons .fa-github,
+.social-icons .fab.fa-github {
+  color: #171516 !important; /* Default dark color */
+}
+
+[data-theme="dark"] .social-icons .fa-github,
+[data-theme="dark"] .social-icons .fab.fa-github {
+  color: #ffffff !important; /* White color for dark theme */
+}
