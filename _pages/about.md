@@ -179,6 +179,11 @@ html[data-theme="light"] .hero-name {
 </style>
 
 <script>
+console.log('Script tag loaded - testing basic JavaScript execution');
+
+// Test basic JavaScript functionality
+console.log('Testing basic JavaScript:', typeof console, typeof document, typeof window);
+
 // Keep your existing theme behavior
 document.addEventListener('DOMContentLoaded', function() {
   const currentTheme = localStorage.getItem('theme') || 'dark';
@@ -236,6 +241,8 @@ async function initNeuralNetwork() {
   }
   
   console.log('2D context obtained successfully');
+
+
 
   // Rebuild network on resize so it fills the canvas perfectly
   let raf;
@@ -626,7 +633,7 @@ async function initNeuralNetwork() {
       cancelAnimationFrame(raf);
     }
     
-      try {
+    try {
         console.log('Creating NetworkSim with canvas:', canvas);
         console.log('Canvas dimensions in buildAndStart:', canvas.width, 'x', canvas.height);
         
@@ -720,7 +727,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       
-        if (canvas) {
+      if (canvas) {
           console.log('Canvas ready, testing canvas functionality...');
           console.log('Canvas element:', canvas);
           console.log('Canvas dimensions:', canvas.width, 'x', canvas.height);
