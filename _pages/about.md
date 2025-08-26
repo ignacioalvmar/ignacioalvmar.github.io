@@ -184,20 +184,86 @@ console.log('Script tag loaded - testing basic JavaScript execution');
 // Test basic JavaScript functionality
 console.log('Testing basic JavaScript:', typeof console, typeof document, typeof window);
 
-// Keep your existing theme behavior
-document.addEventListener('DOMContentLoaded', function() {
-  const currentTheme = localStorage.getItem('theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', currentTheme);
-  window.addEventListener('storage', function(e) {
-    if (e.key === 'theme') {
-      document.documentElement.setAttribute('data-theme', e.newValue || 'dark');
-    }
-  });
+// Add error handling to catch any syntax errors
+window.addEventListener('error', function(e) {
+  console.error('Global error caught:', e.error);
+  console.error('Error message:', e.message);
+  console.error('Error filename:', e.filename);
+  console.error('Error line:', e.lineno);
+  console.error('Error column:', e.colno);
 });
+
+// Test if we can continue execution
+console.log('Basic JavaScript test completed successfully');
+
+// Simple DOM manipulation test
+try {
+  console.log('Testing DOM manipulation...');
+  const testDiv = document.createElement('div');
+  testDiv.textContent = 'DOM Test Successful';
+  testDiv.style.cssText = 'position: fixed; top: 10px; right: 10px; background: red; color: white; padding: 10px; z-index: 9999;';
+  document.body.appendChild(testDiv);
+  console.log('DOM test div added to page');
+  
+  // Remove it after 3 seconds
+  setTimeout(() => {
+    if (testDiv.parentNode) {
+      testDiv.parentNode.removeChild(testDiv);
+      console.log('DOM test div removed');
+    }
+  }, 3000);
+} catch (error) {
+  console.error('DOM test failed:', error);
+}
+
+// Keep your existing theme behavior
+console.log('Setting up theme behavior...');
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOMContentLoaded event handler executing...');
+  try {
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    console.log('Theme set to:', currentTheme);
+    
+    window.addEventListener('storage', function(e) {
+      if (e.key === 'theme') {
+        document.documentElement.setAttribute('data-theme', e.newValue || 'dark');
+      }
+    });
+    console.log('Theme behavior setup completed');
+    
+    // Simple canvas test on DOMContentLoaded
+    console.log('Testing simple canvas functionality...');
+    const simpleCanvas = document.getElementById('neuralCanvas');
+    if (simpleCanvas) {
+      console.log('Found canvas element:', simpleCanvas);
+      const simpleCtx = simpleCanvas.getContext('2d');
+      if (simpleCtx) {
+        console.log('Got 2D context for simple test');
+        simpleCanvas.width = 500;
+        simpleCanvas.height = 500;
+        simpleCtx.fillStyle = 'orange';
+        simpleCtx.fillRect(0, 0, 500, 500);
+        simpleCtx.fillStyle = 'black';
+        simpleCtx.font = '20px Arial';
+        simpleCtx.fillText('Simple Canvas Test', 50, 250);
+        console.log('Simple canvas test completed');
+      } else {
+        console.error('Could not get 2D context for simple test');
+      }
+    } else {
+      console.log('Canvas not found for simple test');
+    }
+  } catch (error) {
+    console.error('Error in theme behavior setup:', error);
+  }
+});
+console.log('Theme behavior setup code completed');
 
 // ==============================
 //  LANE-BASED HUMAN SILHOUETTE
 // ==============================
+console.log('Defining waitForCanvas function...');
 function waitForCanvas() {
   return new Promise((resolve) => {
     let attempts = 0;
@@ -222,6 +288,7 @@ function waitForCanvas() {
   });
 }
 
+console.log('Defining initNeuralNetwork function...');
 async function initNeuralNetwork() {
   console.log('initNeuralNetwork called');
   
@@ -634,24 +701,24 @@ async function initNeuralNetwork() {
     }
     
     try {
-        console.log('Creating NetworkSim with canvas:', canvas);
-        console.log('Canvas dimensions in buildAndStart:', canvas.width, 'x', canvas.height);
-        
-        sim = new NetworkSim(canvas, config, roadsNormalized);
-        console.log('Simulation created successfully');
-        
-        (function animate(){
-          try {
-            sim.update();
-            sim.draw();
-            raf = requestAnimationFrame(animate);
-          } catch (animateError) {
-            console.error('Error in animation loop:', animateError);
-            cancelAnimationFrame(raf);
-          }
-        })();
-        console.log('Animation loop started');
-      } catch (error) {
+      console.log('Creating NetworkSim with canvas:', canvas);
+      console.log('Canvas dimensions in buildAndStart:', canvas.width, 'x', canvas.height);
+      
+      sim = new NetworkSim(canvas, config, roadsNormalized);
+      console.log('Simulation created successfully');
+      
+      (function animate(){
+        try {
+          sim.update();
+          sim.draw();
+          raf = requestAnimationFrame(animate);
+        } catch (animateError) {
+          console.error('Error in animation loop:', animateError);
+          cancelAnimationFrame(raf);
+        }
+      })();
+      console.log('Animation loop started');
+    } catch (error) {
         console.error('Error in buildAndStart:', error);
         console.error('Error stack:', error.stack);
       }
@@ -728,70 +795,70 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       if (canvas) {
-          console.log('Canvas ready, testing canvas functionality...');
-          console.log('Canvas element:', canvas);
-          console.log('Canvas dimensions:', canvas.width, 'x', canvas.height);
-          console.log('Canvas parent:', canvas.parentElement);
+        console.log('Canvas ready, testing canvas functionality...');
+        console.log('Canvas element:', canvas);
+        console.log('Canvas dimensions:', canvas.width, 'x', canvas.height);
+        console.log('Canvas parent:', canvas.parentElement);
+        
+        // Test if canvas is working by drawing a simple test pattern
+        const testCtx = canvas.getContext('2d');
+        if (testCtx) {
+          console.log('Test context obtained, drawing test pattern...');
           
-          // Test if canvas is working by drawing a simple test pattern
-          const testCtx = canvas.getContext('2d');
-          if (testCtx) {
-            console.log('Test context obtained, drawing test pattern...');
-            
-            // Set canvas dimensions if they're 0
-            if (canvas.width === 0 || canvas.height === 0) {
-              console.log('Canvas dimensions are 0, setting to container size...');
-              const container = canvas.parentElement;
-              if (container) {
-                canvas.width = container.offsetWidth || 500;
-                canvas.height = container.offsetHeight || 500;
-                console.log('Canvas dimensions set to:', canvas.width, 'x', canvas.height);
-              } else {
-                console.log('No container found, using fallback dimensions');
-                canvas.width = 500;
-                canvas.height = 500;
-              }
+          // Set canvas dimensions if they're 0
+          if (canvas.width === 0 || canvas.height === 0) {
+            console.log('Canvas dimensions are 0, setting to container size...');
+            const container = canvas.parentElement;
+            if (container) {
+              canvas.width = container.offsetWidth || 500;
+              canvas.height = container.offsetHeight || 500;
+              console.log('Canvas dimensions set to:', canvas.width, 'x', canvas.height);
+            } else {
+              console.log('No container found, using fallback dimensions');
+              canvas.width = 500;
+              canvas.height = 500;
             }
-            
-            // Ensure minimum dimensions
-            if (canvas.width < 500) canvas.width = 500;
-            if (canvas.height < 500) canvas.height = 500;
-            
-            // Draw a more visible test pattern
-            testCtx.fillStyle = 'red';
-            testCtx.fillRect(10, 10, 100, 100);
-            testCtx.fillStyle = 'blue';
-            testCtx.fillRect(120, 10, 100, 100);
-            testCtx.fillStyle = 'green';
-            testCtx.fillRect(10, 120, 100, 100);
-            console.log('Test pattern drawn');
-            
-            // Also draw some text to verify canvas is working
-            testCtx.fillStyle = 'black';
-            testCtx.font = '20px Arial';
-            testCtx.fillText('Canvas Test', 10, 250);
-            
-            // Log canvas state
-            console.log('Canvas after test pattern:', {
-              width: canvas.width,
-              height: canvas.height,
-              style: canvas.style.width + ' x ' + canvas.style.height,
-              offsetWidth: canvas.offsetWidth,
-              offsetHeight: canvas.offsetHeight
-            });
-            
-            // Wait a bit before initializing neural network to ensure test pattern is visible
-            setTimeout(() => {
-              console.log('Initializing neural network after test pattern...');
-              initNeuralNetwork();
-            }, 500);
-          } else {
-            console.error('Could not get test context!');
           }
+          
+          // Ensure minimum dimensions
+          if (canvas.width < 500) canvas.width = 500;
+          if (canvas.height < 500) canvas.height = 500;
+          
+          // Draw a more visible test pattern
+          testCtx.fillStyle = 'red';
+          testCtx.fillRect(10, 10, 100, 100);
+          testCtx.fillStyle = 'blue';
+          testCtx.fillRect(120, 10, 100, 100);
+          testCtx.fillStyle = 'green';
+          testCtx.fillRect(10, 120, 100, 100);
+          console.log('Test pattern drawn');
+          
+          // Also draw some text to verify canvas is working
+          testCtx.fillStyle = 'black';
+          testCtx.font = '20px Arial';
+          testCtx.fillText('Canvas Test', 10, 250);
+          
+          // Log canvas state
+          console.log('Canvas after test pattern:', {
+            width: canvas.width,
+            height: canvas.height,
+            style: canvas.style.width + ' x ' + canvas.style.height,
+            offsetWidth: canvas.offsetWidth,
+            offsetHeight: canvas.offsetHeight
+          });
+          
+          // Wait a bit before initializing neural network to ensure test pattern is visible
+          setTimeout(() => {
+            console.log('Initializing neural network after test pattern...');
+            initNeuralNetwork();
+          }, 500);
         } else {
-          console.error('Failed to create or find canvas!');
+          console.error('Could not get test context!');
         }
-      } catch (error) {
+      } else {
+        console.error('Failed to create or find canvas!');
+      }
+    } catch (error) {
         console.error('Error initializing neural network:', error);
       }
     }, 100);
@@ -839,5 +906,6 @@ window.addEventListener('load', function() {
   }
 });
 
+console.log('Script tag parsing completed successfully');
 
 </script>
