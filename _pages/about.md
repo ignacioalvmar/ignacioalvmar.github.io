@@ -116,8 +116,11 @@ redirect_from:
   position: relative;
   width: 100%;
   height: 500px;
-  background: transparent;
+  background: rgba(0, 255, 0, 0.1); /* Green background to see container bounds */
   transition: background 0.3s ease;
+  border: 1px solid rgba(0, 255, 0, 0.5); /* Green border to see container bounds */
+  min-width: 500px;
+  min-height: 500px;
 }
 
 /* Canvas */
@@ -127,8 +130,11 @@ redirect_from:
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.1); /* Slight background to see canvas bounds */
   cursor: crosshair;
+  border: 1px solid rgba(255, 0, 0, 0.3); /* Red border to see canvas bounds */
+  min-width: 500px;
+  min-height: 500px;
 }
 
 /* Subtle overlays (kept faint) */
@@ -189,12 +195,22 @@ document.addEventListener('DOMContentLoaded', function() {
 // ==============================
 function waitForCanvas() {
   return new Promise((resolve) => {
+    let attempts = 0;
+    const maxAttempts = 20; // 1 second max wait
+    
     const checkCanvas = () => {
+      attempts++;
       const canvas = document.getElementById('neuralCanvas');
+      console.log(`Canvas check attempt ${attempts}:`, canvas ? 'found' : 'not found');
+      
       if (canvas) {
+        console.log('Canvas found, resolving promise');
         resolve(canvas);
-      } else {
+      } else if (attempts < maxAttempts) {
         setTimeout(checkCanvas, 100);
+      } else {
+        console.error('Max attempts reached, canvas not found');
+        resolve(null);
       }
     };
     checkCanvas();
@@ -202,36 +218,58 @@ function waitForCanvas() {
 }
 
 async function initNeuralNetwork() {
+  console.log('initNeuralNetwork called');
+  
   // Wait for canvas to be available
   const canvas = await waitForCanvas();
+  console.log('Canvas obtained:', canvas);
+  
+  if (!canvas) {
+    console.error('Canvas is null or undefined!');
+    return;
+  }
   
   const ctx = canvas.getContext('2d');
   if (!ctx) {
     console.error('Could not get 2D context!');
     return;
   }
+  
+  console.log('2D context obtained successfully');
 
   // Rebuild network on resize so it fills the canvas perfectly
   let raf;
   function resizeCanvas() {
     const container = canvas.parentElement;
+    console.log('Resizing canvas, container:', container);
+    
     if (container) {
       const containerWidth = container.offsetWidth;
       const containerHeight = container.offsetHeight;
+      console.log('Container dimensions:', containerWidth, 'x', containerHeight);
       
+      // Set canvas dimensions
       canvas.width = containerWidth;
       canvas.height = containerHeight;
       
       // Check if canvas has valid dimensions
       if (canvas.width === 0 || canvas.height === 0) {
+        console.log('Container dimensions invalid, using fallback 500x500');
         canvas.width = 500;
         canvas.height = 500;
       }
     } else {
+      console.log('No container found, using fallback 500x500');
       canvas.width = 500;
       canvas.height = 500;
     }
-    buildAndStart();
+    
+    console.log('Final canvas dimensions:', canvas.width, 'x', canvas.height);
+    
+    // Force a small delay to ensure canvas is ready
+    setTimeout(() => {
+      buildAndStart();
+    }, 50);
   }
   window.addEventListener('resize', resizeCanvas);
 
@@ -366,14 +404,19 @@ async function initNeuralNetwork() {
 
   class NetworkSim {
     constructor(canvas, config, roadsNormalized){
+      console.log('NetworkSim constructor called with:', { canvas, config, roadsNormalized });
+      
       this.canvas = canvas;
       this.ctx = canvas.getContext('2d');
+      console.log('Canvas context obtained:', this.ctx);
 
       // Scale normalized points (0..1) to canvas pixels
       const W = canvas.width, H = canvas.height;
+      console.log('Canvas dimensions in constructor:', W, 'x', H);
       const scale = (npts)=> npts.map(([nx,ny])=>[nx*W, ny*H]);
 
       this.roads = roadsNormalized.map(r => new Road(scale(r.points)));
+      console.log('Roads created:', this.roads.length);
 
       // Distribute vehicles across roads (most on the outer silhouette)
       this.vehicles = [];
@@ -382,6 +425,7 @@ async function initNeuralNetwork() {
       for (let i=0;i<this.roads.length;i++){
         for (let k=0;k<counts[i];k++) this.vehicles.push(new Vehicle(this.roads[i]));
       }
+      console.log('Vehicles created:', this.vehicles.length);
 
       // Pulse animation system
       this.pulses = [];
@@ -532,6 +576,8 @@ async function initNeuralNetwork() {
 
     draw(){
       const {ctx, canvas} = this;
+      console.log('Drawing frame, canvas dimensions:', canvas.width, 'x', canvas.height);
+      
       ctx.clearRect(0,0,canvas.width,canvas.height);
       this.drawRoads();
       this.drawConnections();
@@ -574,13 +620,34 @@ async function initNeuralNetwork() {
 
   let sim;
   function buildAndStart(){
-    if (raf) cancelAnimationFrame(raf);
-    sim = new NetworkSim(canvas, config, roadsNormalized);
-    (function animate(){
-      sim.update();
-      sim.draw();
-      raf = requestAnimationFrame(animate);
-    })();
+    console.log('Building and starting simulation...');
+    if (raf) {
+      console.log('Cancelling previous animation frame');
+      cancelAnimationFrame(raf);
+    }
+    
+      try {
+        console.log('Creating NetworkSim with canvas:', canvas);
+        console.log('Canvas dimensions in buildAndStart:', canvas.width, 'x', canvas.height);
+        
+        sim = new NetworkSim(canvas, config, roadsNormalized);
+        console.log('Simulation created successfully');
+        
+        (function animate(){
+          try {
+            sim.update();
+            sim.draw();
+            raf = requestAnimationFrame(animate);
+          } catch (animateError) {
+            console.error('Error in animation loop:', animateError);
+            cancelAnimationFrame(raf);
+          }
+        })();
+        console.log('Animation loop started');
+      } catch (error) {
+        console.error('Error in buildAndStart:', error);
+        console.error('Error stack:', error.stack);
+      }
   }
 
   // Interactivity: hover near a vehicle to nudge a lane change
@@ -611,33 +678,158 @@ async function initNeuralNetwork() {
   });
 
   // Initial build
+  console.log('Calling initial resizeCanvas...');
+  
+  // Ensure canvas has dimensions before starting
+  if (canvas.width === 0 || canvas.height === 0) {
+    console.log('Canvas has no dimensions, setting fallback...');
+    canvas.width = 500;
+    canvas.height = 500;
+  }
+  
   resizeCanvas();
 }
 
 // Boot
 document.addEventListener('DOMContentLoaded', function() {
-  // Check if canvas exists
-  let canvas = document.getElementById('neuralCanvas');
-  if (!canvas) {
-    const container = document.querySelector('.visual-container');
-    if (container) {
-      canvas = document.createElement('canvas');
-      canvas.id = 'neuralCanvas';
-      canvas.className = 'neural-canvas';
-      container.appendChild(canvas);
-    } else {
-      console.error('Neither canvas nor container found!');
-      return;
-    }
-  }
+  console.log('DOMContentLoaded event fired');
   
+  // Wait a bit more for everything to be ready
   setTimeout(() => {
     try {
-      initNeuralNetwork();
-    } catch (error) {
-      console.error('Error initializing neural network:', error);
-    }
-  }, 60);
+      console.log('Starting canvas initialization...');
+      
+      // Check if canvas exists
+      let canvas = document.getElementById('neuralCanvas');
+      console.log('Initial canvas check:', canvas);
+      
+      if (!canvas) {
+        console.log('Canvas not found, creating new one...');
+        const container = document.querySelector('.visual-container');
+        console.log('Container found:', container);
+        
+        if (container) {
+          canvas = document.createElement('canvas');
+          canvas.id = 'neuralCanvas';
+          canvas.className = 'neural-canvas';
+          container.appendChild(canvas);
+          console.log('Canvas created and added to container');
+        } else {
+          console.error('Visual container not found!');
+          return;
+        }
+      }
+      
+        if (canvas) {
+          console.log('Canvas ready, testing canvas functionality...');
+          console.log('Canvas element:', canvas);
+          console.log('Canvas dimensions:', canvas.width, 'x', canvas.height);
+          console.log('Canvas parent:', canvas.parentElement);
+          
+          // Test if canvas is working by drawing a simple test pattern
+          const testCtx = canvas.getContext('2d');
+          if (testCtx) {
+            console.log('Test context obtained, drawing test pattern...');
+            
+            // Set canvas dimensions if they're 0
+            if (canvas.width === 0 || canvas.height === 0) {
+              console.log('Canvas dimensions are 0, setting to container size...');
+              const container = canvas.parentElement;
+              if (container) {
+                canvas.width = container.offsetWidth || 500;
+                canvas.height = container.offsetHeight || 500;
+                console.log('Canvas dimensions set to:', canvas.width, 'x', canvas.height);
+              } else {
+                console.log('No container found, using fallback dimensions');
+                canvas.width = 500;
+                canvas.height = 500;
+              }
+            }
+            
+            // Ensure minimum dimensions
+            if (canvas.width < 500) canvas.width = 500;
+            if (canvas.height < 500) canvas.height = 500;
+            
+            // Draw a more visible test pattern
+            testCtx.fillStyle = 'red';
+            testCtx.fillRect(10, 10, 100, 100);
+            testCtx.fillStyle = 'blue';
+            testCtx.fillRect(120, 10, 100, 100);
+            testCtx.fillStyle = 'green';
+            testCtx.fillRect(10, 120, 100, 100);
+            console.log('Test pattern drawn');
+            
+            // Also draw some text to verify canvas is working
+            testCtx.fillStyle = 'black';
+            testCtx.font = '20px Arial';
+            testCtx.fillText('Canvas Test', 10, 250);
+            
+            // Log canvas state
+            console.log('Canvas after test pattern:', {
+              width: canvas.width,
+              height: canvas.height,
+              style: canvas.style.width + ' x ' + canvas.style.height,
+              offsetWidth: canvas.offsetWidth,
+              offsetHeight: canvas.offsetHeight
+            });
+            
+            // Wait a bit before initializing neural network to ensure test pattern is visible
+            setTimeout(() => {
+              console.log('Initializing neural network after test pattern...');
+              initNeuralNetwork();
+            }, 500);
+          } else {
+            console.error('Could not get test context!');
+          }
+        } else {
+          console.error('Failed to create or find canvas!');
+        }
+      } catch (error) {
+        console.error('Error initializing neural network:', error);
+      }
+    }, 100);
+  });
+
+// Also try on window load as backup
+window.addEventListener('load', function() {
+  console.log('Window load event fired');
+  if (!document.getElementById('neuralCanvas')) {
+    console.log('No canvas found on window load, creating one...');
+    setTimeout(() => {
+      try {
+        const container = document.querySelector('.visual-container');
+        console.log('Container on window load:', container);
+        if (container) {
+          const canvas = document.createElement('canvas');
+          canvas.id = 'neuralCanvas';
+          canvas.className = 'neural-canvas';
+          container.appendChild(canvas);
+          console.log('Canvas created on window load');
+          
+          // Test the canvas
+          const testCtx = canvas.getContext('2d');
+          if (testCtx) {
+            canvas.width = 500;
+            canvas.height = 500;
+            testCtx.fillStyle = 'purple';
+            testCtx.fillRect(0, 0, 500, 500);
+            testCtx.fillStyle = 'white';
+            testCtx.font = '24px Arial';
+            testCtx.fillText('Canvas Created on Window Load', 50, 250);
+            console.log('Test pattern drawn on window load canvas');
+          }
+          
+          initNeuralNetwork();
+        } else {
+          console.error('No container found on window load');
+        }
+      } catch (error) {
+        console.error('Error on window load:', error);
+      }
+    }, 200);
+  } else {
+    console.log('Canvas already exists on window load');
+  }
 });
 
 
