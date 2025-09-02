@@ -28,7 +28,7 @@ redirect_from:
     <div class="hero-visual">
       <div class="visual-container">
         <!-- Theme-based background image -->
-        <img id="themeImage" class="theme-image" src="" alt="Human-centered Intelligent Systems" />
+        <img id="themeImage" class="theme-image" src="{{ '/images/Human_centered-Intelligent_Systems-dark.png' | relative_url }}" alt="Human-centered Intelligent Systems" />
         
         <!-- Toggle button for neural canvas -->
         <button id="neuralToggle" class="neural-toggle" title="Toggle Neural Network Visualization">
@@ -349,9 +349,14 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateThemeImage(theme) {
   const themeImage = document.getElementById('themeImage');
   if (themeImage) {
+    // Get the base URL for the site (works with GitHub Pages)
+    const baseUrl = window.location.pathname.includes('/ignacioalvmar.github.io') 
+      ? '/ignacioalvmar.github.io' 
+      : '';
+    
     const imagePath = theme === 'light' 
-      ? '/images/Human_centered-Intelligent_Systems-light.png'
-      : '/images/Human_centered-Intelligent_Systems-dark.png';
+      ? `${baseUrl}/images/Human_centered-Intelligent_Systems-light.png`
+      : `${baseUrl}/images/Human_centered-Intelligent_Systems-dark.png`;
     
     // Only update if the path is different to avoid unnecessary reloads
     if (themeImage.src !== window.location.origin + imagePath) {
