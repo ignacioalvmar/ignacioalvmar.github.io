@@ -27,11 +27,26 @@ redirect_from:
 
     <div class="hero-visual">
       <div class="visual-container">
-        <canvas id="neuralCanvas" class="neural-canvas"></canvas>
-        <div class="neural-overlay">
-          <div class="connection-paths"></div>
-          <div class="data-flow-lines"></div>
-          <div class="traffic-indicators"></div>
+        <!-- Theme-based background image -->
+        <img id="themeImage" class="theme-image" src="" alt="Human-centered Intelligent Systems" />
+        
+        <!-- Toggle button for neural canvas -->
+        <button id="neuralToggle" class="neural-toggle" title="Toggle Neural Network Visualization">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+            <path d="M12 1a11 11 0 1 0 11 11"/>
+          </svg>
+        </button>
+        
+        <!-- Neural canvas (hidden by default) -->
+        <div id="neuralCanvasContainer" class="neural-canvas-container" style="display: none;">
+          <canvas id="neuralCanvas" class="neural-canvas"></canvas>
+          <div class="neural-overlay">
+            <div class="connection-paths"></div>
+            <div class="data-flow-lines"></div>
+            <div class="traffic-indicators"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -118,6 +133,68 @@ redirect_from:
   height: 500px;
   background: transparent;
   transition: background 0.3s ease;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Theme-based image */
+.theme-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Neural canvas container */
+.neural-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* Toggle button */
+.neural-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.neural-toggle:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.neural-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Dark theme toggle button */
+html[data-theme="dark"] .neural-toggle {
+  background: rgba(0, 0, 0, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+html[data-theme="dark"] .neural-toggle:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
 
 /* Canvas */
@@ -173,16 +250,115 @@ html[data-theme="light"] .hero-name {
 </style>
 
 <script>
-// Keep your existing theme behavior
+// Theme management and image switching
 document.addEventListener('DOMContentLoaded', function() {
-  const currentTheme = localStorage.getItem('theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', currentTheme);
+  // Get the current theme from localStorage or default to 'dark'
+  let currentTheme = localStorage.getItem('theme') || 'dark';
+  
+  // Check if the theme is already set on the document element (from other scripts)
+  const existingTheme = document.documentElement.getAttribute('data-theme');
+  if (existingTheme) {
+    currentTheme = existingTheme;
+  } else {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  }
+  
+  // Set the appropriate image based on theme - with a small delay to ensure DOM is ready
+  setTimeout(() => {
+    updateThemeImage(currentTheme);
+  }, 10);
+  
+  // Listen for theme changes via storage events (cross-tab)
   window.addEventListener('storage', function(e) {
     if (e.key === 'theme') {
-      document.documentElement.setAttribute('data-theme', e.newValue || 'dark');
+      const newTheme = e.newValue || 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      updateThemeImage(newTheme);
     }
   });
+  
+  // Listen for theme changes via DOM attribute changes (same-tab)
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+        const newTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+        updateThemeImage(newTheme);
+      }
+    });
+  });
+  
+  // Start observing the document element for attribute changes
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-theme']
+  });
+  
+  // Also check for theme changes periodically as a fallback
+  let lastTheme = currentTheme;
+  setInterval(function() {
+    const currentStoredTheme = localStorage.getItem('theme') || 'dark';
+    if (currentStoredTheme !== lastTheme) {
+      lastTheme = currentStoredTheme;
+      document.documentElement.setAttribute('data-theme', currentStoredTheme);
+      updateThemeImage(currentStoredTheme);
+    }
+  }, 100);
+  
+  // Additional check after a longer delay to catch any late theme initialization
+  setTimeout(() => {
+    const finalTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('theme') || 'dark';
+    updateThemeImage(finalTheme);
+  }, 200);
+  
+  // Toggle button functionality
+  const toggleButton = document.getElementById('neuralToggle');
+  const neuralContainer = document.getElementById('neuralCanvasContainer');
+  const themeImage = document.getElementById('themeImage');
+  
+  if (toggleButton && neuralContainer && themeImage) {
+    toggleButton.addEventListener('click', function() {
+      const isVisible = neuralContainer.style.display !== 'none';
+      
+      if (isVisible) {
+        // Hide neural canvas, show image
+        neuralContainer.style.display = 'none';
+        themeImage.style.opacity = '1';
+        toggleButton.title = 'Show Neural Network Visualization';
+      } else {
+        // Show neural canvas, fade image
+        neuralContainer.style.display = 'block';
+        themeImage.style.opacity = '0.3';
+        toggleButton.title = 'Hide Neural Network Visualization';
+        
+        // Initialize neural network if not already done
+        if (!window.neuralNetworkInitialized) {
+          setTimeout(() => {
+            try {
+              initNeuralNetwork();
+              window.neuralNetworkInitialized = true;
+            } catch (error) {
+              console.error('Error initializing neural network:', error);
+            }
+          }, 100);
+        }
+      }
+    });
+  }
 });
+
+function updateThemeImage(theme) {
+  const themeImage = document.getElementById('themeImage');
+  if (themeImage) {
+    const imagePath = theme === 'light' 
+      ? '/images/Human_centered-Intelligent_Systems-light.png'
+      : '/images/Human_centered-Intelligent_Systems-dark.png';
+    
+    // Only update if the path is different to avoid unnecessary reloads
+    if (themeImage.src !== window.location.origin + imagePath) {
+      themeImage.src = imagePath;
+    }
+  }
+}
 
 // ==============================
 //  LANE-BASED HUMAN SILHOUETTE
@@ -614,31 +790,8 @@ async function initNeuralNetwork() {
   resizeCanvas();
 }
 
-// Boot
-document.addEventListener('DOMContentLoaded', function() {
-  // Check if canvas exists
-  let canvas = document.getElementById('neuralCanvas');
-  if (!canvas) {
-    const container = document.querySelector('.visual-container');
-    if (container) {
-      canvas = document.createElement('canvas');
-      canvas.id = 'neuralCanvas';
-      canvas.className = 'neural-canvas';
-      container.appendChild(canvas);
-    } else {
-      console.error('Neither canvas nor container found!');
-      return;
-    }
-  }
-  
-  setTimeout(() => {
-    try {
-      initNeuralNetwork();
-    } catch (error) {
-      console.error('Error initializing neural network:', error);
-    }
-  }, 60);
-});
+// Boot - Neural network initialization is now handled by the toggle button
+// The neural network will only be initialized when the user clicks the toggle button
 
 
 </script>
