@@ -28,7 +28,7 @@ redirect_from:
     <div class="hero-visual">
       <div class="visual-container">
         <!-- Theme-based background image -->
-        <img id="themeImage" class="theme-image" src="{{ '/images/Human_centered-Intelligent_Systems-dark.png' | relative_url }}" alt="Human-centered Intelligent Systems" />
+        <img id="themeImage" class="theme-image" src="{{ '/images/Human_centered-Intelligent_Systems-light.png' | relative_url }}" alt="Human-centered Intelligent Systems" />
         
         <!-- Toggle button for neural canvas -->
         <button id="neuralToggle" class="neural-toggle" title="Toggle Neural Network Visualization">
