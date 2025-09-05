@@ -310,6 +310,22 @@ document.addEventListener('DOMContentLoaded', function() {
     updateThemeImage(finalTheme);
   }, 200);
   
+  // Force update on page load for GitHub Pages compatibility
+  setTimeout(() => {
+    const finalTheme = document.documentElement.getAttribute('data-theme') || localStorage.getItem('theme') || 'dark';
+    updateThemeImage(finalTheme);
+  }, 1000);
+  
+  // Additional fallback: use comprehensive theme detection
+  setTimeout(() => {
+    const detectedTheme = detectTheme();
+    if (detectedTheme !== currentTheme) {
+      currentTheme = detectedTheme;
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      updateThemeImage(currentTheme);
+    }
+  }, 1500);
+  
   // Toggle button functionality
   const toggleButton = document.getElementById('neuralToggle');
   const neuralContainer = document.getElementById('neuralCanvasContainer');
@@ -349,20 +365,52 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateThemeImage(theme) {
   const themeImage = document.getElementById('themeImage');
   if (themeImage) {
-    // Get the base URL for the site (works with GitHub Pages)
-    const baseUrl = window.location.pathname.includes('/ignacioalvmar.github.io') 
-      ? '/ignacioalvmar.github.io' 
-      : '';
-    
+    // Use Jekyll's relative_url filter approach for GitHub Pages compatibility
     const imagePath = theme === 'light' 
-      ? `${baseUrl}/images/Human_centered-Intelligent_Systems-light.png`
-      : `${baseUrl}/images/Human_centered-Intelligent_Systems-dark.png`;
+      ? '/images/Human_centered-Intelligent_Systems-light.png'
+      : '/images/Human_centered-Intelligent_Systems-dark.png';
+    
+    // Use absolute URL for GitHub Pages compatibility
+    const fullImagePath = window.location.origin + imagePath;
     
     // Only update if the path is different to avoid unnecessary reloads
-    if (themeImage.src !== window.location.origin + imagePath) {
-      themeImage.src = imagePath;
+    if (themeImage.src !== fullImagePath) {
+      themeImage.src = fullImagePath;
     }
   }
+}
+
+// Additional function to detect theme from CSS classes and other indicators
+function detectTheme() {
+  // Check data-theme attribute first
+  const dataTheme = document.documentElement.getAttribute('data-theme');
+  if (dataTheme) return dataTheme;
+  
+  // Check localStorage
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme) return storedTheme;
+  
+  // Check for dark mode classes
+  if (document.documentElement.classList.contains('dark') || 
+      document.body.classList.contains('dark')) {
+    return 'dark';
+  }
+  
+  // Check for light mode classes
+  if (document.documentElement.classList.contains('light') || 
+      document.body.classList.contains('light')) {
+    return 'light';
+  }
+  
+  // Check CSS custom properties
+  const computedStyle = getComputedStyle(document.documentElement);
+  const bgColor = computedStyle.getPropertyValue('--background-color') || 
+                  computedStyle.getPropertyValue('background-color');
+  if (bgColor && bgColor.includes('rgb(0, 0, 0)')) return 'dark';
+  if (bgColor && bgColor.includes('rgb(255, 255, 255)')) return 'light';
+  
+  // Default to dark
+  return 'dark';
 }
 
 // ==============================
