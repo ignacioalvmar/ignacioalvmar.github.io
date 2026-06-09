@@ -4,7 +4,7 @@ collection: talks
 type: "Invited HCIS Talk"
 permalink: /talks/2025-05-05-mixed-initiative-machines
 venue: "Technische Hochschule Ingolstadt"
-date: 2025-05-05
+date: 2026-05-05
 location: "Online"
 abstract: "Invited talk on Mixed-Initiative Machines for Creative Tasks by Alexandra Bremers."
 ---
