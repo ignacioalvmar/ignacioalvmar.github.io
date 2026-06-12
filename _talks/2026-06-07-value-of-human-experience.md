@@ -391,9 +391,9 @@ So if you take one thing from this post, let it be a short list of working princ
 - **Protect the slow muscles.** Memory, judgment, reflection and taste.
 - **Own the output.** If your name is on it, well, your name is on it!
 
-Build your digital belt. Learn the tools, the workflows. Learn the language of AI. And protect the parts of yourself that no tool should replace. That is the third door. We will see you on the other side of it…
-
 ![Opening the third door](../images/2026-06-07-value-of-human-experience/closing_belt.png)
+
+Now, go on and build your digital belt. Learn the tools, the workflows. Learn the language of AI. And protect the parts of yourself that no tool should replace. That is the third door. We will see you on the other side of it…
 
 ![Areen and Ignacio with AI Belts](../images/2026-06-07-value-of-human-experience/Areen_Ignacio_with_AI_Beltspng.png)
 
