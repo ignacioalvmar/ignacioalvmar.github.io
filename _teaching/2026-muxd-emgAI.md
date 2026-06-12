@@ -1,20 +1,21 @@
 ---
-title: "Natural User Interfaces: Enhancing Autonomous Vehicle Safety Awareness through Gamification"
+title: "Natural User Interfaces: EMG-based Gestural Communication for LLM-driven In-vehicle Assistants"
 collection: teaching
 type: "User Experience Design Master of Science"
-permalink: /teaching/2025-muxd-nui
+permalink: /teaching/2026-muxd-emgAI
 venue: "Technische Hochschule Ingolstadt, Computer Science"
-date: 2025-03-17
+date: 2026-03-01
 location: "Ingolstadt, Germany"
-abstract: "Seminar for UXD Master students exploring development of in-cabin games to improve situational awareness and safety in partial automation."
+abstract: "Seminar for UXD Master students exploring development of in-cabin gesture-enhanced interactions with AI agents."
 ---
 
-![Course Icon](../images/2025-muxd-nui/lecture_icon.png)
+![Course Icon](../images/2026-muxd-emgAI/lecture_icon.png)
 
 # Description
-Educating vehicle passengers and drivers about safety in autonomous vehicles (AVs) can be a challenge, especially when technical concepts like the Responsibility Sensitive Safety (RSS) model are involved. Gamification offers an innovative way to enhance user engagement and increase awareness of AV safety principles through the more natural interfaces of games by transforming complex concepts into interactive and enjoyable experiences. Integrating a safety model like RSS into a game can provide users with real-time feedback on safe driving practices and decision-making in various scenarios, as well as improve overall situational awareness during non-driving tasks.
+As vehicles become increasingly intelligent and assistive, the challenge of designing intuitive, safe, and low-distraction interaction methods becomes more critical. Voice, visual, and touch interfaces, though common and widely used, can be intrusive or unreliable in certain situations. Electromyography (EMG) sensors offer a promising alternative by detecting subtle muscle activations that reflect a driver’s intent or emotional state. These muscle-based gestures can enable silent, quick, and low-distraction communication between driver and vehicle systems, supporting a more natural, intuitive, and adaptive human-vehicle interaction.
 
-In this course, students designed and implemented a prototype in-vehicle game that incorporated input from an AV safety model, such as an AV agent equipped with RSS in the CARLA driving simulator to provide feedback on safety-related actions. Students evaluated their designed game for usability, engagement, and its effectiveness in increasing safety awareness in driving scenarios. Deliverables included a functional game prototype, an evaluation report, and insights into the application of gamification in AV safety education.
+In this course , students explore how EMG-based gestures can be leveraged to improve in-vehicle interaction and feedback. They will design and investigate how such gestures can support communication and feedback integration with an LLM-based in-cabin assistant. This includes how drivers might express intent, preferences, or reactions to system assistance through adaptive gestures; and how LLMs can interpret or adapt to such inputs to enable natural and context-aware interactions. Students will analyze how this modality for interaction affects overall usability, trust, and satisfaction, and examine how it complements/interferes with other modalities like voice or touch.
+
 
 Student Project Details
 ======

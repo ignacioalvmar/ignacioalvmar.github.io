@@ -1,20 +1,20 @@
 ---
-title: "Natural User Interfaces: Enhancing Autonomous Vehicle Safety Awareness through Gamification"
+title: "Natural User Interfaces: Designing and Evaluating Human-Centered Interfaces for AI-generated Driving Scenarios"
 collection: teaching
 type: "User Experience Design Master of Science"
-permalink: /teaching/2025-muxd-nui
+permalink: /teaching/2026-muxd-Narrative_XAI
 venue: "Technische Hochschule Ingolstadt, Computer Science"
-date: 2025-03-17
+date: 2026-03-01
 location: "Ingolstadt, Germany"
-abstract: "Seminar for UXD Master students exploring development of in-cabin games to improve situational awareness and safety in partial automation."
+abstract: "Seminar for UXD Master students exploring development of Narrative Explainable User Interfaces for AI-Generated Automated Vehicle Scenario Generation."
 ---
 
-![Course Icon](../images/2025-muxd-nui/lecture_icon.png)
+![Course Icon](../images/2026-muxd-Narrative_XAI/lecture_icon.png)
 
 # Description
-Educating vehicle passengers and drivers about safety in autonomous vehicles (AVs) can be a challenge, especially when technical concepts like the Responsibility Sensitive Safety (RSS) model are involved. Gamification offers an innovative way to enhance user engagement and increase awareness of AV safety principles through the more natural interfaces of games by transforming complex concepts into interactive and enjoyable experiences. Integrating a safety model like RSS into a game can provide users with real-time feedback on safe driving practices and decision-making in various scenarios, as well as improve overall situational awareness during non-driving tasks.
+Generative AI can rapidly produce complex driving scenarios, but these outputs are often difficult for users to understand, control, or evaluate. Scenario descriptions appear as text or parameter lists that lack narrative structure, visual clarity, and transparent causal reasoning. This creates barriers for researchers, designers, and other stakeholders who must interpret scenario logic, detect unrealistic elements, or communicate scenario details to others. Treating scenarios as stories, e.g. visual, temporal, and causal sequences, offers a more intuitive way to generate, refine, and understand AI-driven simulations.
 
-In this course, students designed and implemented a prototype in-vehicle game that incorporated input from an AV safety model, such as an AV agent equipped with RSS in the CARLA driving simulator to provide feedback on safety-related actions. Students evaluated their designed game for usability, engagement, and its effectiveness in increasing safety awareness in driving scenarios. Deliverables included a functional game prototype, an evaluation report, and insights into the application of gamification in AV safety education.
+In this project, students designed interactive interfaces that bridge natural-language generation, storyboard visualization, and explainable AI. They developed a prototype that integrates conversational scenario creation, storyboard-based scenario representation, and explanatory overlays or narratives. Students evaluated the impact of these interfaces on scenario comprehensibility, user control, trust, and error detection.
 
 Student Project Details
 ======
